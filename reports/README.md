@@ -11,6 +11,7 @@
 - [Огородников Н.А.](ogorodnikov.md)
 - [Самсонов В.А.](samsonov.md)
 - [Зельднер Л.Г.](zeldner.md)
+- [Акименко Е.](akimenko.md)
 
 ## Отчёт
 
