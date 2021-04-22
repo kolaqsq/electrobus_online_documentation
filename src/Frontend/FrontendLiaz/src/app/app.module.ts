@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { RenderareaComponent } from './renderarea/renderarea.component';
+import { ContentComponent } from './content/content.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RenderareaComponent
+    RenderareaComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule

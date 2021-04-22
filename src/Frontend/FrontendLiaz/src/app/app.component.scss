@@ -1,0 +1,59 @@
+$color: #0669b2;
+
+header{
+  padding: 20px 20px 20px 30px;
+  background: $color;
+  color: white;
+
+  a{
+    color: white;
+    font-size: 28px;
+  }
+
+  .ul{
+    width: 100%;
+    justify-content: flex-start;
+
+    .li{
+      margin-right: 20px;
+    }
+
+    .li-search{
+      margin-left: 30%;
+    }
+  }
+
+  form{
+    label{
+      cursor: pointer;
+    }
+    span{
+      margin-right: 10px;
+    }
+
+    input[type=text]{
+      width: 200px;
+    }
+  }
+}
+
+.main{
+  flex-direction: row;
+
+  .renderarea{
+    width: 82%;
+    margin-left: 15px;
+  }
+  .content{
+    width: 18%;
+    background: #F8F9FB;
+    justify-content: flex-start;
+    padding-left: 25px;
+  }
+}
+
+footer{
+  padding: 20px;
+  background: $color;
+  color: white;
+}
