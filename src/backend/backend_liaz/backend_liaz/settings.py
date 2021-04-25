@@ -135,6 +135,6 @@ MEDIA_URL = '/media/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
-MEDIA_ROOT = os.path.join(PROJECT_ROOT, 'media')
+MEDIA_ROOT = os.path.join(BASE_DIR.parent.parent, 'media')
 
 CKEDITOR_UPLOAD_PATH = "uploads/"
