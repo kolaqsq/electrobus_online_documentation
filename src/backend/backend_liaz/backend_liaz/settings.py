@@ -34,6 +34,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'documentation.apps.DocumentationConfig',
+    'catalog.apps.CatalogConfig',
     'ckeditor',
     'ckeditor_uploader',
     'grappelli',
