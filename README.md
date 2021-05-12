@@ -21,6 +21,7 @@
 | 191-321        | [kolaqsq](https://github.com/kolaqsq)                 | Огородников Н.А. |
 | 191-321        | [nokk3r](https://github.com/nokk3r)                   | Самсонов В.А.    |
 | 181-321        | [LGZeldner](https://github.com/LGZeldner)             | Зельднер Л.Г.    |
+| 181-322        | [halch21](https://github.com/halch21)                 | Холщев И.П.      |
 | 181-324        | [AkimenkoEvgeniy](https://github.com/AkimenkoEvgeniy) | Акименко Е.      |
 
 ## Личный вклад участников
@@ -36,6 +37,10 @@
 ### Зельднер Л.Г.
 
 * Сделала *NNN* в объёме *XXX* часов.
+
+### Холщев И.П.
+
+* Сделал *NNN* в объёме *XXX* часов.
 
 ### Акименко Е.
 
