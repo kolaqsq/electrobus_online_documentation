@@ -48,7 +48,7 @@ class Unit(models.Model):
     name = models.CharField('Наименование', max_length=500)
     type = models.ForeignKey(UnitType, verbose_name='Тип узла', on_delete=models.PROTECT)
     desc = RichTextUploadingField('Описание', max_length=1000, blank=True, null=True)
-    units = models.ManyToManyField('self', verbose_name='Связанные узлы')
+    units = models.ManyToManyField('self', verbose_name='Связанные узлы', blank=True)
     parts = models.ManyToManyField(Part, verbose_name='Связанные запчасти', related_name='units_parts',
                                    symmetrical=True, blank=True)
     consumables = models.ManyToManyField(Consumable, verbose_name='Связанные расходники', related_name='units_cons',

@@ -3,73 +3,56 @@ from rest_framework import serializers
 from .models import Part, Unit, Consumable, UnitType
 
 
-class ConsumableSerializer(serializers.HyperlinkedModelSerializer):
-    class Meta:
-        model = Consumable
-        fields = ('name', 'desc',)
-
-
-class PartSerializer(serializers.ModelSerializer):
-    consumables = serializers.PrimaryKeyRelatedField(queryset=Consumable.objects.all(), many=True)
-
-    class Meta:
-        model = Part
-        fields = ('name', 'desc', 'consumables',)
-
-
-class UnitTypeSerializer(serializers.ModelSerializer):
+class UnitTypeSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = UnitType
         fields = ('name',)
 
 
-class UnitToUnitSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Unit
-        fields = ('id', 'designation', 'name', 'type',)
-
-
-class UnitToPartSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Part
-        fields = ('id', 'designation', 'name',)
-
-
-class UnitToConsumableSerializer(serializers.ModelSerializer):
+class ConsumableSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Consumable
-        fields = ('id', 'name',)
+        fields = ('url', 'name',)
 
 
-class UnitSerializer(serializers.ModelSerializer):
+class PartSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = Part
+        fields = ('url', 'designation', 'name',)
+
+
+class UnitSerializer(serializers.HyperlinkedModelSerializer):
     type = UnitTypeSerializer(read_only=True)
-    units = UnitToUnitSerializer(read_only=True, many=True)
-    parts = UnitToPartSerializer(read_only=True, many=True)
-    consumables = UnitToConsumableSerializer(read_only=True, many=True)
 
     class Meta:
         model = Unit
-        fields = ('id', 'designation', 'name', 'type', 'desc', 'units', 'parts', 'consumables',)
+        fields = ('url', 'designation', 'name', 'type',)
 
-# class ConsumableSerializer(serializers.HyperlinkedModelSerializer):
-#     class Meta:
-#         model = Consumable
-#         fields = ['name', 'desc']
-#
-#
-# class PartSerializer(serializers.HyperlinkedModelSerializer):
-#     class Meta:
-#         model = Part
-#         fields = ['designation', 'name', 'desc', 'consumables']
-#
-#
-# class UnitTypeSerializer(serializers.HyperlinkedModelSerializer):
-#     class Meta:
-#         model = UnitType
-#         fields = ['name']
-#
-#
-# class UnitSerializer(serializers.HyperlinkedModelSerializer):
-#     class Meta:
-#         model = Unit
-#         fields = ['designation', 'name', 'type', 'desc', 'units', 'parts', 'consumables']
+
+class ConsumableDetailedSerializer(serializers.HyperlinkedModelSerializer):
+    parts_cons = PartSerializer(read_only=True, many=True)
+    units_cons = UnitSerializer(read_only=True, many=True)
+
+    class Meta:
+        model = Consumable
+        fields = ('id', 'url', 'name', 'desc', 'parts_cons', 'units_cons',)
+
+
+class PartDetailedSerializer(serializers.HyperlinkedModelSerializer):
+    consumables = ConsumableSerializer(read_only=True, many=True)
+    units_parts = UnitSerializer(read_only=True, many=True)
+
+    class Meta:
+        model = Part
+        fields = ('id', 'url', 'designation', 'name', 'desc', 'consumables', 'units_parts',)
+
+
+class UnitDetailedSerializer(serializers.HyperlinkedModelSerializer):
+    type = UnitTypeSerializer(read_only=True)
+    units = UnitSerializer(read_only=True, many=True)
+    parts = PartSerializer(read_only=True, many=True)
+    consumables = ConsumableSerializer(read_only=True, many=True)
+
+    class Meta:
+        model = Unit
+        fields = ('id', 'url', 'designation', 'name', 'type', 'desc', 'units', 'parts', 'consumables',)
