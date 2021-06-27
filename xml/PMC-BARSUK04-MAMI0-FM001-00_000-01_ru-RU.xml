@@ -1,0 +1,691 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Libroplanta XML Editor (http://www.libroplanta.com/) -->
+<pm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1-A/xml_schema_flat/pm.xsd"
+    xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <identAndStatusSection>
+        <pmAddress>
+            <pmIdent>
+                <pmCode modelIdentCode="BARSUK04" pmIssuer="MAMI0" pmNumber="FM001" pmVolume="00"/>
+                <language countryIsoCode="RU" languageIsoCode="ru"/>
+                <issueInfo issueNumber="000" inWork="01"/>
+            </pmIdent>
+            <pmAddressItems>
+                <issueDate year="2019" month="04" day="01"/>
+                <pmTitle>Беспилотный Летательный Аппарат — Руководство</pmTitle>
+                <shortPmTitle>БПЛА</shortPmTitle>
+            </pmAddressItems>
+        </pmAddress>
+        <pmStatus issueType="new">
+            <security securityClassification="01"/>
+            <responsiblePartnerCompany>
+                <enterpriseName>Московский Политех</enterpriseName>
+            </responsiblePartnerCompany>
+            <originator>
+                <enterpriseName>Московский Политех</enterpriseName>
+            </originator>
+            <applic>
+                <displayText>
+                    <simplePara>Применимо для всех</simplePara>
+                </displayText>
+            </applic>
+            <brexDmRef>
+                <dmRef>
+                    <dmRefIdent>
+                        <dmCode modelIdentCode="MODELIC" systemDiffCode="A" systemCode="00" subSystemCode="0"
+                                subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A"
+                                infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+                    </dmRefIdent>
+                </dmRef>
+            </brexDmRef>
+            <qualityAssurance>
+                <unverified/>
+            </qualityAssurance>
+        </pmStatus>
+    </identAndStatusSection>
+    <content>
+        <pmEntry>
+            <pmEntryTitle>Служебне данные</pmEntryTitle>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="00" subSystemCode="0"
+                            subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="012"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Беспилотный Летательный Аппарат</techName>
+                        <infoName>Меры безопасности</infoName>
+                    </dmTitle>
+                    <issueDate year="2019" month="04" day="01"/>
+                </dmRefAddressItems>
+            </dmRef>
+        </pmEntry>
+        <pmEntry>
+            <pmEntryTitle>Описание БПЛА</pmEntryTitle>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="0"
+                            subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="041"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Беспилотный Летательный Аппарат</techName>
+                        <infoName>Описание БПЛА</infoName>
+                    </dmTitle>
+                    <issueDate year="2019" month="04" day="01"/>
+                </dmRefAddressItems>
+            </dmRef>
+        </pmEntry>
+        <pmEntry>
+            <pmEntryTitle>Летная информация и ограничения</pmEntryTitle>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="1"
+                            subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="043"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Беспилотный Летательный Аппарат</techName>
+                        <infoName>Летная информация и ограничения</infoName>
+                    </dmTitle>
+                    <issueDate year="2019" month="04" day="01"/>
+                </dmRefAddressItems>
+            </dmRef>
+        </pmEntry>
+        <pmEntry>
+            <pmEntryTitle>Штатные процедуры Эксплуатации</pmEntryTitle>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3"
+                            subSubSystemCode="1" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="121"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Штатные процедуры Эксплуатации</techName>
+                        <infoName>Предэкспуатационные процедуры</infoName>
+                    </dmTitle>
+                    <issueDate year="2019" month="04" day="01"/>
+                </dmRefAddressItems>
+            </dmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3"
+                            subSubSystemCode="1" assyCode="01" disassyCode="00" disassyCodeVariant="A" infoCode="121"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Штатные процедуры Эксплуатации</techName>
+                        <infoName>Проверка метеоусловий</infoName>
+                    </dmTitle>
+                    <issueDate year="2019" month="04" day="01"/>
+                </dmRefAddressItems>
+            </dmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3"
+                            subSubSystemCode="1" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="121"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Штатные процедуры Эксплуатации</techName>
+                        <infoName>Подготовка к использыванию</infoName>
+                    </dmTitle>
+                    <issueDate year="2019" month="04" day="01"/>
+                </dmRefAddressItems>
+            </dmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3"
+                            subSubSystemCode="1" assyCode="03" disassyCode="01" disassyCodeVariant="A" infoCode="121"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Штатные процедуры Эксплуатации</techName>
+                        <infoName>Визуальный осмотр БПЛА</infoName>
+                    </dmTitle>
+                    <issueDate year="2019" month="04" day="01"/>
+                </dmRefAddressItems>
+            </dmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3"
+                            subSubSystemCode="1" assyCode="03" disassyCode="02" disassyCodeVariant="A" infoCode="121"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Штатные процедуры Эксплуатации</techName>
+                        <infoName>Визуальный осмотр БРЕО</infoName>
+                    </dmTitle>
+                    <issueDate year="2019" month="04" day="01"/>
+                </dmRefAddressItems>
+            </dmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3"
+                            subSubSystemCode="1" assyCode="03" disassyCode="03" disassyCodeVariant="A" infoCode="121"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Штатные процедуры Эксплуатации</techName>
+                        <infoName>Визуальный осмотр НПУОИ</infoName>
+                    </dmTitle>
+                    <issueDate year="2019" month="04" day="01"/>
+                </dmRefAddressItems>
+            </dmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3"
+                            subSubSystemCode="1" assyCode="03" disassyCode="04" disassyCodeVariant="A" infoCode="121"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Штатные процедуры Эксплуатации</techName>
+                        <infoName>Визуальный осмотр пульта радиоуправления</infoName>
+                    </dmTitle>
+                    <issueDate year="2019" month="04" day="01"/>
+                </dmRefAddressItems>
+            </dmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3"
+                            subSubSystemCode="1" assyCode="04" disassyCode="00" disassyCodeVariant="A" infoCode="121"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Штатные процедуры Эксплуатации</techName>
+                        <infoName>Включение комплекса с БПЛА</infoName>
+                    </dmTitle>
+                    <issueDate year="2019" month="04" day="01"/>
+                </dmRefAddressItems>
+            </dmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3"
+                            subSubSystemCode="1" assyCode="05" disassyCode="00" disassyCodeVariant="A" infoCode="121"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Штатные процедуры Эксплуатации</techName>
+                        <infoName>Функциональные наземные проверки</infoName>
+                    </dmTitle>
+                </dmRefAddressItems>
+            </dmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3"
+                            subSubSystemCode="1" assyCode="05" disassyCode="01" disassyCodeVariant="A" infoCode="121"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Штатные процедуры Эксплуатации</techName>
+                        <infoName>Функциональные проверки в режиме «ARM»</infoName>
+                    </dmTitle>
+                    <issueDate year="2019" month="04" day="01"/>
+                </dmRefAddressItems>
+            </dmRef>
+        </pmEntry>
+        <pmEntry>
+            <pmEntryTitle>Выполнение Полета</pmEntryTitle>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3"
+                            subSubSystemCode="1" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="151"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Выполнение Полета</techName>
+                        <infoName>Послеэксплуатационные процедуры</infoName>
+                    </dmTitle>
+                    <issueDate year="2019" month="04" day="01"/>
+                </dmRefAddressItems>
+            </dmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3"
+                            subSubSystemCode="1" assyCode="02" disassyCode="00" disassyCodeVariant="A" infoCode="151"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Выполнение Полета</techName>
+                        <infoName>Выключение комплекса с БПЛА</infoName>
+                    </dmTitle>
+                    <issueDate year="2019" month="04" day="01"/>
+                </dmRefAddressItems>
+            </dmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3"
+                            subSubSystemCode="1" assyCode="04" disassyCode="00" disassyCodeVariant="A" infoCode="151"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Выполнение Полета</techName>
+                        <infoName>Подготовка к транспортировке</infoName>
+                    </dmTitle>
+                    <issueDate year="2019" month="04" day="01"/>
+                </dmRefAddressItems>
+            </dmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3"
+                            subSubSystemCode="3" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="121"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Выполнение Полета</techName>
+                        <infoName>Непосредственно перед взлетом</infoName>
+                    </dmTitle>
+                    <issueDate year="2019" month="04" day="01"/>
+                </dmRefAddressItems>
+            </dmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3"
+                            subSubSystemCode="3" assyCode="01" disassyCode="00" disassyCodeVariant="A" infoCode="131"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Выполнение Полета</techName>
+                        <infoName>Взлет</infoName>
+                    </dmTitle>
+                    <issueDate year="2019" month="04" day="01"/>
+                </dmRefAddressItems>
+            </dmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3"
+                            subSubSystemCode="3" assyCode="02" disassyCode="00" disassyCodeVariant="A" infoCode="131"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Выполнение Полета</techName>
+                        <infoName>Полет</infoName>
+                    </dmTitle>
+                    <issueDate year="2019" month="04" day="01"/>
+                </dmRefAddressItems>
+            </dmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3"
+                            subSubSystemCode="3" assyCode="03" disassyCode="00" disassyCodeVariant="A" infoCode="131"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Выполнение Полета</techName>
+                        <infoName>Посадка</infoName>
+                    </dmTitle>
+                    <issueDate year="2019" month="04" day="01"/>
+                </dmRefAddressItems>
+            </dmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3"
+                            subSubSystemCode="3" assyCode="04" disassyCode="00" disassyCodeVariant="A" infoCode="151"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Выполнение Полета</techName>
+                        <infoName>Непосредственно после посадки</infoName>
+                    </dmTitle>
+                    <issueDate year="2019" month="04" day="01"/>
+                </dmRefAddressItems>
+            </dmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3"
+                            subSubSystemCode="4" assyCode="01" disassyCode="00" disassyCodeVariant="A" infoCode="131"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Выполнение Полета</techName>
+                        <infoName>Выполнение полета в режиме «Полет по маршруту»</infoName>
+                    </dmTitle>
+                </dmRefAddressItems>
+            </dmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3"
+                            subSubSystemCode="5" assyCode="01" disassyCode="00" disassyCodeVariant="A" infoCode="131"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Выполнение Полета</techName>
+                        <infoName>Управление БПЛА в режиме «Полет по маршруту»</infoName>
+                    </dmTitle>
+                    <issueDate year="2019" month="04" day="01"/>
+                </dmRefAddressItems>
+            </dmRef>
+        </pmEntry>
+        <pmEntry>
+            <pmEntryTitle>Аварийные Ситуации</pmEntryTitle>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="4"
+                            subSubSystemCode="1" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="043"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Аварийные ситуации</techName>
+                        <infoName>Общие сведения</infoName>
+                    </dmTitle>
+                    <issueDate year="2019" month="04" day="01"/>
+                </dmRefAddressItems>
+            </dmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="4"
+                            subSubSystemCode="2" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="141"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Аварийные ситуации на земле</techName>
+                        <infoName>Пожар Силовой Установки</infoName>
+                    </dmTitle>
+                    <issueDate year="2019" month="04" day="01"/>
+                </dmRefAddressItems>
+            </dmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="4"
+                            subSubSystemCode="2" assyCode="01" disassyCode="00" disassyCodeVariant="A" infoCode="141"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Аварийные ситуации на земле</techName>
+                        <infoName>Пожар Аккумуляторной Батареи</infoName>
+                    </dmTitle>
+                    <issueDate year="2019" month="04" day="01"/>
+                </dmRefAddressItems>
+            </dmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="4"
+                            subSubSystemCode="2" assyCode="02" disassyCode="00" disassyCodeVariant="A" infoCode="141"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Аварийные ситуации на земле</techName>
+                        <infoName>Пожар Системы Автоматического Управления</infoName>
+                    </dmTitle>
+                    <issueDate year="2019" month="04" day="01"/>
+                </dmRefAddressItems>
+            </dmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="4"
+                            subSubSystemCode="5" assyCode="00" disassyCode="01" disassyCodeVariant="A" infoCode="141"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Аварийные ситуации</techName>
+                        <infoName>Отказ одного или более электродвигателя-контроллера Несущей Системы</infoName>
+                    </dmTitle>
+                    <issueDate year="2019" month="04" day="01"/>
+                </dmRefAddressItems>
+            </dmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="4"
+                            subSubSystemCode="5" assyCode="00" disassyCode="02" disassyCodeVariant="A" infoCode="141"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Аварийные ситуации</techName>
+                        <infoName>Отказ электродвигателя-контроллера Маршевого Двигателя</infoName>
+                    </dmTitle>
+                    <issueDate year="2019" month="04" day="01"/>
+                </dmRefAddressItems>
+            </dmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="4"
+                            subSubSystemCode="7" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="141"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Аварийные ситуации</techName>
+                        <infoName>Отказ Системы Автоматического Управления</infoName>
+                    </dmTitle>
+                    <issueDate year="2019" month="04" day="01"/>
+                </dmRefAddressItems>
+            </dmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="4"
+                            subSubSystemCode="7" assyCode="01" disassyCode="00" disassyCodeVariant="A" infoCode="141"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Аварийные ситуации</techName>
+                        <infoName>Отказ магнитного компаса</infoName>
+                    </dmTitle>
+                    <issueDate year="2019" month="04" day="01"/>
+                </dmRefAddressItems>
+            </dmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="4"
+                            subSubSystemCode="7" assyCode="02" disassyCode="00" disassyCodeVariant="A" infoCode="141"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Аварийные ситуации</techName>
+                        <infoName>Отказ бараметрического датчика высоты</infoName>
+                    </dmTitle>
+                </dmRefAddressItems>
+            </dmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="4"
+                            subSubSystemCode="7" assyCode="03" disassyCode="00" disassyCodeVariant="A" infoCode="141"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Аварийные ситуации</techName>
+                        <infoName>Отказ GPS ГЛОНАСС</infoName>
+                    </dmTitle>
+                    <issueDate year="2019" month="04" day="01"/>
+                </dmRefAddressItems>
+            </dmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="4"
+                            subSubSystemCode="7" assyCode="04" disassyCode="00" disassyCodeVariant="A" infoCode="141"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Аварийные ситуации</techName>
+                        <infoName>Потеря радиосвязи</infoName>
+                    </dmTitle>
+                    <issueDate year="2019" month="04" day="01"/>
+                </dmRefAddressItems>
+            </dmRef>
+        </pmEntry>
+        <pmEntry>
+            <pmEntryTitle>Перечни и эксплуатационные бюллетени</pmEntryTitle>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="0"
+                            subSubSystemCode="0" assyCode="00" disassyCode="01" disassyCodeVariant="A" infoCode="930"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Эксплуатационные бюллетени</techName>
+                        <infoName>Формирование и загрузка полетного задания</infoName>
+                    </dmTitle>
+                    <issueDate year="2019" month="04" day="01"/>
+                </dmRefAddressItems>
+            </dmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="0"
+                            subSubSystemCode="0" assyCode="00" disassyCode="02" disassyCodeVariant="A" infoCode="930"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Эксплуатационные бюллетени</techName>
+                        <infoName>Учет наработки</infoName>
+                    </dmTitle>
+                    <issueDate year="2019" month="04" day="01"/>
+                </dmRefAddressItems>
+            </dmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="0"
+                            subSubSystemCode="0" assyCode="00" disassyCode="03" disassyCodeVariant="A" infoCode="930"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Эксплуатационные бюллетени</techName>
+                        <infoName>Учет метеоусловий</infoName>
+                    </dmTitle>
+                    <issueDate year="2019" month="04" day="01"/>
+                </dmRefAddressItems>
+            </dmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="0"
+                            subSubSystemCode="0" assyCode="00" disassyCode="04" disassyCodeVariant="A" infoCode="930"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Эксплуатационные бюллетени</techName>
+                        <infoName>Загрузка данных телеметрии</infoName>
+                    </dmTitle>
+                    <issueDate year="2019" month="04" day="01"/>
+                </dmRefAddressItems>
+            </dmRef>
+            <dmRef>
+                <dmRefIdent>
+                    <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="0"
+                            subSubSystemCode="0" assyCode="00" disassyCode="05" disassyCodeVariant="A" infoCode="930"
+                            infoCodeVariant="A" itemLocationCode="A"/>
+                    <issueInfo issueNumber="000" inWork="01"/>
+                    <language languageIsoCode="ru" countryIsoCode="RU"/>
+                </dmRefIdent>
+                <dmRefAddressItems>
+                    <dmTitle>
+                        <techName>Эксплуатационные бюллетени</techName>
+                        <infoName>Карточка учета неисправности с таблицей</infoName>
+                    </dmTitle>
+                    <issueDate year="2019" month="04" day="01"/>
+                </dmRefAddressItems>
+            </dmRef>
+        </pmEntry>
+    </content>
+</pm>
