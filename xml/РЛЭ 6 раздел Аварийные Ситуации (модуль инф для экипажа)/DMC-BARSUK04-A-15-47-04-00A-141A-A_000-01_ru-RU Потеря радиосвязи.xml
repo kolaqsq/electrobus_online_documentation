@@ -1,2 +1,294 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- Created with Libroplanta XML Editor (http://www.libroplanta.com/) --><dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1-A/xml_schema_flat/crew.xsd" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink"><identAndStatusSection><dmAddress><dmIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="4" subSubSystemCode="7" assyCode="04" disassyCode="00" disassyCodeVariant="A" infoCode="141" infoCodeVariant="A" itemLocationCode="A" /><language languageIsoCode="ru" countryIsoCode="RU" /><issueInfo issueNumber="000" inWork="01" /></dmIdent><dmAddressItems><issueDate year="2019" month="04" day="01" /><dmTitle><techName>Аварийные ситуаци</techName><infoName>Потеря радиосвязи</infoName></dmTitle></dmAddressItems></dmAddress><dmStatus><security securityClassification="01" /><responsiblePartnerCompany><enterpriseName>Московский Политех</enterpriseName></responsiblePartnerCompany><originator><enterpriseName>Московский Политех</enterpriseName></originator><applic><displayText><simplePara>Применимо для всех</simplePara></displayText></applic><brexDmRef><dmRef><dmRefIdent><dmCode modelIdentCode="MODELIC" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D" /></dmRefIdent></dmRef></brexDmRef><qualityAssurance><unverified /></qualityAssurance></dmStatus></identAndStatusSection><content><refs><dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="012" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent><dmRefAddressItems><dmTitle><techName>Беспилотный Летательный Аппарат</techName><infoName>Меры безопасности</infoName></dmTitle></dmRefAddressItems></dmRef></refs><crew><descrCrew><levelledPara><title>Признаки</title><para>На <acronym><acronymTerm>БПЛА</acronymTerm><acronymDefinition>Беспилотный Летательный Аппарат</acronymDefinition></acronym>:<sequentialList><listItem><para>Уход <acronymTerm>БПЛА</acronymTerm> с траектории полета.</para></listItem></sequentialList></para><para>на <acronymTerm>НПУОИ</acronymTerm>:<sequentialList><listItem><para>Отсутствие передачи данных телеметрии с <acronymTerm>БПЛА</acronymTerm> на <acronym><acronymTerm>НПУОИ</acronymTerm><acronymDefinition>Наземный Пункт Управления и Обработки Информации</acronymDefinition></acronym></para></listItem><listItem><para>Отсутствие передачи картинки с <acronymTerm>БПЛА</acronymTerm> на <acronymTerm>НПУОИ</acronymTerm></para></listItem><listItem><para>Отсутствие реакции <acronymTerm>БПЛА</acronymTerm> на передачу команд с <acronymTerm>НПУОИ</acronymTerm> на <acronymTerm>БПЛА</acronymTerm>.</para></listItem></sequentialList></para></levelledPara><levelledPara><title>Немедленные действия</title><warning><warningAndCautionPara>ПОСАДКА В ПОЛУАВТОМАТИЧЕСКОМ РЕЖИМЕ ТОЛЬКО В ЗОНЕ ПРЯМОЙ ВИДИМОСТИ.</warningAndCautionPara></warning><crewDrill><crewDrillStep><challengeAndResponse><challenge><para>Выполнение задания</para></challenge><response><para>ПРЕКРАТИТЬ</para></response></challengeAndResponse></crewDrillStep><crewDrillStep><challengeAndResponse><challenge><para>Время активации и возвращения <acronymTerm>БПЛА</acronymTerm> в точку <acronymTerm>"ДОМ"</acronymTerm></para></challenge><response><para>РАССЧИТАТЬ</para></response></challengeAndResponse><if><caseCond>в течение расчетного времени <acronymTerm>БПЛА</acronymTerm> вернулся к <acronym><acronymTerm>ВППл</acronymTerm><acronymDefinition>Взлетно-Посадочная Площадка</acronymDefinition></acronym>:</caseCond><crewDrillStep><challengeAndResponse><challenge><para>Связь</para></challenge><response><para>УСТАНОВИТЬ</para></response></challengeAndResponse><if><caseCond>связь с <acronymTerm>НПУОИ</acronymTerm> восстановилась:</caseCond><crewDrillStep><challengeAndResponse><challenge><para>Решение о продолжении выполнении задания </para></challenge><response><para>ПРИНЯТЬ</para></response></challengeAndResponse><if><caseCond>принято решение о продолжении выполнения задания:</caseCond><crewDrillStep><challengeAndResponse><challenge><para>Выполнение задания</para></challenge><response><para>ПРОДОЛЖИТЬ</para></response></challengeAndResponse></crewDrillStep><if><caseCond>принято решение о прекращении выполнения задания</caseCond><crewDrillStep><challengeAndResponse><challenge><para>Решение о способе посадки</para></challenge><response><para>ПРИНЯТЬ</para></response></challengeAndResponse><note><notePara>Решение о выборе способа посадки принимается на основании того, с каким органом управления восстановлена связь.</notePara></note><if><caseCond>принято решение о посадке в автоматическом режиме:</caseCond><crewDrillStep><challengeAndResponse><challenge><para>Команда на посадку в автоматическом режиме </para></challenge><response><para>ПОДАТЬ</para></response></challengeAndResponse></crewDrillStep><crewDrillStep><challengeAndResponse><challenge><para>Выполнение посадки</para></challenge><response><para>КОНТРОЛИРОВАТЬ</para></response></challengeAndResponse></crewDrillStep></if><if><caseCond>принято решение о посадке в полувтоматическом режиме</caseCond><crewDrillStep><challengeAndResponse><challenge><para>Полуавтоматическое управление</para></challenge><response><para>ВКЛЮЧИТЬ</para></response></challengeAndResponse></crewDrillStep><crewDrillStep><challengeAndResponse><challenge><para>Крен/тангаж/курс</para></challenge><response><para>ПАРИРОВАТЬ</para></response></challengeAndResponse></crewDrillStep><crewDrillStep><challengeAndResponse><challenge><para>Обороты несущих винтов</para></challenge><response><para>СНИЗИТЬ</para></response></challengeAndResponse></crewDrillStep><crewDrillStep><challengeAndResponse><challenge><para>Посадка <acronymTerm>БПЛА</acronymTerm></para></challenge><response><para>ВЫПОЛНИТЬ</para></response></challengeAndResponse></crewDrillStep><if><caseCond>связь с <acronymTerm>НПУОИ</acronymTerm> не восстановилась:</caseCond><crewDrillStep><challengeAndResponse><challenge><para>Выполнение посадки в автоматическом режиме </para></challenge><response><para>КОНТРОЛИРОВАТЬ</para></response></challengeAndResponse></crewDrillStep></if></if></crewDrillStep></if><if><caseCond>в течение расчетного времени БПЛА не вернулся к ВППЛ:</caseCond><crewDrillStep><challengeAndResponse><challenge><para>Место предполагаемой катастрофы по крайним данным телеметрии на <acronymTerm>НПУОИ</acronymTerm></para></challenge><response><para>ОПРЕДЕЛИТЬ</para></response></challengeAndResponse></crewDrillStep><crewDrillStep><challengeAndResponse><challenge><para>Поисково-спасательная операция</para></challenge><response><para>ПРИСТУПИТЬ</para></response></challengeAndResponse></crewDrillStep><crewDrillStep><challengeAndResponse><challenge><para>Тушение возгарания</para></challenge><response><para>ПРИСТУПИТЬ</para></response></challengeAndResponse></crewDrillStep></if></if></crewDrillStep></if></crewDrillStep></if></crewDrillStep></crewDrill></levelledPara></descrCrew></crew></content></dmodule>
+<?xml-stylesheet type = "text/xsl" href = "DMC-BARSUK04-A-15-41-00-00A-043A-A_000-01_ru-RU.xls"?>
+<!-- Created with Libroplanta XML Editor (http://www.libroplanta.com/) -->
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1-A/xml_schema_flat/crew.xsd" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<identAndStatusSection>
+		<dmAddress>
+			<dmIdent>
+				<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="4" subSubSystemCode="7" assyCode="04" disassyCode="00" disassyCodeVariant="A" infoCode="141" infoCodeVariant="A" itemLocationCode="A"/>
+				<language languageIsoCode="ru" countryIsoCode="RU"/>
+				<issueInfo issueNumber="000" inWork="01"/>
+			</dmIdent>
+			<dmAddressItems>
+				<issueDate year="2019" month="04" day="01"/>
+				<dmTitle>
+					<techName>Аварийные ситуаци</techName>
+					<infoName>Потеря радиосвязи</infoName>
+				</dmTitle>
+			</dmAddressItems>
+		</dmAddress>
+		<dmStatus>
+			<security securityClassification="01"/>
+			<responsiblePartnerCompany>
+				<enterpriseName>Московский Политех</enterpriseName>
+			</responsiblePartnerCompany>
+			<originator>
+				<enterpriseName>Московский Политех</enterpriseName>
+			</originator>
+			<applic>
+				<displayText>
+					<simplePara>Применимо для всех</simplePara>
+				</displayText>
+			</applic>
+			<brexDmRef>
+				<dmRef>
+					<dmRefIdent>
+						<dmCode modelIdentCode="MODELIC" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+					</dmRefIdent>
+				</dmRef>
+			</brexDmRef>
+			<qualityAssurance>
+				<unverified/>
+			</qualityAssurance>
+		</dmStatus>
+	</identAndStatusSection>
+	<content>
+		<refs>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="012" infoCodeVariant="A" itemLocationCode="A"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Беспилотный Летательный Аппарат</techName>
+						<infoName>Меры безопасности</infoName>
+					</dmTitle>
+				</dmRefAddressItems>
+			</dmRef>
+		</refs>
+		<crew>
+			<descrCrew>
+				<levelledPara>
+					<title>Признаки</title>
+					<para>На <acronym>
+							<acronymTerm>БПЛА</acronymTerm>
+							<acronymDefinition>Беспилотный Летательный Аппарат</acronymDefinition>
+						</acronym>:<sequentialList>
+							<listItem>
+								<para>Уход <acronymTerm>БПЛА</acronymTerm> с траектории полета.</para>
+							</listItem>
+						</sequentialList>
+					</para>
+					<para>на <acronymTerm>НПУОИ</acronymTerm>:<sequentialList>
+							<listItem>
+								<para>Отсутствие передачи данных телеметрии с <acronymTerm>БПЛА</acronymTerm> на <acronym>
+										<acronymTerm>НПУОИ</acronymTerm>
+										<acronymDefinition>Наземный Пункт Управления и Обработки Информации</acronymDefinition>
+									</acronym>
+								</para>
+							</listItem>
+							<listItem>
+								<para>Отсутствие передачи картинки с <acronymTerm>БПЛА</acronymTerm> на <acronymTerm>НПУОИ</acronymTerm>
+								</para>
+							</listItem>
+							<listItem>
+								<para>Отсутствие реакции <acronymTerm>БПЛА</acronymTerm> на передачу команд с <acronymTerm>НПУОИ</acronymTerm> на <acronymTerm>БПЛА</acronymTerm>.</para>
+							</listItem>
+						</sequentialList>
+					</para>
+				</levelledPara>
+				<levelledPara>
+					<title>Немедленные действия</title>
+					<warning>
+						<warningAndCautionPara>ПОСАДКА В ПОЛУАВТОМАТИЧЕСКОМ РЕЖИМЕ ТОЛЬКО В ЗОНЕ ПРЯМОЙ ВИДИМОСТИ.</warningAndCautionPara>
+					</warning>
+					<crewDrill>
+						<crewDrillStep>
+							<challengeAndResponse>
+								<challenge>
+									<para>Выполнение задания</para>
+								</challenge>
+								<response>
+									<para>ПРЕКРАТИТЬ</para>
+								</response>
+							</challengeAndResponse>
+						</crewDrillStep>
+						<crewDrillStep>
+							<challengeAndResponse>
+								<challenge>
+									<para>Время активации и возвращения <acronymTerm>БПЛА</acronymTerm> в точку <acronymTerm>"ДОМ"</acronymTerm>
+									</para>
+								</challenge>
+								<response>
+									<para>РАССЧИТАТЬ</para>
+								</response>
+							</challengeAndResponse>
+							<if>
+								<caseCond>в течение расчетного времени <acronymTerm>БПЛА</acronymTerm> вернулся к <acronym>
+										<acronymTerm>ВППл</acronymTerm>
+										<acronymDefinition>Взлетно-Посадочная Площадка</acronymDefinition>
+									</acronym>:</caseCond>
+								<crewDrillStep>
+									<challengeAndResponse>
+										<challenge>
+											<para>Связь</para>
+										</challenge>
+										<response>
+											<para>УСТАНОВИТЬ</para>
+										</response>
+									</challengeAndResponse>
+									<if>
+										<caseCond>связь с <acronymTerm>НПУОИ</acronymTerm> восстановилась:</caseCond>
+										<crewDrillStep>
+											<challengeAndResponse>
+												<challenge>
+													<para>Решение о продолжении выполнении задания </para>
+												</challenge>
+												<response>
+													<para>ПРИНЯТЬ</para>
+												</response>
+											</challengeAndResponse>
+											<if>
+												<caseCond>принято решение о продолжении выполнения задания:</caseCond>
+												<crewDrillStep>
+													<challengeAndResponse>
+														<challenge>
+															<para>Выполнение задания</para>
+														</challenge>
+														<response>
+															<para>ПРОДОЛЖИТЬ</para>
+														</response>
+													</challengeAndResponse>
+												</crewDrillStep>
+												<if>
+													<caseCond>принято решение о прекращении выполнения задания</caseCond>
+													<crewDrillStep>
+														<challengeAndResponse>
+															<challenge>
+																<para>Решение о способе посадки</para>
+															</challenge>
+															<response>
+																<para>ПРИНЯТЬ</para>
+															</response>
+														</challengeAndResponse>
+														<note>
+															<notePara>Решение о выборе способа посадки принимается на основании того, с каким органом управления восстановлена связь.</notePara>
+														</note>
+														<if>
+															<caseCond>принято решение о посадке в автоматическом режиме:</caseCond>
+															<crewDrillStep>
+																<challengeAndResponse>
+																	<challenge>
+																		<para>Команда на посадку в автоматическом режиме </para>
+																	</challenge>
+																	<response>
+																		<para>ПОДАТЬ</para>
+																	</response>
+																</challengeAndResponse>
+															</crewDrillStep>
+															<crewDrillStep>
+																<challengeAndResponse>
+																	<challenge>
+																		<para>Выполнение посадки</para>
+																	</challenge>
+																	<response>
+																		<para>КОНТРОЛИРОВАТЬ</para>
+																	</response>
+																</challengeAndResponse>
+															</crewDrillStep>
+														</if>
+														<if>
+															<caseCond>принято решение о посадке в полувтоматическом режиме</caseCond>
+															<crewDrillStep>
+																<challengeAndResponse>
+																	<challenge>
+																		<para>Полуавтоматическое управление</para>
+																	</challenge>
+																	<response>
+																		<para>ВКЛЮЧИТЬ</para>
+																	</response>
+																</challengeAndResponse>
+															</crewDrillStep>
+															<crewDrillStep>
+																<challengeAndResponse>
+																	<challenge>
+																		<para>Крен/тангаж/курс</para>
+																	</challenge>
+																	<response>
+																		<para>ПАРИРОВАТЬ</para>
+																	</response>
+																</challengeAndResponse>
+															</crewDrillStep>
+															<crewDrillStep>
+																<challengeAndResponse>
+																	<challenge>
+																		<para>Обороты несущих винтов</para>
+																	</challenge>
+																	<response>
+																		<para>СНИЗИТЬ</para>
+																	</response>
+																</challengeAndResponse>
+															</crewDrillStep>
+															<crewDrillStep>
+																<challengeAndResponse>
+																	<challenge>
+																		<para>Посадка <acronymTerm>БПЛА</acronymTerm>
+																		</para>
+																	</challenge>
+																	<response>
+																		<para>ВЫПОЛНИТЬ</para>
+																	</response>
+																</challengeAndResponse>
+															</crewDrillStep>
+															<if>
+																<caseCond>связь с <acronymTerm>НПУОИ</acronymTerm> не восстановилась:</caseCond>
+																<crewDrillStep>
+																	<challengeAndResponse>
+																		<challenge>
+																			<para>Выполнение посадки в автоматическом режиме </para>
+																		</challenge>
+																		<response>
+																			<para>КОНТРОЛИРОВАТЬ</para>
+																		</response>
+																	</challengeAndResponse>
+																</crewDrillStep>
+															</if>
+														</if>
+													</crewDrillStep>
+												</if>
+												<if>
+													<caseCond>в течение расчетного времени БПЛА не вернулся к ВППЛ:</caseCond>
+													<crewDrillStep>
+														<challengeAndResponse>
+															<challenge>
+																<para>Место предполагаемой катастрофы по крайним данным телеметрии на <acronymTerm>НПУОИ</acronymTerm>
+																</para>
+															</challenge>
+															<response>
+																<para>ОПРЕДЕЛИТЬ</para>
+															</response>
+														</challengeAndResponse>
+													</crewDrillStep>
+													<crewDrillStep>
+														<challengeAndResponse>
+															<challenge>
+																<para>Поисково-спасательная операция</para>
+															</challenge>
+															<response>
+																<para>ПРИСТУПИТЬ</para>
+															</response>
+														</challengeAndResponse>
+													</crewDrillStep>
+													<crewDrillStep>
+														<challengeAndResponse>
+															<challenge>
+																<para>Тушение возгарания</para>
+															</challenge>
+															<response>
+																<para>ПРИСТУПИТЬ</para>
+															</response>
+														</challengeAndResponse>
+													</crewDrillStep>
+												</if>
+											</if>
+										</crewDrillStep>
+									</if>
+								</crewDrillStep>
+							</if>
+						</crewDrillStep>
+					</crewDrill>
+				</levelledPara>
+			</descrCrew>
+		</crew>
+	</content>
+</dmodule>

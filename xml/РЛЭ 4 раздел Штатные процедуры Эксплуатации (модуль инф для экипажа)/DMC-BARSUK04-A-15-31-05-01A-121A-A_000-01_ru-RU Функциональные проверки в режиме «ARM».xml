@@ -1,2 +1,265 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- Created with Libroplanta XML Editor (http://www.libroplanta.com/) --><dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1-A/xml_schema_flat/crew.xsd" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink"><identAndStatusSection><dmAddress><dmIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="05" disassyCode="00" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A" /><language languageIsoCode="ru" countryIsoCode="RU" /><issueInfo issueNumber="000" inWork="01" /></dmIdent><dmAddressItems><issueDate year="2019" month="04" day="01" /><dmTitle><techName>Штатные процедуры эксплуатации - Функциональные проверки в режиме «ARM»</techName></dmTitle></dmAddressItems></dmAddress><dmStatus><security securityClassification="01" /><responsiblePartnerCompany><enterpriseName>Московский Политех</enterpriseName></responsiblePartnerCompany><originator><enterpriseName>Московский Политех</enterpriseName></originator><applic><displayText><simplePara>Применимость для всех</simplePara></displayText></applic><brexDmRef><dmRef><dmRefIdent><dmCode modelIdentCode="MODELIC" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D" /></dmRefIdent></dmRef></brexDmRef><qualityAssurance><unverified /></qualityAssurance></dmStatus></identAndStatusSection><content><refs><dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="012" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent><dmRefAddressItems><dmTitle><techName>Беспилотный Летательный Аппарат</techName><infoName>Меры безопасности</infoName></dmTitle></dmRefAddressItems></dmRef><dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="01" disassyCodeVariant="A" infoCode="930" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent><dmRefAddressItems><dmTitle><techName>Эксплуатационые бюллетени</techName><infoName>Формирование и загрузка полетного задания</infoName></dmTitle></dmRefAddressItems></dmRef><dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="02" disassyCodeVariant="A" infoCode="930" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent><dmRefAddressItems><dmTitle><techName>Эксплуатационые бюллетени</techName><infoName>Учет наработки</infoName></dmTitle></dmRefAddressItems></dmRef><dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="03" disassyCodeVariant="A" infoCode="930" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent><dmRefAddressItems><dmTitle><techName>Эксплуатационые бюллетени</techName><infoName>Учет метеоусловий</infoName></dmTitle></dmRefAddressItems></dmRef><dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="04" disassyCodeVariant="A" infoCode="930" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent><dmRefAddressItems><dmTitle><techName>Эксплуатационые бюллетени</techName><infoName>Загрузка данных телеметрии</infoName></dmTitle></dmRefAddressItems></dmRef><dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="05" disassyCodeVariant="A" infoCode="930" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent><dmRefAddressItems><dmTitle><techName>Эксплуатационые бюллетени</techName><infoName>Карточка учета неисправности с таблицей</infoName></dmTitle></dmRefAddressItems></dmRef></refs><crew><descrCrew><levelledPara><title>Функциональные проверки в режиме «ARM»</title><levelledParaAlts><levelledPara><title>Включение режима «ARM» </title><warning><warningAndCautionPara>УБЕДИТЕСЬ В ОТСУТСТВИИ ПОСТОРОННИХ ЛИЦ В РАДИУСЕ 50 МЕТРОВ ОТ ВППЛ.</warningAndCautionPara></warning><para>Для включения режима <acronymTerm>«ARM»</acronymTerm> и проведения проверок<sequentialList><listItem><para>Оператору нажать на <acronymTerm>БПЛА</acronymTerm> кнопку <acronym><acronymTerm>Safety Switch</acronymTerm><acronymDefinition>Предохранительный выключатель</acronymDefinition></acronym></para></listItem><listItem><para>Убедитесь в выключении «safety switch» по звуковому сигналу</para></listItem><listItem><para>Помощнику оператора и оператору <acronymTerm>НПУОИ</acronymTerm> отойти от <acronymTerm>БПЛА</acronymTerm> на расстояние не менее 5 м от <acronymTerm>БПЛА</acronymTerm></para></listItem><listItem><para>Включите режим <acronymTerm>«ARM»</acronymTerm> с <acronymTerm>НПУОИ</acronymTerm></para></listItem><listItem><para>Убедитесь во включении режима «ARM» по звуковому сигналу.</para></listItem></sequentialList></para></levelledPara></levelledParaAlts><levelledParaAlts><levelledPara><title>Проверка значения потребляемого тока и температур</title><para>Выполните проверку значения потребления электрического тока в режиме <acronymTerm>«Ожидание»</acronymTerm> и при малых оборотах <acronym><acronymTerm>НВ</acronymTerm><acronymDefinition>Несущий Винт</acronymDefinition></acronym> и напряжение на клеммах <acronymTerm>АКБ</acronymTerm> и температур силовых элементов <acronymTerm>БПЛА</acronymTerm><sequentialList><listItem><para>Проверьте значение телеметрии в режиме <acronymTerm>«Ожидание»</acronymTerm>:<randomList><listItem><para>проверьте значение потребляемого тока</para></listItem><listItem><para>проверьте значение температуры <acronymTerm>АКБ</acronymTerm></para></listItem><listItem><para>проверьте значение напряжение <acronymTerm>АКБ</acronymTerm></para></listItem></randomList></para></listItem><listItem><para>Проверьте значение телеметрии при малых оборотах <acronymTerm>НВ</acronymTerm>:<randomList><listItem><para>проверьте значение потребляемого тока</para></listItem><listItem><para>роверьте значение температуры <acronymTerm>АКБ</acronymTerm></para></listItem><listItem><para>проверьте значение напряжение <acronymTerm>АКБ</acronymTerm></para></listItem><listItem><para>проверьте значение температуры контроллеров электродвигателей</para></listItem><listItem><para>проверьте значение температуры силовых элементов <acronymTerm>БПЛА</acronymTerm></para></listItem><listItem><para>визуально убедитесь во вращении несущих винтов <acronymTerm>БПЛА</acronymTerm></para></listItem></randomList></para></listItem><listItem><para>По результатам проверки:<sequentialList><listItem><para>если показания температур и значений потребления тока в пределах нормы, продолжите выполнение процедур функциональной диагностики</para></listItem><listItem><para>если показания температур и значений потребления тока выходят за пределы нормы:<randomList><listItem><para>проведите перезапуск (выключить и включить) <acronymTerm>БПЛА</acronymTerm></para></listItem><listItem><para>повторите процедуры 1-2</para></listItem><listItem><para>если показания температур и значений потребления тока повторно не в пределах нормы, отмените выполнение полетного задания и приступите к поиску и устранению неисправности</para></listItem><listItem><para>заполните <acronymTerm>КУН.</acronymTerm></para></listItem></randomList></para></listItem></sequentialList></para></listItem></sequentialList></para></levelledPara></levelledParaAlts><levelledParaAlts><levelledPara><title>Выключение режима «ARM»</title><para>Выключение режима <acronymTerm>«ARM»</acronymTerm>:<sequentialList><listItem><para>Выключите режим <acronymTerm>«ARM»</acronymTerm> с <acronymTerm>НПУОИ</acronymTerm></para></listItem><listItem><para>Убедитесь в выключении режима <acronymTerm>«ARM»</acronymTerm> по звуковому сигналу</para></listItem><listItem><para>Убедитесь в остановке вращения винтов</para></listItem><listItem><para>Подойдите к <acronymTerm>БПЛА</acronymTerm></para></listItem><listItem><para>Нажмите на кнопку <acronymTerm>«Safety Switch»</acronymTerm></para></listItem><listItem><para>Убедитесь во включении <acronymTerm>«Safety Switch»</acronymTerm> по звуковому сигналу.</para></listItem></sequentialList></para></levelledPara></levelledParaAlts></levelledPara></descrCrew></crew></content></dmodule>
+<?xml-stylesheet type="text/xsl" href="DMC-BARSUK04-A-15-31-00-00A-121A-A_000-01_ru-RU.xls" ?>
+<!-- Created with Libroplanta XML Editor (http://www.libroplanta.com/) -->
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1-A/xml_schema_flat/crew.xsd" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<identAndStatusSection>
+		<dmAddress>
+			<dmIdent>
+				<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="05" disassyCode="00" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A"/>
+				<language languageIsoCode="ru" countryIsoCode="RU"/>
+				<issueInfo issueNumber="000" inWork="01"/>
+			</dmIdent>
+			<dmAddressItems>
+				<issueDate year="2019" month="04" day="01"/>
+				<dmTitle>
+					<techName>Штатные процедуры эксплуатации</techName>
+					<infoName>Функциональные проверки в режиме «ARM»</infoName>
+				</dmTitle>
+			</dmAddressItems>
+		</dmAddress>
+		<dmStatus>
+			<security securityClassification="01"/>
+			<responsiblePartnerCompany>
+				<enterpriseName>Московский Политех</enterpriseName>
+			</responsiblePartnerCompany>
+			<originator>
+				<enterpriseName>Московский Политех</enterpriseName>
+			</originator>
+			<applic>
+				<displayText>
+					<simplePara>Применимость для всех</simplePara>
+				</displayText>
+			</applic>
+			<brexDmRef>
+				<dmRef>
+					<dmRefIdent>
+						<dmCode modelIdentCode="MODELIC" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+					</dmRefIdent>
+				</dmRef>
+			</brexDmRef>
+			<qualityAssurance>
+				<unverified/>
+			</qualityAssurance>
+		</dmStatus>
+	</identAndStatusSection>
+	<content>
+		<refs>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="012" infoCodeVariant="A" itemLocationCode="A"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Беспилотный Летательный Аппарат</techName>
+						<infoName>Меры безопасности</infoName>
+					</dmTitle>
+				</dmRefAddressItems>
+			</dmRef>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="01" disassyCodeVariant="A" infoCode="930" infoCodeVariant="A" itemLocationCode="A"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Эксплуатационые бюллетени</techName>
+						<infoName>Формирование и загрузка полетного задания</infoName>
+					</dmTitle>
+				</dmRefAddressItems>
+			</dmRef>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="02" disassyCodeVariant="A" infoCode="930" infoCodeVariant="A" itemLocationCode="A"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Эксплуатационые бюллетени</techName>
+						<infoName>Учет наработки</infoName>
+					</dmTitle>
+				</dmRefAddressItems>
+			</dmRef>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="03" disassyCodeVariant="A" infoCode="930" infoCodeVariant="A" itemLocationCode="A"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Эксплуатационые бюллетени</techName>
+						<infoName>Учет метеоусловий</infoName>
+					</dmTitle>
+				</dmRefAddressItems>
+			</dmRef>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="04" disassyCodeVariant="A" infoCode="930" infoCodeVariant="A" itemLocationCode="A"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Эксплуатационые бюллетени</techName>
+						<infoName>Загрузка данных телеметрии</infoName>
+					</dmTitle>
+				</dmRefAddressItems>
+			</dmRef>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="05" disassyCodeVariant="A" infoCode="930" infoCodeVariant="A" itemLocationCode="A"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Эксплуатационые бюллетени</techName>
+						<infoName>Карточка учета неисправности с таблицей</infoName>
+					</dmTitle>
+				</dmRefAddressItems>
+			</dmRef>
+		</refs>
+		<crew>
+			<descrCrew>
+				<levelledPara>
+					<title>Функциональные проверки в режиме «ARM»</title>
+					<levelledParaAlts>
+						<levelledPara>
+							<title>Включение режима «ARM» </title>
+							<warning>
+								<warningAndCautionPara>УБЕДИТЕСЬ В ОТСУТСТВИИ ПОСТОРОННИХ ЛИЦ В РАДИУСЕ 50 МЕТРОВ ОТ ВППЛ.</warningAndCautionPara>
+							</warning>
+							<para>Для включения режима <acronymTerm>«ARM»</acronymTerm> и проведения проверок<sequentialList>
+									<listItem>
+										<para>Оператору нажать на <acronymTerm>БПЛА</acronymTerm> кнопку <acronym>
+												<acronymTerm>Safety Switch</acronymTerm>
+												<acronymDefinition>Предохранительный выключатель</acronymDefinition>
+											</acronym>
+										</para>
+									</listItem>
+									<listItem>
+										<para>Убедитесь в выключении «safety switch» по звуковому сигналу</para>
+									</listItem>
+									<listItem>
+										<para>Помощнику оператора и оператору <acronymTerm>НПУОИ</acronymTerm> отойти от <acronymTerm>БПЛА</acronymTerm> на расстояние не менее 5 м от <acronymTerm>БПЛА</acronymTerm>
+										</para>
+									</listItem>
+									<listItem>
+										<para>Включите режим <acronymTerm>«ARM»</acronymTerm> с <acronymTerm>НПУОИ</acronymTerm>
+										</para>
+									</listItem>
+									<listItem>
+										<para>Убедитесь во включении режима «ARM» по звуковому сигналу.</para>
+									</listItem>
+								</sequentialList>
+							</para>
+						</levelledPara>
+					</levelledParaAlts>
+					<levelledParaAlts>
+						<levelledPara>
+							<title>Проверка значения потребляемого тока и температур</title>
+							<para>Выполните проверку значения потребления электрического тока в режиме <acronymTerm>«Ожидание»</acronymTerm> и при малых оборотах <acronym>
+									<acronymTerm>НВ</acronymTerm>
+									<acronymDefinition>Несущий Винт</acronymDefinition>
+								</acronym> и напряжение на клеммах <acronymTerm>АКБ</acronymTerm> и температур силовых элементов <acronymTerm>БПЛА</acronymTerm>
+								<sequentialList>
+									<listItem>
+										<para>Проверьте значение телеметрии в режиме <acronymTerm>«Ожидание»</acronymTerm>:<randomList>
+												<listItem>
+													<para>проверьте значение потребляемого тока</para>
+												</listItem>
+												<listItem>
+													<para>проверьте значение температуры <acronymTerm>АКБ</acronymTerm>
+													</para>
+												</listItem>
+												<listItem>
+													<para>проверьте значение напряжение <acronymTerm>АКБ</acronymTerm>
+													</para>
+												</listItem>
+											</randomList>
+										</para>
+									</listItem>
+									<listItem>
+										<para>Проверьте значение телеметрии при малых оборотах <acronymTerm>НВ</acronymTerm>:<randomList>
+												<listItem>
+													<para>проверьте значение потребляемого тока</para>
+												</listItem>
+												<listItem>
+													<para>роверьте значение температуры <acronymTerm>АКБ</acronymTerm>
+													</para>
+												</listItem>
+												<listItem>
+													<para>проверьте значение напряжение <acronymTerm>АКБ</acronymTerm>
+													</para>
+												</listItem>
+												<listItem>
+													<para>проверьте значение температуры контроллеров электродвигателей</para>
+												</listItem>
+												<listItem>
+													<para>проверьте значение температуры силовых элементов <acronymTerm>БПЛА</acronymTerm>
+													</para>
+												</listItem>
+												<listItem>
+													<para>визуально убедитесь во вращении несущих винтов <acronymTerm>БПЛА</acronymTerm>
+													</para>
+												</listItem>
+											</randomList>
+										</para>
+									</listItem>
+									<listItem>
+										<para>По результатам проверки:<sequentialList>
+												<listItem>
+													<para>если показания температур и значений потребления тока в пределах нормы, продолжите выполнение процедур функциональной диагностики</para>
+												</listItem>
+												<listItem>
+													<para>если показания температур и значений потребления тока выходят за пределы нормы:<randomList>
+															<listItem>
+																<para>проведите перезапуск (выключить и включить) <acronymTerm>БПЛА</acronymTerm>
+																</para>
+															</listItem>
+															<listItem>
+																<para>повторите процедуры 1-2</para>
+															</listItem>
+															<listItem>
+																<para>если показания температур и значений потребления тока повторно не в пределах нормы, отмените выполнение полетного задания и приступите к поиску и устранению неисправности</para>
+															</listItem>
+															<listItem>
+																<para>заполните <acronymTerm>КУН.</acronymTerm>
+																</para>
+															</listItem>
+														</randomList>
+													</para>
+												</listItem>
+											</sequentialList>
+										</para>
+									</listItem>
+								</sequentialList>
+							</para>
+						</levelledPara>
+					</levelledParaAlts>
+					<levelledParaAlts>
+						<levelledPara>
+							<title>Выключение режима «ARM»</title>
+							<para>Выключение режима <acronymTerm>«ARM»</acronymTerm>:<sequentialList>
+									<listItem>
+										<para>Выключите режим <acronymTerm>«ARM»</acronymTerm> с <acronymTerm>НПУОИ</acronymTerm>
+										</para>
+									</listItem>
+									<listItem>
+										<para>Убедитесь в выключении режима <acronymTerm>«ARM»</acronymTerm> по звуковому сигналу</para>
+									</listItem>
+									<listItem>
+										<para>Убедитесь в остановке вращения винтов</para>
+									</listItem>
+									<listItem>
+										<para>Подойдите к <acronymTerm>БПЛА</acronymTerm>
+										</para>
+									</listItem>
+									<listItem>
+										<para>Нажмите на кнопку <acronymTerm>«Safety Switch»</acronymTerm>
+										</para>
+									</listItem>
+									<listItem>
+										<para>Убедитесь во включении <acronymTerm>«Safety Switch»</acronymTerm> по звуковому сигналу.</para>
+									</listItem>
+								</sequentialList>
+							</para>
+						</levelledPara>
+					</levelledParaAlts>
+				</levelledPara>
+			</descrCrew>
+		</crew>
+	</content>
+</dmodule>

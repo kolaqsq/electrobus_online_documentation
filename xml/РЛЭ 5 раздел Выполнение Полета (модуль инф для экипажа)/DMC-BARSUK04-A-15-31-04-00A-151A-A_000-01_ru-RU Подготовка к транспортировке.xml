@@ -1,2 +1,102 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- Created with Libroplanta XML Editor (http://www.libroplanta.com/) --><dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1-A/xml_schema_flat/crew.xsd" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink"><identAndStatusSection><dmAddress><dmIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="04" disassyCode="00" disassyCodeVariant="A" infoCode="151" infoCodeVariant="A" itemLocationCode="A" /><language languageIsoCode="ru" countryIsoCode="RU" /><issueInfo issueNumber="000" inWork="01" /></dmIdent><dmAddressItems><issueDate year="2019" month="04" day="01" /><dmTitle><techName>Выполнение полета - Подготовка к транспортировке</techName></dmTitle></dmAddressItems></dmAddress><dmStatus><security securityClassification="01" /><responsiblePartnerCompany><enterpriseName>Московский Политех</enterpriseName></responsiblePartnerCompany><originator><enterpriseName>Московский Политех</enterpriseName></originator><applic><displayText><simplePara>Применимо для всех</simplePara></displayText></applic><brexDmRef><dmRef><dmRefIdent><dmCode modelIdentCode="MODELIC" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D" /></dmRefIdent></dmRef></brexDmRef><qualityAssurance><unverified /></qualityAssurance></dmStatus></identAndStatusSection><content><refs><dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="012" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent><dmRefAddressItems><dmTitle><techName>Беспилотный Летательный Аппарат</techName><infoName>Меры безопасности</infoName></dmTitle></dmRefAddressItems></dmRef></refs><crew><descrCrew><levelledPara><title>Подготовка к транспортировке</title><warning><warningAndCautionPara>ПРИ ПОДГОТОВКЕ ИСКЛЮЧИТЬ СИЛОВОЕ ВОЗДЕЙСТВИЕ НА ВИНТЫ И КАБЕЛЯ/ЖГУТЫ.</warningAndCautionPara></warning><para>Процесс подготовки к транспортировке:<randomList><listItem><para>Открыть предохранительные защелки на стыковочных нервюрах (одна сверху и две снизу для каждой консоли)</para></listItem><listItem><para>Отстыковать корневые нервюры фюзеляжа и консолей</para></listItem><listItem><para>Открыть крышку главного аппаратного отсека фюзеляжа</para></listItem><listItem><para>Отсоединить силовую проводку двигателей консоли (две косы по три толстых белых провода) в полость фюзеляжа через соответствующее отверстие в корневой нервюре фюзеляжа</para></listItem><listItem><para>Отсоединить проводку сервопривода консоли в полость фюзеляжа, через соответствующее отверстие в корневой нервюре</para></listItem><listItem><para>Снять плоскости крыла с соединяющих штырей после переведения защелок на корневой нервюре в открытое положение</para></listItem><listItem><para>Повторить три последних пункта для второй консоли</para></listItem><listItem><para>Снять карбоновые соединяющие штыри в соответствующие отверстия фюзеляжа (короткий впереди, длинный сзади)</para></listItem><listItem><para>Открутить винглеты на концах несущих плоскостей конвертоплана путем откручивания 4х соответствующих винтов M4</para></listItem><listItem><para>Уложить в комплект транспортировки.</para></listItem></randomList></para></levelledPara></descrCrew></crew></content></dmodule>
+<?xml-stylesheet type="text/xsl" href="DMC-BARSUK04-A-15-31-00-00A-151A-A_000-01_ru-RU.xls" ?>
+<!-- Created with Libroplanta XML Editor (http://www.libroplanta.com/) -->
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1-A/xml_schema_flat/crew.xsd" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<identAndStatusSection>
+		<dmAddress>
+			<dmIdent>
+				<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="04" disassyCode="00" disassyCodeVariant="A" infoCode="151" infoCodeVariant="A" itemLocationCode="A"/>
+				<language languageIsoCode="ru" countryIsoCode="RU"/>
+				<issueInfo issueNumber="000" inWork="01"/>
+			</dmIdent>
+			<dmAddressItems>
+				<issueDate year="2019" month="04" day="01"/>
+				<dmTitle>
+					<techName>Выполнение полета - Подготовка к транспортировке</techName>
+				</dmTitle>
+			</dmAddressItems>
+		</dmAddress>
+		<dmStatus>
+			<security securityClassification="01"/>
+			<responsiblePartnerCompany>
+				<enterpriseName>Московский Политех</enterpriseName>
+			</responsiblePartnerCompany>
+			<originator>
+				<enterpriseName>Московский Политех</enterpriseName>
+			</originator>
+			<applic>
+				<displayText>
+					<simplePara>Применимо для всех</simplePara>
+				</displayText>
+			</applic>
+			<brexDmRef>
+				<dmRef>
+					<dmRefIdent>
+						<dmCode modelIdentCode="MODELIC" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+					</dmRefIdent>
+				</dmRef>
+			</brexDmRef>
+			<qualityAssurance>
+				<unverified/>
+			</qualityAssurance>
+		</dmStatus>
+	</identAndStatusSection>
+	<content>
+		<refs>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="012" infoCodeVariant="A" itemLocationCode="A"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Беспилотный Летательный Аппарат</techName>
+						<infoName>Меры безопасности</infoName>
+					</dmTitle>
+				</dmRefAddressItems>
+			</dmRef>
+		</refs>
+		<crew>
+			<descrCrew>
+				<levelledPara>
+					<title>Подготовка к транспортировке</title>
+					<warning>
+						<warningAndCautionPara>ПРИ ПОДГОТОВКЕ ИСКЛЮЧИТЬ СИЛОВОЕ ВОЗДЕЙСТВИЕ НА ВИНТЫ И КАБЕЛЯ/ЖГУТЫ.</warningAndCautionPara>
+					</warning>
+					<para>Процесс подготовки к транспортировке:<randomList>
+							<listItem>
+								<para>Открыть предохранительные защелки на стыковочных нервюрах (одна сверху и две снизу для каждой консоли)</para>
+							</listItem>
+							<listItem>
+								<para>Отстыковать корневые нервюры фюзеляжа и консолей</para>
+							</listItem>
+							<listItem>
+								<para>Открыть крышку главного аппаратного отсека фюзеляжа</para>
+							</listItem>
+							<listItem>
+								<para>Отсоединить силовую проводку двигателей консоли (две косы по три толстых белых провода) в полость фюзеляжа через соответствующее отверстие в корневой нервюре фюзеляжа</para>
+							</listItem>
+							<listItem>
+								<para>Отсоединить проводку сервопривода консоли в полость фюзеляжа, через соответствующее отверстие в корневой нервюре</para>
+							</listItem>
+							<listItem>
+								<para>Снять плоскости крыла с соединяющих штырей после переведения защелок на корневой нервюре в открытое положение</para>
+							</listItem>
+							<listItem>
+								<para>Повторить три последних пункта для второй консоли</para>
+							</listItem>
+							<listItem>
+								<para>Снять карбоновые соединяющие штыри в соответствующие отверстия фюзеляжа (короткий впереди, длинный сзади)</para>
+							</listItem>
+							<listItem>
+								<para>Открутить винглеты на концах несущих плоскостей конвертоплана путем откручивания 4х соответствующих винтов M4</para>
+							</listItem>
+							<listItem>
+								<para>Уложить в комплект транспортировки.</para>
+							</listItem>
+						</randomList>
+					</para>
+				</levelledPara>
+			</descrCrew>
+		</crew>
+	</content>
+</dmodule>

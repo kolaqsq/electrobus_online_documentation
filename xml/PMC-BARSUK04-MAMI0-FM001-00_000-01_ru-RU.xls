@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<xsl:stylesheet version = "1.0" 
+xmlns:xsl = "http://www.w3.org/1999/XSL/Transform">   
+   <xsl:template match = "/">
+	<html> 
+        <body>    
+			<h1 align="center">
+				<xsl:value-of select="pm/identAndStatusSection/pmAddress/pmAddressItems/pmTitle"/>
+			</h1> 
+			<h3 align="right">
+				<xsl:value-of select="//responsiblePartnerCompany/enterpriseName"/>
+			</h3>
+			<h4 align="right">
+				<xsl:value-of select="//applic/displayText/simplePara"/>
+			</h4>
+			<section>
+			<dl>
+			<xsl:for-each select="pm/content/pmEntry">
+			<dt><xsl:value-of select="pmEntryTitle"/></dt>
+				<xsl:for-each select="dmRef">
+					<dd><xsl:value-of select="dmRefAddressItems/dmTitle/infoName"/></dd>
+				</xsl:for-each>
+			</xsl:for-each>
+			</dl>
+			</section>			
+		</body> 
+    </html>
+   </xsl:template>  
+</xsl:stylesheet>

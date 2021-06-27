@@ -1,10 +1,347 @@
-﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE DMODULE [<!ENTITY ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-1 SYSTEM "ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-1.png" NDATA png>
-<!ENTITY ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-2 SYSTEM "ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-2.PNG" NDATA png>
-<!ENTITY ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-3 SYSTEM "ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-3.PNG" NDATA png>
-<!ENTITY ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-4 SYSTEM "ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-4.PNG" NDATA png>
-<!ENTITY ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-5 SYSTEM "ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-5.PNG" NDATA png>
-<!ENTITY ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-6 SYSTEM "ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-6.jpg" NDATA png>
-<!ENTITY ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-7 SYSTEM "ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-7.jpg" NDATA png>
-<!NOTATION png PUBLIC "-//W3C//NOTATION Portable Network Graphics//EN">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="DMC-BARSUK04-A-15-31-00-00A-121A-A_000-01_ru-RU.xls" ?>
+<!DOCTYPE DMODULE [
+	<!ENTITY ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-1 SYSTEM "ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-1.png" NDATA png>
+	<!ENTITY ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-2 SYSTEM "ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-2.PNG" NDATA png>
+	<!ENTITY ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-3 SYSTEM "ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-3.PNG" NDATA png>
+	<!ENTITY ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-4 SYSTEM "ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-4.PNG" NDATA png>
+	<!ENTITY ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-5 SYSTEM "ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-5.PNG" NDATA png>
+	<!ENTITY ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-6 SYSTEM "ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-6.jpg" NDATA png>
+	<!ENTITY ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-7 SYSTEM "ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-7.jpg" NDATA png>
+	<!NOTATION png PUBLIC "-//W3C//NOTATION Portable Network Graphics//EN">
 ]>
-<!-- Created with Libroplanta XML Editor (http://www.libroplanta.com/) --><dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1-A/xml_schema_flat/crew.xsd" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink"><identAndStatusSection><dmAddress><dmIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="02" disassyCode="00" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A" /><language languageIsoCode="ru" countryIsoCode="RU" /><issueInfo issueNumber="000" inWork="01" /></dmIdent><dmAddressItems><issueDate year="2019" month="04" day="01" /><dmTitle><techName>Штатные процедуры эксплуатации </techName><infoName>Подготовка к использованию</infoName></dmTitle></dmAddressItems></dmAddress><dmStatus><security securityClassification="01" /><responsiblePartnerCompany><enterpriseName>Московский Политех</enterpriseName></responsiblePartnerCompany><originator><enterpriseName>Московский Политех</enterpriseName></originator><applic><displayText><simplePara>Применим для всех</simplePara></displayText></applic><brexDmRef><dmRef><dmRefIdent><dmCode modelIdentCode="MODELIC" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D" /></dmRefIdent></dmRef></brexDmRef><qualityAssurance><unverified /></qualityAssurance></dmStatus></identAndStatusSection><content><refs><dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="012" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent><dmRefAddressItems><dmTitle><techName>Беспилотный Летательный Аппарат</techName><infoName>Меры безопасности</infoName></dmTitle></dmRefAddressItems></dmRef></refs><crew><descrCrew><levelledPara><title>Подготовка БПЛА</title><caution><warningAndCautionPara>ПРИ ПОДГОТОВКЕ ИСКЛЮЧИТЬ СИЛОВЫЕ ВОЗДЕЙСТВИЯ НА НЕСУЩИЕ ВИНТЫ</warningAndCautionPara></caution><para>При процедурах подготовки обратите особое внимание на выполнение операций с моторными балками:<randomList><listItem><para>не допускайте касания, смещения и ударов по несущем винтам</para></listItem><listItem><para>убедитесь в надежности фиксации моторных балок и фиксаторов (пальцев).</para></listItem></randomList></para><levelledParaAlts><levelledPara><title>Извлечение БПЛА из комплекта транспортировки</title><para>Извлечение <acronym><acronymTerm>БПЛА</acronymTerm><acronymDefinition>Беспилотный Летательный Аппарат</acronymDefinition></acronym> их комплекта транспортировки:<sequentialList><listItem><para>Откройте карман размещения <acronymTerm>БПЛА</acronymTerm> комплекта транспортировки (рюкзака)</para></listItem><listItem><para>Снимите фиксаторы с <acronymTerm>БПЛА</acronymTerm></para></listItem><listItem><para>Аккуратно выньте <acronymTerm>БПЛА</acronymTerm> из комплекта транспортировки (<internalRef internalRefTargetType="irtt01" internalRefId="fig-001" />).</para></listItem></sequentialList></para><figure id="fig-001"><title>БПЛА в разобранном виде</title><graphic infoEntityIdent="ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-1" /></figure></levelledPara></levelledParaAlts><levelledParaAlts><levelledPara><title>Установка карбоновых соединяюших штырей</title><para>Установите карбоновые соединяющие штыри в соответствующие отверстия фюзеляжа (короткий впереди, длинный сзади) (<internalRef internalRefTargetType="irtt01" internalRefId="fig-002" />).</para><figure id="fig-002"><title>Установка карбоновых соединяющих штырей</title><graphic infoEntityIdent="ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-2" id="fig-002-gra-001"><hotspot objectCoordinates="109, 171, 128, 142, 120, 128, 123, 70, 89, 65, 93, 73, 95, 72, 96, 128, 81, 129, 109, 171" applicationStructureIdent="AUTOID_2" id="fig-002-gra-002-hot-003" applicationStructureName="1" hotspotTitle="Установка короткого карбонового соединяющего штыря" /><hotspot objectCoordinates="262, 173, 280, 138, 272, 127, 269, 65, 246, 69, 247, 69, 245, 130, 232, 126, 262, 173" applicationStructureIdent="AUTOID_3" applicationStructureName="2" hotspotTitle="Установка длинного карбонового соединяющего штыря" id="fig-002-gra-002-hot-002" /><hotspot objectCoordinates="53, 456, 54, 497, 55, 512, 55, 497, 108, 498, 107, 463, 54, 467, 53, 454, 53, 454, 54, 453, 53, 453, 53, 456" applicationStructureIdent="AUTOID_1" applicationStructureName="3" hotspotTitle="Направление полета" id="fig-002-gra-002-hot-001" /></graphic><legend><definitionList><definitionListItem><listItemTerm><internalRef internalRefTargetType="irtt11" internalRefId="fig-002-gra-002-hot-003">1</internalRef></listItemTerm><listItemDefinition><para>Установка короткого карбонового соединяющего штыря</para></listItemDefinition></definitionListItem><definitionListItem><listItemTerm><internalRef internalRefTargetType="irtt11" internalRefId="fig-002-gra-002-hot-002">2</internalRef></listItemTerm><listItemDefinition><para>Установка длинного карбонового соединяющего штыря</para></listItemDefinition></definitionListItem><definitionListItem><listItemTerm><internalRef internalRefTargetType="irtt11" internalRefId="fig-002-gra-002-hot-001">3</internalRef></listItemTerm><listItemDefinition><para>Направление полета</para></listItemDefinition></definitionListItem></definitionList></legend></figure></levelledPara></levelledParaAlts><levelledParaAlts><levelledPara><title>Установка плоскостей крыльев</title><para>Установите плоскости крыльев:<sequentialList><listItem><para>Убедитесь в открытом положении защелок накорневой нервюре:</para></listItem><listItem><para>Установите плоскости крыльев на соединяющие штыри после переведения защелок на корневой нервюре в открытое положение (<internalRef internalRefTargetType="irtt01" internalRefId="fig-003" />).</para></listItem></sequentialList></para><figure id="fig-003"><title>Установка плоскостей крыльев</title><graphic infoEntityIdent="ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-3"><hotspot objectCoordinates="107, 194, 108, 242, 132, 243, 132, 197, 138, 185, 130, 161, 129, 162, 101, 174, 107, 194" applicationStructureIdent="AUTOID_2" applicationStructureName="1" hotspotTitle="Установка плоскостей крыльев" id="fig-003-gra-003-hot-002" /><hotspot objectCoordinates="259, 197, 254, 244, 270, 244, 276, 197, 280, 191, 270, 171, 250, 202, 259, 197" applicationStructureIdent="AUTOID_1" applicationStructureName="2" hotspotTitle="Установка плоскостей крыльев" id="fig-003-gra-003-hot-001" /><hotspot objectCoordinates="168, 227, 175, 213, 172, 203, 192, 205, 189, 203, 200, 183, 185, 183, 175, 155, 162, 163, 146, 203, 168, 227" applicationStructureIdent="AUTOID_4" hotspotTitle="Защелки на корневой нервюре в положении &quot;открыто&quot;" id="fig-003-gra-003-hot-004" applicationStructureName="3" /><hotspot objectCoordinates="91, 426, 102, 417, 148, 415, 148, 378, 95, 379, 104, 378, 101, 361, 86, 373, 66, 399, 91, 426" applicationStructureIdent="AUTOID_3" applicationStructureName="4" hotspotTitle="Направление полета" id="fig-003-gra-003-hot-003" /></graphic><legend><definitionList><definitionListItem><listItemTerm><internalRef internalRefTargetType="irtt11" internalRefId="fig-003-gra-003-hot-002">1</internalRef></listItemTerm><listItemDefinition><para>Установка плоскостей крыльев</para></listItemDefinition></definitionListItem><definitionListItem><listItemTerm><internalRef internalRefTargetType="irtt11" internalRefId="fig-003-gra-003-hot-001">2</internalRef></listItemTerm><listItemDefinition><para>Установка плоскостей крыльев</para></listItemDefinition></definitionListItem><definitionListItem><listItemTerm><internalRef internalRefTargetType="irtt11" internalRefId="fig-003-gra-003-hot-004">3</internalRef></listItemTerm><listItemDefinition><para>Защелки на корневой нервюре в положении "открыто"</para></listItemDefinition></definitionListItem><definitionListItem><listItemTerm><internalRef internalRefTargetType="irtt11" internalRefId="fig-003-gra-003-hot-003">4</internalRef></listItemTerm><listItemDefinition><para>Направление полета</para></listItemDefinition></definitionListItem></definitionList></legend></figure></levelledPara></levelledParaAlts><levelledParaAlts><levelledPara><title>Установка стоек шасси</title><para>Установка стойки шасси:<sequentialList><listItem><para>Установите стойки шасси в рабочее положение (<internalRef internalRefTargetType="irtt01" internalRefId="fig-004" />)<randomList><listItem><para> вмонтируйте стойки шасси на штативы нижней части <acronymTerm>БПЛА</acronymTerm> до полной фиксации</para><note><notePara>Штативы находятся в нижней части крыльев <acronymTerm>БПЛА</acronymTerm></notePara></note></listItem><listItem><para>покачайте в продольном и поперечном направлении стойку шасси:</para></listItem><listItem><para>убедитесь в отсутствии люфтов и надежности фиксации стоек к штативам</para></listItem><listItem><para>повторите процедуры для остальных стоек шасси.</para></listItem></randomList></para></listItem></sequentialList></para><figure id="fig-004"><title>Установка стоек шасси</title><graphic infoEntityIdent="ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-4"><hotspot objectCoordinates="422, 272, 424, 261, 454, 255, 448, 230, 421, 235, 412, 230, 397, 260, 422, 272" applicationStructureIdent="AUTOID_1" applicationStructureName="1" hotspotTitle="Установка стоек шасси" id="fig-004-gra-004-hot-001" /><hotspot objectCoordinates="182, 364, 187, 431, 202, 449, 240, 456, 298, 448, 329, 446, 394, 423, 416, 372, 429, 343, 418, 320, 389, 319, 376, 324, 366, 359, 353, 401, 297, 424, 238, 420, 184, 364, 187, 365, 182, 362, 182, 364" applicationStructureIdent="AUTOID_2" applicationStructureName="2" hotspotTitle="Сноска" id="fig-004-gra-004-hot-002" /></graphic><legend><definitionList><definitionListItem><listItemTerm><internalRef internalRefTargetType="irtt11" internalRefId="fig-004-gra-004-hot-001">1</internalRef></listItemTerm><listItemDefinition><para>Установка стоек шасси</para></listItemDefinition></definitionListItem><definitionListItem><listItemTerm><internalRef internalRefTargetType="irtt11" internalRefId="fig-004-gra-004-hot-002">2</internalRef></listItemTerm><listItemDefinition><para>Сноска</para></listItemDefinition></definitionListItem></definitionList></legend></figure></levelledPara></levelledParaAlts><levelledParaAlts><levelledPara><title>Установка БПЛА на ВППЛ</title><para>Установите <acronymTerm>БПЛА</acronymTerm> на <acronym><acronymTerm>ВППл</acronymTerm><acronymDefinition>Взлетно-Посадочная Площадка</acronymDefinition></acronym> (<internalRef internalRefTargetType="irtt01" internalRefId="fig-005" />).</para><figure id="fig-005"><title>Установка БПЛА на ВППл</title><graphic infoEntityIdent="ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-5"><hotspot objectCoordinates="73, 766, 81, 754, 133, 759, 131, 713, 83, 715, 73, 702, 45, 739, 73, 766" applicationStructureIdent="AUTOID_1" applicationStructureName="1" hotspotTitle="Направление полета" id="fig-005-gra-005-hot-001" /></graphic><legend><definitionList><definitionListItem><listItemTerm><internalRef internalRefTargetType="irtt11" internalRefId="fig-005-gra-005-hot-001">1</internalRef></listItemTerm><listItemDefinition><para>Направление полета</para></listItemDefinition></definitionListItem></definitionList></legend></figure></levelledPara></levelledParaAlts></levelledPara><levelledPara><title>Сборка элекрических соединений</title><para>Соединение электрических соединений:<randomList><listItem><para>руководствуясь маркировкой внутри фюзеляжа произвести подключение силовых разъемов подъемных двигателей к соответствующим регуляторам (четыре двигателя по три провода каждый – всего 12 конекторов конекторов</para></listItem><listItem><para>в соответствии с маркировкой подключить два разъема сервоприводов к автопилоту.</para></listItem></randomList></para><figure><title>Электрические соединения</title><graphic infoEntityIdent="ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-6" /></figure></levelledPara><levelledPara><title>Подготовка <acronymTerm>НПУОИ</acronymTerm></title><para>Подготовка <acronym><acronymTerm>НПУОИ</acronymTerm><acronymDefinition>Наземный Пункт Управления и Обработки Информации</acronymDefinition></acronym><sequentialList><listItem><para>Откройте карман размещения <acronymTerm>НПУОИ</acronymTerm> комплекта транспортировки (рюкзака)</para></listItem><listItem><para>Снимите фиксаторы с <acronymTerm>НПУОИ</acronymTerm></para></listItem><listItem><para>Аккуратно выньте <acronymTerm>НПУОИ</acronymTerm> с антенным блоком в чехле</para></listItem><listItem><para>Убедитесь, что:<randomList><listItem><para>антенны установлены штатно.</para></listItem></randomList></para></listItem></sequentialList></para><figure><title>НПУОИ</title><graphic infoEntityIdent="ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-7" /></figure></levelledPara></descrCrew></crew></content></dmodule>
+<!-- Created with Libroplanta XML Editor (http://www.libroplanta.com/) -->
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1-A/xml_schema_flat/crew.xsd" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<identAndStatusSection>
+		<dmAddress>
+			<dmIdent>
+				<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="02" disassyCode="00" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A"/>
+				<language languageIsoCode="ru" countryIsoCode="RU"/>
+				<issueInfo issueNumber="000" inWork="01"/>
+			</dmIdent>
+			<dmAddressItems>
+				<issueDate year="2019" month="04" day="01"/>
+				<dmTitle>
+					<techName>Штатные процедуры эксплуатации </techName>
+					<infoName>Подготовка к использованию</infoName>
+				</dmTitle>
+			</dmAddressItems>
+		</dmAddress>
+		<dmStatus>
+			<security securityClassification="01"/>
+			<responsiblePartnerCompany>
+				<enterpriseName>Московский Политех</enterpriseName>
+			</responsiblePartnerCompany>
+			<originator>
+				<enterpriseName>Московский Политех</enterpriseName>
+			</originator>
+			<applic>
+				<displayText>
+					<simplePara>Применим для всех</simplePara>
+				</displayText>
+			</applic>
+			<brexDmRef>
+				<dmRef>
+					<dmRefIdent>
+						<dmCode modelIdentCode="MODELIC" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+					</dmRefIdent>
+				</dmRef>
+			</brexDmRef>
+			<qualityAssurance>
+				<unverified/>
+			</qualityAssurance>
+		</dmStatus>
+	</identAndStatusSection>
+	<content>
+		<refs>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="012" infoCodeVariant="A" itemLocationCode="A"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Беспилотный Летательный Аппарат</techName>
+						<infoName>Меры безопасности</infoName>
+					</dmTitle>
+				</dmRefAddressItems>
+			</dmRef>
+		</refs>
+		<crew>
+			<descrCrew>
+				<levelledPara>
+					<title>Подготовка БПЛА</title>
+					<caution>
+						<warningAndCautionPara>ПРИ ПОДГОТОВКЕ ИСКЛЮЧИТЬ СИЛОВЫЕ ВОЗДЕЙСТВИЯ НА НЕСУЩИЕ ВИНТЫ</warningAndCautionPara>
+					</caution>
+					<para>При процедурах подготовки обратите особое внимание на выполнение операций с моторными балками:<randomList>
+							<listItem>
+								<para>не допускайте касания, смещения и ударов по несущем винтам</para>
+							</listItem>
+							<listItem>
+								<para>убедитесь в надежности фиксации моторных балок и фиксаторов (пальцев).</para>
+							</listItem>
+						</randomList>
+					</para>
+					<levelledParaAlts>
+						<levelledPara>
+							<title>Извлечение БПЛА из комплекта транспортировки</title>
+							<para>Извлечение <acronym>
+									<acronymTerm>БПЛА</acronymTerm>
+									<acronymDefinition>Беспилотный Летательный Аппарат</acronymDefinition>
+								</acronym> их комплекта транспортировки:<sequentialList>
+									<listItem>
+										<para>Откройте карман размещения <acronymTerm>БПЛА</acronymTerm> комплекта транспортировки (рюкзака)</para>
+									</listItem>
+									<listItem>
+										<para>Снимите фиксаторы с <acronymTerm>БПЛА</acronymTerm>
+										</para>
+									</listItem>
+									<listItem>
+										<para>Аккуратно выньте <acronymTerm>БПЛА</acronymTerm> из комплекта транспортировки (<internalRef internalRefTargetType="irtt01" internalRefId="fig-001"/>).</para>
+									</listItem>
+								</sequentialList>
+							</para>
+							<figure id="fig-001">
+								<title>БПЛА в разобранном виде</title>
+								<graphic infoEntityIdent="ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-1"/>
+							</figure>
+						</levelledPara>
+					</levelledParaAlts>
+					<levelledParaAlts>
+						<levelledPara>
+							<title>Установка карбоновых соединяюших штырей</title>
+							<para>Установите карбоновые соединяющие штыри в соответствующие отверстия фюзеляжа (короткий впереди, длинный сзади) (<internalRef internalRefTargetType="irtt01" internalRefId="fig-002"/>).</para>
+							<figure id="fig-002">
+								<title>Установка карбоновых соединяющих штырей</title>
+								<graphic infoEntityIdent="ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-2" id="fig-002-gra-001">
+									<hotspot objectCoordinates="109, 171, 128, 142, 120, 128, 123, 70, 89, 65, 93, 73, 95, 72, 96, 128, 81, 129, 109, 171" applicationStructureIdent="AUTOID_2" id="fig-002-gra-002-hot-003" applicationStructureName="1" hotspotTitle="Установка короткого карбонового соединяющего штыря"/>
+									<hotspot objectCoordinates="262, 173, 280, 138, 272, 127, 269, 65, 246, 69, 247, 69, 245, 130, 232, 126, 262, 173" applicationStructureIdent="AUTOID_3" applicationStructureName="2" hotspotTitle="Установка длинного карбонового соединяющего штыря" id="fig-002-gra-002-hot-002"/>
+									<hotspot objectCoordinates="53, 456, 54, 497, 55, 512, 55, 497, 108, 498, 107, 463, 54, 467, 53, 454, 53, 454, 54, 453, 53, 453, 53, 456" applicationStructureIdent="AUTOID_1" applicationStructureName="3" hotspotTitle="Направление полета" id="fig-002-gra-002-hot-001"/>
+								</graphic>
+								<legend>
+									<definitionList>
+										<definitionListItem>
+											<listItemTerm>
+												<internalRef internalRefTargetType="irtt11" internalRefId="fig-002-gra-002-hot-003">1</internalRef>
+											</listItemTerm>
+											<listItemDefinition>
+												<para>Установка короткого карбонового соединяющего штыря</para>
+											</listItemDefinition>
+										</definitionListItem>
+										<definitionListItem>
+											<listItemTerm>
+												<internalRef internalRefTargetType="irtt11" internalRefId="fig-002-gra-002-hot-002">2</internalRef>
+											</listItemTerm>
+											<listItemDefinition>
+												<para>Установка длинного карбонового соединяющего штыря</para>
+											</listItemDefinition>
+										</definitionListItem>
+										<definitionListItem>
+											<listItemTerm>
+												<internalRef internalRefTargetType="irtt11" internalRefId="fig-002-gra-002-hot-001">3</internalRef>
+											</listItemTerm>
+											<listItemDefinition>
+												<para>Направление полета</para>
+											</listItemDefinition>
+										</definitionListItem>
+									</definitionList>
+								</legend>
+							</figure>
+						</levelledPara>
+					</levelledParaAlts>
+					<levelledParaAlts>
+						<levelledPara>
+							<title>Установка плоскостей крыльев</title>
+							<para>Установите плоскости крыльев:<sequentialList>
+									<listItem>
+										<para>Убедитесь в открытом положении защелок накорневой нервюре:</para>
+									</listItem>
+									<listItem>
+										<para>Установите плоскости крыльев на соединяющие штыри после переведения защелок на корневой нервюре в открытое положение (<internalRef internalRefTargetType="irtt01" internalRefId="fig-003"/>).</para>
+									</listItem>
+								</sequentialList>
+							</para>
+							<figure id="fig-003">
+								<title>Установка плоскостей крыльев</title>
+								<graphic infoEntityIdent="ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-3">
+									<hotspot objectCoordinates="107, 194, 108, 242, 132, 243, 132, 197, 138, 185, 130, 161, 129, 162, 101, 174, 107, 194" applicationStructureIdent="AUTOID_2" applicationStructureName="1" hotspotTitle="Установка плоскостей крыльев" id="fig-003-gra-003-hot-002"/>
+									<hotspot objectCoordinates="259, 197, 254, 244, 270, 244, 276, 197, 280, 191, 270, 171, 250, 202, 259, 197" applicationStructureIdent="AUTOID_1" applicationStructureName="2" hotspotTitle="Установка плоскостей крыльев" id="fig-003-gra-003-hot-001"/>
+									<hotspot objectCoordinates="168, 227, 175, 213, 172, 203, 192, 205, 189, 203, 200, 183, 185, 183, 175, 155, 162, 163, 146, 203, 168, 227" applicationStructureIdent="AUTOID_4" hotspotTitle="Защелки на корневой нервюре в положении &quot;открыто&quot;" id="fig-003-gra-003-hot-004" applicationStructureName="3"/>
+									<hotspot objectCoordinates="91, 426, 102, 417, 148, 415, 148, 378, 95, 379, 104, 378, 101, 361, 86, 373, 66, 399, 91, 426" applicationStructureIdent="AUTOID_3" applicationStructureName="4" hotspotTitle="Направление полета" id="fig-003-gra-003-hot-003"/>
+								</graphic>
+								<legend>
+									<definitionList>
+										<definitionListItem>
+											<listItemTerm>
+												<internalRef internalRefTargetType="irtt11" internalRefId="fig-003-gra-003-hot-002">1</internalRef>
+											</listItemTerm>
+											<listItemDefinition>
+												<para>Установка плоскостей крыльев</para>
+											</listItemDefinition>
+										</definitionListItem>
+										<definitionListItem>
+											<listItemTerm>
+												<internalRef internalRefTargetType="irtt11" internalRefId="fig-003-gra-003-hot-001">2</internalRef>
+											</listItemTerm>
+											<listItemDefinition>
+												<para>Установка плоскостей крыльев</para>
+											</listItemDefinition>
+										</definitionListItem>
+										<definitionListItem>
+											<listItemTerm>
+												<internalRef internalRefTargetType="irtt11" internalRefId="fig-003-gra-003-hot-004">3</internalRef>
+											</listItemTerm>
+											<listItemDefinition>
+												<para>Защелки на корневой нервюре в положении "открыто"</para>
+											</listItemDefinition>
+										</definitionListItem>
+										<definitionListItem>
+											<listItemTerm>
+												<internalRef internalRefTargetType="irtt11" internalRefId="fig-003-gra-003-hot-003">4</internalRef>
+											</listItemTerm>
+											<listItemDefinition>
+												<para>Направление полета</para>
+											</listItemDefinition>
+										</definitionListItem>
+									</definitionList>
+								</legend>
+							</figure>
+						</levelledPara>
+					</levelledParaAlts>
+					<levelledParaAlts>
+						<levelledPara>
+							<title>Установка стоек шасси</title>
+							<para>Установка стойки шасси:<sequentialList>
+									<listItem>
+										<para>Установите стойки шасси в рабочее положение (<internalRef internalRefTargetType="irtt01" internalRefId="fig-004"/>)<randomList>
+												<listItem>
+													<para> вмонтируйте стойки шасси на штативы нижней части <acronymTerm>БПЛА</acronymTerm> до полной фиксации</para>
+													<note>
+														<notePara>Штативы находятся в нижней части крыльев <acronymTerm>БПЛА</acronymTerm>
+														</notePara>
+													</note>
+												</listItem>
+												<listItem>
+													<para>покачайте в продольном и поперечном направлении стойку шасси:</para>
+												</listItem>
+												<listItem>
+													<para>убедитесь в отсутствии люфтов и надежности фиксации стоек к штативам</para>
+												</listItem>
+												<listItem>
+													<para>повторите процедуры для остальных стоек шасси.</para>
+												</listItem>
+											</randomList>
+										</para>
+									</listItem>
+								</sequentialList>
+							</para>
+							<figure id="fig-004">
+								<title>Установка стоек шасси</title>
+								<graphic infoEntityIdent="ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-4">
+									<hotspot objectCoordinates="422, 272, 424, 261, 454, 255, 448, 230, 421, 235, 412, 230, 397, 260, 422, 272" applicationStructureIdent="AUTOID_1" applicationStructureName="1" hotspotTitle="Установка стоек шасси" id="fig-004-gra-004-hot-001"/>
+									<hotspot objectCoordinates="182, 364, 187, 431, 202, 449, 240, 456, 298, 448, 329, 446, 394, 423, 416, 372, 429, 343, 418, 320, 389, 319, 376, 324, 366, 359, 353, 401, 297, 424, 238, 420, 184, 364, 187, 365, 182, 362, 182, 364" applicationStructureIdent="AUTOID_2" applicationStructureName="2" hotspotTitle="Сноска" id="fig-004-gra-004-hot-002"/>
+								</graphic>
+								<legend>
+									<definitionList>
+										<definitionListItem>
+											<listItemTerm>
+												<internalRef internalRefTargetType="irtt11" internalRefId="fig-004-gra-004-hot-001">1</internalRef>
+											</listItemTerm>
+											<listItemDefinition>
+												<para>Установка стоек шасси</para>
+											</listItemDefinition>
+										</definitionListItem>
+										<definitionListItem>
+											<listItemTerm>
+												<internalRef internalRefTargetType="irtt11" internalRefId="fig-004-gra-004-hot-002">2</internalRef>
+											</listItemTerm>
+											<listItemDefinition>
+												<para>Сноска</para>
+											</listItemDefinition>
+										</definitionListItem>
+									</definitionList>
+								</legend>
+							</figure>
+						</levelledPara>
+					</levelledParaAlts>
+					<levelledParaAlts>
+						<levelledPara>
+							<title>Установка БПЛА на ВППЛ</title>
+							<para>Установите <acronymTerm>БПЛА</acronymTerm> на <acronym>
+									<acronymTerm>ВППл</acronymTerm>
+									<acronymDefinition>Взлетно-Посадочная Площадка</acronymDefinition>
+								</acronym> (<internalRef internalRefTargetType="irtt01" internalRefId="fig-005"/>).</para>
+							<figure id="fig-005">
+								<title>Установка БПЛА на ВППл</title>
+								<graphic infoEntityIdent="ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-5">
+									<hotspot objectCoordinates="73, 766, 81, 754, 133, 759, 131, 713, 83, 715, 73, 702, 45, 739, 73, 766" applicationStructureIdent="AUTOID_1" applicationStructureName="1" hotspotTitle="Направление полета" id="fig-005-gra-005-hot-001"/>
+								</graphic>
+								<legend>
+									<definitionList>
+										<definitionListItem>
+											<listItemTerm>
+												<internalRef internalRefTargetType="irtt11" internalRefId="fig-005-gra-005-hot-001">1</internalRef>
+											</listItemTerm>
+											<listItemDefinition>
+												<para>Направление полета</para>
+											</listItemDefinition>
+										</definitionListItem>
+									</definitionList>
+								</legend>
+							</figure>
+						</levelledPara>
+					</levelledParaAlts>
+				</levelledPara>
+				<levelledPara>
+					<title>Сборка элекрических соединений</title>
+					<para>Соединение электрических соединений:<randomList>
+							<listItem>
+								<para>руководствуясь маркировкой внутри фюзеляжа произвести подключение силовых разъемов подъемных двигателей к соответствующим регуляторам (четыре двигателя по три провода каждый – всего 12 конекторов конекторов</para>
+							</listItem>
+							<listItem>
+								<para>в соответствии с маркировкой подключить два разъема сервоприводов к автопилоту.</para>
+							</listItem>
+						</randomList>
+					</para>
+					<figure>
+						<title>Электрические соединения</title>
+						<graphic infoEntityIdent="ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-6"/>
+					</figure>
+				</levelledPara>
+				<levelledPara>
+					<title>Подготовка <acronymTerm>НПУОИ</acronymTerm>
+					</title>
+					<para>Подготовка <acronym>
+							<acronymTerm>НПУОИ</acronymTerm>
+							<acronymDefinition>Наземный Пункт Управления и Обработки Информации</acronymDefinition>
+						</acronym>
+						<sequentialList>
+							<listItem>
+								<para>Откройте карман размещения <acronymTerm>НПУОИ</acronymTerm> комплекта транспортировки (рюкзака)</para>
+							</listItem>
+							<listItem>
+								<para>Снимите фиксаторы с <acronymTerm>НПУОИ</acronymTerm>
+								</para>
+							</listItem>
+							<listItem>
+								<para>Аккуратно выньте <acronymTerm>НПУОИ</acronymTerm> с антенным блоком в чехле</para>
+							</listItem>
+							<listItem>
+								<para>Убедитесь, что:<randomList>
+										<listItem>
+											<para>антенны установлены штатно.</para>
+										</listItem>
+									</randomList>
+								</para>
+							</listItem>
+						</sequentialList>
+					</para>
+					<figure>
+						<title>НПУОИ</title>
+						<graphic infoEntityIdent="ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-1-7"/>
+					</figure>
+				</levelledPara>
+			</descrCrew>
+		</crew>
+	</content>
+</dmodule>

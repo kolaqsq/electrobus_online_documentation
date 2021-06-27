@@ -1,2 +1,387 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- Created with Libroplanta XML Editor (http://www.libroplanta.com/) --><dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1-A/xml_schema_flat/crew.xsd" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink"><identAndStatusSection><dmAddress><dmIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A" /><language languageIsoCode="ru" countryIsoCode="RU" /><issueInfo issueNumber="000" inWork="01" /></dmIdent><dmAddressItems><issueDate year="2019" month="04" day="01" /><dmTitle><techName>Штатные процедуры эксплуатации</techName><infoName>Предэкспуатационные процедуры</infoName></dmTitle></dmAddressItems></dmAddress><dmStatus><security securityClassification="01" /><responsiblePartnerCompany><enterpriseName>Московский Политех</enterpriseName></responsiblePartnerCompany><originator><enterpriseName>Московский Политех</enterpriseName></originator><applic><displayText><simplePara>Применимость для всех</simplePara></displayText></applic><brexDmRef><dmRef><dmRefIdent><dmCode modelIdentCode="MODELIC" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D" /></dmRefIdent></dmRef></brexDmRef><qualityAssurance><unverified /></qualityAssurance></dmStatus></identAndStatusSection><content><refs><dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="012" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent><dmRefAddressItems><dmTitle><techName>Беспилотный Летательный Аппарат</techName><infoName>Меры безопасности</infoName></dmTitle></dmRefAddressItems></dmRef><dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="1" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="043" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent><dmRefAddressItems><dmTitle><techName>Беспилотный Летательный Аппарат</techName><infoName>Летная информация и ограничения</infoName></dmTitle></dmRefAddressItems></dmRef><dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="01" disassyCode="00" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent><dmRefAddressItems><dmTitle><techName>Штатные процедуры Эксплуатации</techName><infoName>Проверка метеоусловий</infoName></dmTitle></dmRefAddressItems></dmRef><dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="02" disassyCode="00" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent><dmRefAddressItems><dmTitle><techName>Штатные процедуры Эксплуатации</techName><infoName>Подготовка БПЛА и НПУОИ</infoName></dmTitle></dmRefAddressItems></dmRef><dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="03" disassyCode="01" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent><dmRefAddressItems><dmTitle><techName>Штатные процедуры Эксплуатации</techName><infoName>Визуальный осмотр БПЛА</infoName></dmTitle></dmRefAddressItems></dmRef><dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="03" disassyCode="02" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent><dmRefAddressItems><dmTitle><techName>Штатные процедуры Эксплуатации</techName><infoName>Визуальный осмотр БРЕО</infoName></dmTitle></dmRefAddressItems></dmRef><dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="03" disassyCode="03" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent><dmRefAddressItems><dmTitle><techName>Штатные процедуры Эксплуатации</techName><infoName>Визуальный осмотр НПУОИ</infoName></dmTitle></dmRefAddressItems></dmRef><dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="03" disassyCode="04" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent><dmRefAddressItems><dmTitle><techName>Штатные процедуры Эксплуатации</techName><infoName>Визуальный осмотр пульта радиоуправления</infoName></dmTitle></dmRefAddressItems></dmRef><dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="04" disassyCode="00" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent><dmRefAddressItems><dmTitle><techName>Штатные процедуры Эксплуатации</techName><infoName>Включение комплекса</infoName></dmTitle></dmRefAddressItems></dmRef><dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="05" disassyCode="00" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent><dmRefAddressItems><dmTitle><techName>Штатные процедуры Эксплуатации</techName><infoName>Функциональные наземные проверки</infoName></dmTitle></dmRefAddressItems></dmRef><dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="05" disassyCode="01" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent><dmRefAddressItems><dmTitle><techName>Штатные процедуры Эксплуатации</techName><infoName>Функциональные проверки в режиме «ARM»</infoName></dmTitle></dmRefAddressItems></dmRef><dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="01" disassyCodeVariant="A" infoCode="930" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent><dmRefAddressItems><dmTitle><techName>Эксплуатационые бюллетени</techName><infoName>Формирование и загрузка полетного задания</infoName></dmTitle></dmRefAddressItems></dmRef><dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="02" disassyCodeVariant="A" infoCode="930" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent><dmRefAddressItems><dmTitle><techName>Эксплуатационые бюллетени</techName><infoName>Учет наработки</infoName></dmTitle></dmRefAddressItems></dmRef><dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="03" disassyCodeVariant="A" infoCode="930" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent><dmRefAddressItems><dmTitle><techName>Эксплуатационые бюллетени</techName><infoName>Учет метеоусловий</infoName></dmTitle></dmRefAddressItems></dmRef><dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="04" disassyCodeVariant="A" infoCode="930" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent><dmRefAddressItems><dmTitle><techName>Эксплуатационые бюллетени</techName><infoName>Загрузка данных телеметрии</infoName></dmTitle></dmRefAddressItems></dmRef><dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="05" disassyCodeVariant="A" infoCode="930" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent><dmRefAddressItems><dmTitle><techName>Эксплуатационые бюллетени</techName><infoName>Карточка учета неисправности с таблицей</infoName></dmTitle></dmRefAddressItems></dmRef></refs><crew><descrCrew><levelledPara><title>Описание</title><para>Данные процедуры относятся к подготовке первого вылета <acronym><acronymTerm>БПЛА</acronymTerm><acronymDefinition>Беспилотный Летательный Аппарат</acronymDefinition></acronym> по месту выполнения полетного задания.</para><para>Подготовка <acronymTerm>БПЛА</acronymTerm> к вылету:<sequentialList><listItem><para>Подберите <acronym><acronymTerm>ВППл</acronymTerm><acronymDefinition>Взлетно-Посадочная Площадка</acronymDefinition></acronym> и место для развертывания <acronym><acronymTerm>НПУОИ</acronymTerm><acronymDefinition>Наземный Пункт Управления и Обработки Информации</acronymDefinition></acronym></para></listItem><listItem><para>Перенесите из транспортного средства комплект транспортировки</para></listItem><listItem><para>Фккуратно достаньте <acronymTerm>БПЛА</acronymTerm> из комплекта транспортировки (рюкзака)</para></listItem><listItem><para>Проверьте метеоусловия портативным устройствам</para></listItem><listItem><para>Проведите осмотр <acronymTerm>БПЛА</acronymTerm></para></listItem><listItem><para>Проведите проверку <acronymTerm>БПЛА</acronymTerm></para></listItem><listItem><para>Загрузите полетное задание</para></listItem><listItem><para>Установите <acronymTerm>БПЛА</acronymTerm> на <acronymTerm>ВППл</acronymTerm>.</para></listItem></sequentialList></para></levelledPara><levelledPara><title>Предэксплуатационные процедуры</title><levelledParaAlts><levelledPara><para>Подбор <acronymTerm>ВППл</acronymTerm> и места развертывания <acronymTerm>НПУОИ</acronymTerm><sequentialList><listItem><para>Подберите <acronymTerm>ВППл</acronymTerm> и место развертывания <acronymTerm>НПУОИ</acronymTerm>, см. (<dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="1" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="043" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent></dmRef>)</para></listItem><listItem><para>Перенесите из транспортного средства комплект транспортировки</para></listItem><listItem><para>Аккуратно достаньте <acronymTerm>БПЛА</acronymTerm> из комплекта транспортировки и подготовьте к использованию, см. (<dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="02" disassyCode="00" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent></dmRef>).</para></listItem></sequentialList></para></levelledPara></levelledParaAlts><levelledParaAlts><levelledPara><para>Проверка метеоусловий<sequentialList><listItem><para>Произведите проверку метеоусловий, см. (<dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="01" disassyCode="00" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent></dmRef>)</para></listItem><listItem><para>Сравните полученные данные с условиями эксплуатации, см. (<dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="1" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="043" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent></dmRef>).</para></listItem></sequentialList></para></levelledPara></levelledParaAlts><levelledParaAlts><levelledPara><para>Осмотры<sequentialList><listItem><para>Проведите осмотр <acronymTerm>БПЛА</acronymTerm>, см. (<dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="03" disassyCode="01" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent></dmRef>).</para></listItem></sequentialList></para></levelledPara></levelledParaAlts><levelledParaAlts><levelledPara><para>Подготовительные работы<sequentialList><listItem><para>Установите <acronym><acronymTerm>АКБ</acronymTerm><acronymDefinition>Аккумулятроная Батарея</acronymDefinition></acronym> и включите <acronymTerm>БПЛА</acronymTerm>, см. (<dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="04" disassyCode="00" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent></dmRef>).</para></listItem></sequentialList></para></levelledPara></levelledParaAlts><levelledParaAlts><levelledPara><para>Функциональная диагностика<sequentialList><listItem><para>Проведите функциональную диагностику <acronymTerm>БПЛА</acronymTerm>, см. (<dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="05" disassyCode="00" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent></dmRef>)</para></listItem><listItem><para>Занесите информацию о полетном задании в бюллетень «Формирование и загрузка полетного задания», см. (<dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="930" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent></dmRef>).</para></listItem></sequentialList></para></levelledPara></levelledParaAlts><levelledParaAlts><levelledPara><para>Процедуры отложенного старта<sequentialList><listItem><para>При необходимости выполните процедуры отложенного старта, см. (<dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="07" disassyCode="00" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent></dmRef>).</para></listItem></sequentialList></para></levelledPara></levelledParaAlts></levelledPara></descrCrew></crew></content></dmodule>
+<?xml-stylesheet type="text/xsl" href="DMC-BARSUK04-A-15-31-00-00A-121A-A_000-01_ru-RU.xls" ?>
+<!-- Created with Libroplanta XML Editor (http://www.libroplanta.com/) -->
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1-A/xml_schema_flat/crew.xsd" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<identAndStatusSection>
+		<dmAddress>
+			<dmIdent>
+				<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A"/>
+				<language languageIsoCode="ru" countryIsoCode="RU"/>
+				<issueInfo issueNumber="000" inWork="01"/>
+			</dmIdent>
+			<dmAddressItems>
+				<issueDate year="2019" month="04" day="01"/>
+				<dmTitle>
+					<techName>Штатные процедуры эксплуатации</techName>
+					<infoName>Предэкспуатационные процедуры</infoName>
+				</dmTitle>
+			</dmAddressItems>
+		</dmAddress>
+		<dmStatus>
+			<security securityClassification="01"/>
+			<responsiblePartnerCompany>
+				<enterpriseName>Московский Политех</enterpriseName>
+			</responsiblePartnerCompany>
+			<originator>
+				<enterpriseName>Московский Политех</enterpriseName>
+			</originator>
+			<applic>
+				<displayText>
+					<simplePara>Применимость для всех</simplePara>
+				</displayText>
+			</applic>
+			<brexDmRef>
+				<dmRef>
+					<dmRefIdent>
+						<dmCode modelIdentCode="MODELIC" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+					</dmRefIdent>
+				</dmRef>
+			</brexDmRef>
+			<qualityAssurance>
+				<unverified/>
+			</qualityAssurance>
+		</dmStatus>
+	</identAndStatusSection>
+	<content>
+		<refs>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="012" infoCodeVariant="A" itemLocationCode="A"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Беспилотный Летательный Аппарат</techName>
+						<infoName>Меры безопасности</infoName>
+					</dmTitle>
+				</dmRefAddressItems>
+			</dmRef>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="1" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="043" infoCodeVariant="A" itemLocationCode="A"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Беспилотный Летательный Аппарат</techName>
+						<infoName>Летная информация и ограничения</infoName>
+					</dmTitle>
+				</dmRefAddressItems>
+			</dmRef>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="01" disassyCode="00" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Штатные процедуры Эксплуатации</techName>
+						<infoName>Проверка метеоусловий</infoName>
+					</dmTitle>
+				</dmRefAddressItems>
+			</dmRef>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="02" disassyCode="00" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Штатные процедуры Эксплуатации</techName>
+						<infoName>Подготовка БПЛА и НПУОИ</infoName>
+					</dmTitle>
+				</dmRefAddressItems>
+			</dmRef>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="03" disassyCode="01" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Штатные процедуры Эксплуатации</techName>
+						<infoName>Визуальный осмотр БПЛА</infoName>
+					</dmTitle>
+				</dmRefAddressItems>
+			</dmRef>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="03" disassyCode="02" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Штатные процедуры Эксплуатации</techName>
+						<infoName>Визуальный осмотр БРЕО</infoName>
+					</dmTitle>
+				</dmRefAddressItems>
+			</dmRef>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="03" disassyCode="03" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Штатные процедуры Эксплуатации</techName>
+						<infoName>Визуальный осмотр НПУОИ</infoName>
+					</dmTitle>
+				</dmRefAddressItems>
+			</dmRef>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="03" disassyCode="04" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Штатные процедуры Эксплуатации</techName>
+						<infoName>Визуальный осмотр пульта радиоуправления</infoName>
+					</dmTitle>
+				</dmRefAddressItems>
+			</dmRef>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="04" disassyCode="00" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Штатные процедуры Эксплуатации</techName>
+						<infoName>Включение комплекса</infoName>
+					</dmTitle>
+				</dmRefAddressItems>
+			</dmRef>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="05" disassyCode="00" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Штатные процедуры Эксплуатации</techName>
+						<infoName>Функциональные наземные проверки</infoName>
+					</dmTitle>
+				</dmRefAddressItems>
+			</dmRef>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="05" disassyCode="01" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Штатные процедуры Эксплуатации</techName>
+						<infoName>Функциональные проверки в режиме «ARM»</infoName>
+					</dmTitle>
+				</dmRefAddressItems>
+			</dmRef>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="01" disassyCodeVariant="A" infoCode="930" infoCodeVariant="A" itemLocationCode="A"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Эксплуатационые бюллетени</techName>
+						<infoName>Формирование и загрузка полетного задания</infoName>
+					</dmTitle>
+				</dmRefAddressItems>
+			</dmRef>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="02" disassyCodeVariant="A" infoCode="930" infoCodeVariant="A" itemLocationCode="A"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Эксплуатационые бюллетени</techName>
+						<infoName>Учет наработки</infoName>
+					</dmTitle>
+				</dmRefAddressItems>
+			</dmRef>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="03" disassyCodeVariant="A" infoCode="930" infoCodeVariant="A" itemLocationCode="A"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Эксплуатационые бюллетени</techName>
+						<infoName>Учет метеоусловий</infoName>
+					</dmTitle>
+				</dmRefAddressItems>
+			</dmRef>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="04" disassyCodeVariant="A" infoCode="930" infoCodeVariant="A" itemLocationCode="A"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Эксплуатационые бюллетени</techName>
+						<infoName>Загрузка данных телеметрии</infoName>
+					</dmTitle>
+				</dmRefAddressItems>
+			</dmRef>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="05" disassyCodeVariant="A" infoCode="930" infoCodeVariant="A" itemLocationCode="A"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Эксплуатационые бюллетени</techName>
+						<infoName>Карточка учета неисправности с таблицей</infoName>
+					</dmTitle>
+				</dmRefAddressItems>
+			</dmRef>
+		</refs>
+		<crew>
+			<descrCrew>
+				<levelledPara>
+					<title>Описание</title>
+					<para>Данные процедуры относятся к подготовке первого вылета <acronym>
+							<acronymTerm>БПЛА</acronymTerm>
+							<acronymDefinition>Беспилотный Летательный Аппарат</acronymDefinition>
+						</acronym> по месту выполнения полетного задания.</para>
+					<para>Подготовка <acronymTerm>БПЛА</acronymTerm> к вылету:<sequentialList>
+							<listItem>
+								<para>Подберите <acronym>
+										<acronymTerm>ВППл</acronymTerm>
+										<acronymDefinition>Взлетно-Посадочная Площадка</acronymDefinition>
+									</acronym> и место для развертывания <acronym>
+										<acronymTerm>НПУОИ</acronymTerm>
+										<acronymDefinition>Наземный Пункт Управления и Обработки Информации</acronymDefinition>
+									</acronym>
+								</para>
+							</listItem>
+							<listItem>
+								<para>Перенесите из транспортного средства комплект транспортировки</para>
+							</listItem>
+							<listItem>
+								<para>Аккуратно достаньте <acronymTerm>БПЛА</acronymTerm> из комплекта транспортировки (рюкзака)</para>
+							</listItem>
+							<listItem>
+								<para>Проверьте метеоусловия портативным устройствам</para>
+							</listItem>
+							<listItem>
+								<para>Проведите осмотр <acronymTerm>БПЛА</acronymTerm>
+								</para>
+							</listItem>
+							<listItem>
+								<para>Проведите проверку <acronymTerm>БПЛА</acronymTerm>
+								</para>
+							</listItem>
+							<listItem>
+								<para>Загрузите полетное задание</para>
+							</listItem>
+							<listItem>
+								<para>Установите <acronymTerm>БПЛА</acronymTerm> на <acronymTerm>ВППл</acronymTerm>.</para>
+							</listItem>
+						</sequentialList>
+					</para>
+				</levelledPara>
+				<levelledPara>
+					<title>Предэксплуатационные процедуры</title>
+					<levelledParaAlts>
+						<levelledPara>
+							<para>Подбор <acronymTerm>ВППл</acronymTerm> и места развертывания <acronymTerm>НПУОИ</acronymTerm>
+								<sequentialList>
+									<listItem>
+										<para>Подберите <acronymTerm>ВППл</acronymTerm> и место развертывания <acronymTerm>НПУОИ</acronymTerm>, см. (<dmRef>
+												<dmRefIdent>
+													<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="1" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="043" infoCodeVariant="A" itemLocationCode="A"/>
+												</dmRefIdent>
+											</dmRef>)</para>
+									</listItem>
+									<listItem>
+										<para>Перенесите из транспортного средства комплект транспортировки</para>
+									</listItem>
+									<listItem>
+										<para>Аккуратно достаньте <acronymTerm>БПЛА</acronymTerm> из комплекта транспортировки и подготовьте к использованию, см. (<dmRef>
+												<dmRefIdent>
+													<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="02" disassyCode="00" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A"/>
+												</dmRefIdent>
+											</dmRef>).</para>
+									</listItem>
+								</sequentialList>
+							</para>
+						</levelledPara>
+					</levelledParaAlts>
+					<levelledParaAlts>
+						<levelledPara>
+							<para>Проверка метеоусловий<sequentialList>
+									<listItem>
+										<para>Произведите проверку метеоусловий, см. (<dmRef>
+												<dmRefIdent>
+													<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="01" disassyCode="00" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A"/>
+												</dmRefIdent>
+											</dmRef>)</para>
+									</listItem>
+									<listItem>
+										<para>Сравните полученные данные с условиями эксплуатации, см. (<dmRef>
+												<dmRefIdent>
+													<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="1" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="043" infoCodeVariant="A" itemLocationCode="A"/>
+												</dmRefIdent>
+											</dmRef>).</para>
+									</listItem>
+								</sequentialList>
+							</para>
+						</levelledPara>
+					</levelledParaAlts>
+					<levelledParaAlts>
+						<levelledPara>
+							<para>Осмотры<sequentialList>
+									<listItem>
+										<para>Проведите осмотр <acronymTerm>БПЛА</acronymTerm>, см. (<dmRef>
+												<dmRefIdent>
+													<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="03" disassyCode="01" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A"/>
+												</dmRefIdent>
+											</dmRef>).</para>
+									</listItem>
+								</sequentialList>
+							</para>
+						</levelledPara>
+					</levelledParaAlts>
+					<levelledParaAlts>
+						<levelledPara>
+							<para>Подготовительные работы<sequentialList>
+									<listItem>
+										<para>Установите <acronym>
+												<acronymTerm>АКБ</acronymTerm>
+												<acronymDefinition>Аккумулятроная Батарея</acronymDefinition>
+											</acronym> и включите <acronymTerm>БПЛА</acronymTerm>, см. (<dmRef>
+												<dmRefIdent>
+													<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="04" disassyCode="00" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A"/>
+												</dmRefIdent>
+											</dmRef>).</para>
+									</listItem>
+								</sequentialList>
+							</para>
+						</levelledPara>
+					</levelledParaAlts>
+					<levelledParaAlts>
+						<levelledPara>
+							<para>Функциональная диагностика<sequentialList>
+									<listItem>
+										<para>Проведите функциональную диагностику <acronymTerm>БПЛА</acronymTerm>, см. (<dmRef>
+												<dmRefIdent>
+													<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="05" disassyCode="00" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A"/>
+												</dmRefIdent>
+											</dmRef>)</para>
+									</listItem>
+									<listItem>
+										<para>Занесите информацию о полетном задании в бюллетень «Формирование и загрузка полетного задания», см. (<dmRef>
+												<dmRefIdent>
+													<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="930" infoCodeVariant="A" itemLocationCode="A"/>
+												</dmRefIdent>
+											</dmRef>).</para>
+									</listItem>
+								</sequentialList>
+							</para>
+						</levelledPara>
+					</levelledParaAlts>
+					<levelledParaAlts>
+						<levelledPara>
+							<para>Процедуры отложенного старта<sequentialList>
+									<listItem>
+										<para>При необходимости выполните процедуры отложенного старта, см. (<dmRef>
+												<dmRefIdent>
+													<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="07" disassyCode="00" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A"/>
+												</dmRefIdent>
+											</dmRef>).</para>
+									</listItem>
+								</sequentialList>
+							</para>
+						</levelledPara>
+					</levelledParaAlts>
+				</levelledPara>
+			</descrCrew>
+		</crew>
+	</content>
+</dmodule>

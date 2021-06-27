@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Created with Libroplanta XML Editor (http://www.libroplanta.com/) -->
+<?xml-stylesheet type="text/xsl" href="PMC-BARSUK04-MAMI0-FM001-00_000-01_ru-RU.xls" ?>
 <pm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1-A/xml_schema_flat/pm.xsd"
     xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -46,7 +47,7 @@
     </identAndStatusSection>
     <content>
         <pmEntry>
-            <pmEntryTitle>Служебне данные</pmEntryTitle>
+            <pmEntryTitle>Служебные данные</pmEntryTitle>
             <dmRef>
                 <dmRefIdent>
                     <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="00" subSystemCode="0"

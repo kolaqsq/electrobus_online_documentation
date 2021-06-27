@@ -1,4 +1,619 @@
-﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE DMODULE [<!ENTITY ICN-S1000DBIKE-AAA-DA01010-0-U8025-00508-A-04-1 SYSTEM "ICN-BARSUK04-AAA-DA00000-0-U8025-00504-A-3-1.jpg" NDATA png>
-<!NOTATION png PUBLIC "-//W3C//NOTATION Portable Network Graphics//EN">
-]>
-<!-- Created with Libroplanta XML Editor (http://www.libroplanta.com/) --><dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1-A/xml_schema_flat/descript.xsd" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink"><identAndStatusSection><dmAddress><dmIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="041" infoCodeVariant="A" itemLocationCode="A" /><language languageIsoCode="ru" countryIsoCode="RU" /><issueInfo issueNumber="000" inWork="01" /></dmIdent><dmAddressItems><issueDate year="2019" month="04" day="01" /><dmTitle><techName>Беспилотный Летательный Аппарат</techName><infoName>Описание БПЛА</infoName></dmTitle></dmAddressItems></dmAddress><dmStatus><security securityClassification="01" /><responsiblePartnerCompany><enterpriseName>Московский Политех</enterpriseName></responsiblePartnerCompany><originator><enterpriseName>Московский Политех</enterpriseName></originator><applic><displayText><simplePara></simplePara></displayText></applic><brexDmRef><dmRef><dmRefIdent><dmCode modelIdentCode="MODELIC" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D" /></dmRefIdent></dmRef></brexDmRef><qualityAssurance><unverified /></qualityAssurance></dmStatus></identAndStatusSection><content><refs><dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="012" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent><dmRefAddressItems><dmTitle><techName>Беспилотный Летательный Аппарат</techName><infoName>Меры безопасности</infoName></dmTitle></dmRefAddressItems></dmRef></refs><description><levelledPara><title>Описание</title><para><acronym><acronymTerm>БПЛА</acronymTerm><acronymDefinition>Беспилотный Летательный Аппарат</acronymDefinition></acronym> представляет собой самолет свободнонесущий моноплан, построенный по схеме «летающее крыло» с установленными алюминиевыми лучами крепления подъемных двигателей. На внешней подвеске закреплена полезная (целевая) нагрузка.</para></levelledPara><levelledPara><title>Назначение</title><para><acronymTerm>БПЛА</acronymTerm> предназначен для выполнения следующих задач:<sequentialList><listItem><para>Демонстрация функций и технологий легких и сверхлегких <acronymTerm>БПЛА</acronymTerm> при решении специальных и гражданских задач</para></listItem><listItem><para>Фото- и видеосъемка в видимом и инфракрасном спектре.</para></listItem></sequentialList></para></levelledPara><levelledPara><title>Решаемые задачи</title><para><acronymTerm>БПЛА </acronymTerm>способен решать следующие задачи:<sequentialList><listItem><para>Обеспечивать обнаружение и наблюдение малоразмерных объектов на фоне земной и водной поверхности с удаления не менее 200 м</para></listItem><listItem><para>Производить аэросъемку, вести видеонаблюдение в видимом и инфракрасном диапазоне электромагнитного спектра.</para></listItem></sequentialList></para></levelledPara><levelledPara><title>Состав</title><para>В состав <acronymTerm>БПЛА</acronymTerm> входит:<sequentialList><listItem><para><acronymTerm>БПЛА</acronymTerm> гибридного типа (тип конвертоплан)</para></listItem><listItem><para> <acronym><acronymTerm>НПУОИ</acronymTerm><acronymDefinition>Наземный Пункт Управления и Обработки Информации</acronymDefinition></acronym>:<randomList><listItem><para>защищенная <acronym><acronymTerm>ППЭВМ</acronymTerm><acronymDefinition>Переносная Персональная Электронно-Вычислительная Машина</acronymDefinition></acronym></para></listItem><listItem><para>система приема-передачи данных (Антенный блок)</para></listItem><listItem><para>пульт радиоуправления <acronymTerm>БПЛА</acronymTerm> комплект транспортировки.</para></listItem></randomList></para></listItem></sequentialList></para></levelledPara><levelledPara><title>Особенности конструкции</title><levelledParaAlts><levelledPara><title>Конструкция БПЛА</title><para>Общий вид <acronymTerm>БПЛА</acronymTerm> представлен на <internalRef internalRefTargetType="irtt01" internalRefId="fig-001" /></para><figure id="fig-001"><title /><graphic infoEntityIdent="ICN-S1000DBIKE-AAA-DA01010-0-U8025-00508-A-04-1" /></figure><para>Изделие представляет собой <acronymTerm>БПЛА</acronymTerm> с электрической силовой установкой, блоками оборудования и системой электрического питания. На внешней подвеске <acronymTerm>БПЛА</acronymTerm> возможно размещение специального  оборудование (например для фото- и видеонаблюдения).</para><para>В состав <acronymTerm>БПЛА</acronymTerm> входит:<sequentialList><listItem><para>Планер</para></listItem><listItem><para>Электрическая силовая установка </para></listItem><listItem><para>Система электрического питания</para></listItem><listItem><para>Кабельная сеть</para></listItem><listItem><para>Бортовое оборудование:<randomList><listItem><para>система автоматического управления <acronymTerm>БПЛА</acronymTerm></para></listItem><listItem><para>оптико-электронная система</para></listItem><listItem><para>радиолиния передачи данных целевая нагрузка.</para></listItem></randomList></para></listItem></sequentialList></para><levelledParaAlts><levelledPara><title>Планер</title><para>Планер (корпус изделия) выполнен из композиционных материалов и имеет гибридный вид с выставленными в горизонтальной плоскости моторными балками. На концах моторных балок располагаются моторамы. В них установлены электрические двигатели. Внутри моторных балок проложены силовые кабели. В нижней части корпуса находится шасси -4х точечные опоры.</para></levelledPara></levelledParaAlts><levelledParaAlts><levelledPara><title>Электрическая силовая установка</title><para><acronym><acronymTerm>СУ</acronymTerm><acronymDefinition>Электрическая Силовая Установка</acronymDefinition></acronym> предназначена для преобразования электрического постоянного тока в механическую энергию вращения. Управление электродвигателями осуществляется <acronym><acronymTerm>САУ</acronymTerm><acronymDefinition>Система Автоматического Управления</acronymDefinition></acronym> <acronymTerm>БПЛА</acronymTerm>.</para></levelledPara></levelledParaAlts><levelledParaAlts><levelledPara><title>Несущая система</title><para><acronym><acronymTerm>НС</acronymTerm><acronymDefinition>Несущая Система</acronymDefinition></acronym> предназначена для создания подъемной силы, которая необходима для осуществления полета и для управления <acronymTerm>БПЛА</acronymTerm>. <acronymTerm>НС</acronymTerm> состоит из <acronym><acronymTerm>НВ</acronymTerm><acronymDefinition>Несущий Винт</acronymDefinition></acronym>.</para></levelledPara></levelledParaAlts><levelledParaAlts><levelledPara><title>Система электроснабжения</title><para> <acronym><acronymTerm>СЭС</acronymTerm><acronymDefinition>Система Электроснабжения</acronymDefinition></acronym> состоит из:<sequentialList><listItem><para><acronym><acronymTerm>АКБ</acronymTerm><acronymDefinition>Аккумуляторная Батарея</acronymDefinition></acronym></para></listItem><listItem><para>Модуля питания</para></listItem><listItem><para>Преобразователя напряжения</para></listItem><listItem><para>Кабельной сети.</para></listItem></sequentialList></para><para>Источник электрического тока постоянного напряжения на основе литий-полимерных <acronym><acronymTerm>АКБ</acronymTerm><acronymDefinition>Аккумуляторная Батарея</acronymDefinition></acronym> размещен внутри корпуса и предназначен для питания:<sequentialList><listItem><para>Словой установки</para></listItem><listItem><para>Бортового оборудования:<randomList><listItem><para>системы автоматического управления <acronymTerm>БПЛА</acronymTerm></para></listItem><listItem><para>оптико-электронной системы</para></listItem><listItem><para>радиолинии передачи данных.</para></listItem></randomList></para></listItem></sequentialList></para></levelledPara></levelledParaAlts><levelledParaAlts><levelledPara><title>Кабельная сеть</title><para>Кабельная сеть размещена внутри корпуса.</para></levelledPara></levelledParaAlts><levelledParaAlts><levelledPara><title>Система автоматического управления</title><para><acronymTerm>БПЛА</acronymTerm> оснащен <acronym><acronymTerm>САУ</acronymTerm><acronymDefinition>Система Автоматического Управления</acronymDefinition></acronym>. <acronymTerm>САУ</acronymTerm> обеспечивает автоматическое управление полетом во всех режимах. Точность параметров автоматического управления полетом отображена в таблице (Таблица 2). Точность <acronymTerm>САУ</acronymTerm> с поддержкой <acronymTerm>НПУОИ</acronymTerm> обеспечивает автоматическую посадку на площадку радиусом менее 5 м.</para><para>Режимы работы <acronymTerm>САУ</acronymTerm>:<sequentialList><listItem><para>Полуавтоматический режим<randomList><listItem><para>управление <acronymTerm>БПЛА</acronymTerm> без заранее заданной программы (загруженного полетного задания) с возможностью изменения скорости, крена, тангажа, курса и высоты с <acronymTerm>НПУОИ</acronymTerm></para></listItem><listItem><para>переход из автоматического режима управления в полуавтоматический режим управления</para></listItem><listItem><para>переход из полуавтоматического режима управления в автоматический режим управления.</para><note><notePara>В полуавтоматическом режиме управления продолжает работать система стабилизации полета.</notePara><notePara>При обрыве связи <acronymTerm>БПЛА</acronymTerm> переходит в аварийный режим.</notePara><notePara>При критическом падении напряжения ниже установленного значения, <acronymTerm>БПЛА</acronymTerm> совершит вынужденную посадку в автоматическом режиме, если иное не предусмотрено в полетном задании.</notePara></note></listItem></randomList></para></listItem><listItem><para>Автоматический режим:<randomList><listItem><para>управление <acronymTerm>БПЛА</acronymTerm> по заранее заданной программе (загруженному полетному заданию) автоматического полета</para></listItem><listItem><para>внесение изменений в автоматический режим полета с помощью разовых команд с <acronymTerm>НПУОИ</acronymTerm> на <acronymTerm>БПЛА</acronymTerm> (изменение полетного задания и/или внесение изменений в работу бортового оборудования).</para><note><notePara>При переходе из полуавтоматического режима управления в автоматический режим управления, <acronymTerm>БПЛА</acronymTerm> начинает выполнение по заранее заданной программе (загруженному полетному заданию) с первой точки. Путь от места включения автоматического режима до первой точки заранее заданной программы (загруженного полетного задания)<acronymTerm>БПЛА</acronymTerm> преодолевает по кратчайшему маршруту. Скорость и высота полета задана по умолчанию.</notePara></note></listItem></randomList></para></listItem><listItem><para>Режим «Аварийный». Аварийный автоматический режим управления включается:<randomList><listItem><para>при потере радиосвязи с <acronymTerm>НПУОИ</acronymTerm>. <acronymTerm>БПЛА</acronymTerm> в автоматическом режиме возвращается в точку «ДОМ» и производит посадку. Скорость и высота полета заданы «по умолчанию»</para></listItem><listItem><para>при потере связи со спутником <acronymTerm>GPS/ГЛОНАСС</acronymTerm>. БПЛА производит посадку на месте срабатывания режима</para></listItem><listItem><para>при разряде <acronymTerm>АКБ</acronymTerm> (минимально необходимый заряд, чтобы долететь до точки.</para></listItem></randomList></para></listItem></sequentialList></para></levelledPara></levelledParaAlts></levelledPara></levelledParaAlts></levelledPara><levelledPara><title>Технические характеристики БПЛА</title><para>Технические характеристики <acronymTerm>БПЛА</acronymTerm> представленны в <internalRef internalRefTargetType="irtt02" internalRefId="tab-001" /></para><table frame="all" id="tab-001"><title>Технические харакетристики <acronymTerm>БПЛА</acronymTerm></title><tgroup cols="2"><colspec colname="col1" colwidth="1*" /><colspec colname="col2" colwidth="1*" /><thead><row><entry><para>Характеристика</para></entry><entry><para>Значения</para></entry></row></thead><tbody><row><entry><para>Габаритные размеры</para></entry><entry><para>2100ммx960ммx320мм</para></entry></row><row><entry><para>Схема планера</para></entry><entry><para>Конвертоплан</para></entry></row><row><entry><para>Тип двигателя</para></entry><entry><para>Электро</para></entry></row><row><entry><para>Размах крыла</para></entry><entry><para>2150 мм</para></entry></row><row><entry><para>Площадь крыла</para></entry><entry><para>80 дм<superScript>2</superScript></para></entry></row><row><entry><para>Длинна моторной балки</para></entry><entry><para>900 мм</para></entry></row><row><entry><para>Вес планера</para></entry><entry><para>4,2 кг</para></entry></row><row><entry><para>Максимальная взлетная масса</para></entry><entry><para>5,8 кг</para></entry></row><row><entry><para>Максимальная масса полезной нагрузки</para></entry><entry><para>1 кг</para></entry></row><row><entry><para>Масса АКБ</para></entry><entry><para>1, 93 кг</para></entry></row><row><entry><para>Шасси</para></entry><entry><para>4х опорное</para></entry></row><row><entry><para>Расстояние между опорами шасси</para></entry><entry><para>690 мм</para></entry></row><row><entry><para>Максимальная дальность полета </para></entry><entry><para>95 км</para></entry></row><row><entry><para>Максимальная высота полета</para></entry><entry><para>не более 1500 м (прораммное ограничение)</para></entry></row><row><entry><para>Максимальная скорость</para></entry><entry><para>30 м/с</para></entry></row><row><entry><para>Скорость сваливания</para></entry><entry><para>12 м/с</para></entry></row><row><entry><para>Максимальная скорость ветра </para></entry><entry><para>5 м/с</para></entry></row><row><entry><para>Максимальная продолжительность полета в режиме «самолет» при вертикальном взлете и посадке</para></entry><entry><para>не более 1,5 час.</para></entry></row><row><entry><para>Максимальное время висения в режиме «вертолета»</para></entry><entry><para>До 15 мин.</para></entry></row><row><entry><para>Диапазон температур окружающей среды</para></entry><entry><para>От минус 25 до +60 °С</para></entry></row></tbody></tgroup></table></levelledPara><levelledPara><title>Технические харакетеристики <acronymTerm>НПУОИ</acronymTerm></title><table frame="all" id="tab-002"><title>Технические харакетеристики <acronymTerm>НПУОИ</acronymTerm> представленны в <internalRef internalRefTargetType="irtt02" internalRefId="tab-002" /></title><tgroup cols="2"><colspec colname="col1" colwidth="1*" /><colspec colname="col2" colwidth="1*" /><thead><row><entry><para>Характеристика</para></entry><entry><para>Значение</para></entry></row></thead><tbody><row><entry><para>Габаритные размеры</para></entry><entry><para>615ммх430ммх305мм</para></entry></row><row><entry><para>Степень защиты кейса</para></entry><entry><para>IP68</para></entry></row><row><entry><para>Вес</para></entry><entry><para>16 кг</para></entry></row><row><entry><para>Установленная операционная система</para></entry><entry><para>Linux</para></entry></row><row><entry><para>Емкость аккумуляторной батареи</para></entry><entry><para>16000 mAh</para></entry></row><row><entry><para>Время автономной работы</para></entry><entry><para>8 ч</para></entry></row><row><entry><para>Процессор</para></entry><entry><para>Intel Core i3</para></entry></row><row><entry><para>Объем оперативной памяти</para></entry><entry><para>8 GB</para></entry></row><row><entry><para>Жесткий диск</para></entry><entry><para>mSATA SSD 128 GB</para></entry></row><row><entry><para>Интерфейс связи с антенным модулем</para></entry><entry><para>Ethernet, Wi-Fi</para></entry></row></tbody></tgroup></table></levelledPara></description></content></dmodule>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="DMC-BARSUK04-A-00-00-00-00A-041A-A_000-01_ru-RU Описание БПЛА.xls" ?>
+
+<!-- Created with Libroplanta XML Editor (http://www.libroplanta.com/) -->
+
+
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1-A/xml_schema_flat/descript.xsd" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<identAndStatusSection>
+		<dmAddress>
+			<dmIdent>
+				<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="041" infoCodeVariant="A" itemLocationCode="A"/>
+				<language languageIsoCode="ru" countryIsoCode="RU"/>
+				<issueInfo issueNumber="000" inWork="01"/>
+			</dmIdent>
+			<dmAddressItems>
+				<issueDate year="2019" month="04" day="01"/>
+				<dmTitle>
+					<techName>Беспилотный Летательный Аппарат</techName>
+					<infoName>Описание БПЛА</infoName>
+				</dmTitle>
+			</dmAddressItems>
+		</dmAddress>
+		<dmStatus>
+			<security securityClassification="01"/>
+			<responsiblePartnerCompany>
+				<enterpriseName>Московский Политех</enterpriseName>
+			</responsiblePartnerCompany>
+			<originator>
+				<enterpriseName>Московский Политех</enterpriseName>
+			</originator>
+			<applic>
+				<displayText>
+					<simplePara>Применимо для всех</simplePara>
+				</displayText>
+			</applic>
+			<brexDmRef>
+				<dmRef>
+					<dmRefIdent>
+						<dmCode modelIdentCode="MODELIC" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+					</dmRefIdent>
+				</dmRef>
+			</brexDmRef>
+			<qualityAssurance>
+				<unverified/>
+			</qualityAssurance>
+		</dmStatus>
+	</identAndStatusSection>
+	<content>
+		<refs>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="012" infoCodeVariant="A" itemLocationCode="A"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Беспилотный Летательный Аппарат</techName>
+						<infoName>Меры безопасности</infoName>
+					</dmTitle>
+				</dmRefAddressItems>
+			</dmRef>
+		</refs>
+		<description>
+			<levelledPara>
+				<title>Описание</title>
+				<para>
+					<acronym>
+						<acronymTerm>БПЛА</acronymTerm>
+						<acronymDefinition>Беспилотный Летательный Аппарат</acronymDefinition>
+					</acronym> представляет собой самолет свободнонесущий моноплан, построенный по схеме «летающее крыло» с установленными алюминиевыми лучами крепления подъемных двигателей. На внешней подвеске закреплена полезная (целевая) нагрузка.</para>
+			</levelledPara>
+			<levelledPara>
+				<title>Назначение</title>
+				<para>
+					<acronymTerm>БПЛА</acronymTerm> предназначен для выполнения следующих задач:<sequentialList>
+						<listItem>
+							<para>Демонстрация функций и технологий легких и сверхлегких <acronymTerm>БПЛА</acronymTerm> при решении специальных и гражданских задач</para>
+						</listItem>
+						<listItem>
+							<para>Фото- и видеосъемка в видимом и инфракрасном спектре.</para>
+						</listItem>
+					</sequentialList>
+				</para>
+			</levelledPara>
+			<levelledPara>
+				<title>Решаемые задачи</title>
+				<para>
+					<acronymTerm>БПЛА </acronymTerm>способен решать следующие задачи:<sequentialList>
+						<listItem>
+							<para>Обеспечивать обнаружение и наблюдение малоразмерных объектов на фоне земной и водной поверхности с удаления не менее 200 м</para>
+						</listItem>
+						<listItem>
+							<para>Производить аэросъемку, вести видеонаблюдение в видимом и инфракрасном диапазоне электромагнитного спектра.</para>
+						</listItem>
+					</sequentialList>
+				</para>
+			</levelledPara>
+			<levelledPara>
+				<title>Состав</title>
+				<para>В состав <acronymTerm>БПЛА</acronymTerm> входит:<sequentialList>
+						<listItem>
+							<para>
+								<acronymTerm>БПЛА</acronymTerm> гибридного типа (тип конвертоплан)</para>
+						</listItem>
+						<listItem>
+							<para>
+								<acronym>
+									<acronymTerm>НПУОИ</acronymTerm>
+									<acronymDefinition>Наземный Пункт Управления и Обработки Информации</acronymDefinition>
+								</acronym>:<randomList>
+									<listItem>
+										<para>защищенная <acronym>
+												<acronymTerm>ППЭВМ</acronymTerm>
+												<acronymDefinition>Переносная Персональная Электронно-Вычислительная Машина</acronymDefinition>
+											</acronym>
+										</para>
+									</listItem>
+									<listItem>
+										<para>система приема-передачи данных (Антенный блок)</para>
+									</listItem>
+									<listItem>
+										<para>пульт радиоуправления <acronymTerm>БПЛА</acronymTerm> комплект транспортировки.</para>
+									</listItem>
+								</randomList>
+							</para>
+						</listItem>
+					</sequentialList>
+				</para>
+			</levelledPara>
+			<levelledPara>
+				<title>Особенности конструкции</title>
+				<levelledParaAlts>
+					<levelledPara>
+						<title>Конструкция БПЛА</title>
+						<para>Общий вид <acronymTerm>БПЛА</acronymTerm> представлен на <internalRef internalRefTargetType="irtt01" internalRefId="fig-001"/>
+						</para>
+						<figure id="fig-001">
+							<title/>
+							<graphic infoEntityIdent="ICN-S1000DBIKE-AAA-DA01010-0-U8025-00508-A-04-1"/>
+						</figure>
+						<para>Изделие представляет собой <acronymTerm>БПЛА</acronymTerm> с электрической силовой установкой, блоками оборудования и системой электрического питания. На внешней подвеске <acronymTerm>БПЛА</acronymTerm> возможно размещение специального  оборудование (например для фото- и видеонаблюдения).</para>
+						<para>В состав <acronymTerm>БПЛА</acronymTerm> входит:<sequentialList>
+								<listItem>
+									<para>Планер</para>
+								</listItem>
+								<listItem>
+									<para>Электрическая силовая установка </para>
+								</listItem>
+								<listItem>
+									<para>Система электрического питания</para>
+								</listItem>
+								<listItem>
+									<para>Кабельная сеть</para>
+								</listItem>
+								<listItem>
+									<para>Бортовое оборудование:<randomList>
+											<listItem>
+												<para>система автоматического управления <acronymTerm>БПЛА</acronymTerm>
+												</para>
+											</listItem>
+											<listItem>
+												<para>оптико-электронная система</para>
+											</listItem>
+											<listItem>
+												<para>радиолиния передачи данных целевая нагрузка.</para>
+											</listItem>
+										</randomList>
+									</para>
+								</listItem>
+							</sequentialList>
+						</para>
+						<levelledParaAlts>
+							<levelledPara>
+								<title>Планер</title>
+								<para>Планер (корпус изделия) выполнен из композиционных материалов и имеет гибридный вид с выставленными в горизонтальной плоскости моторными балками. На концах моторных балок располагаются моторамы. В них установлены электрические двигатели. Внутри моторных балок проложены силовые кабели. В нижней части корпуса находится шасси -4х точечные опоры.</para>
+							</levelledPara>
+						</levelledParaAlts>
+						<levelledParaAlts>
+							<levelledPara>
+								<title>Электрическая силовая установка</title>
+								<para>
+									<acronym>
+										<acronymTerm>СУ</acronymTerm>
+										<acronymDefinition>Электрическая Силовая Установка</acronymDefinition>
+									</acronym> предназначена для преобразования электрического постоянного тока в механическую энергию вращения. Управление электродвигателями осуществляется <acronym>
+										<acronymTerm>САУ</acronymTerm>
+										<acronymDefinition>Система Автоматического Управления</acronymDefinition>
+									</acronym>
+									<acronymTerm>БПЛА</acronymTerm>.</para>
+							</levelledPara>
+						</levelledParaAlts>
+						<levelledParaAlts>
+							<levelledPara>
+								<title>Несущая система</title>
+								<para>
+									<acronym>
+										<acronymTerm>НС</acronymTerm>
+										<acronymDefinition>Несущая Система</acronymDefinition>
+									</acronym> предназначена для создания подъемной силы, которая необходима для осуществления полета и для управления <acronymTerm>БПЛА</acronymTerm>. <acronymTerm>НС</acronymTerm> состоит из <acronym>
+										<acronymTerm>НВ</acronymTerm>
+										<acronymDefinition>Несущий Винт</acronymDefinition>
+									</acronym>.</para>
+							</levelledPara>
+						</levelledParaAlts>
+						<levelledParaAlts>
+							<levelledPara>
+								<title>Система электроснабжения</title>
+								<para>
+									<acronym>
+										<acronymTerm>СЭС</acronymTerm>
+										<acronymDefinition>Система Электроснабжения</acronymDefinition>
+									</acronym> состоит из:<sequentialList>
+										<listItem>
+											<para>
+												<acronym>
+													<acronymTerm>АКБ</acronymTerm>
+													<acronymDefinition>Аккумуляторная Батарея</acronymDefinition>
+												</acronym>
+											</para>
+										</listItem>
+										<listItem>
+											<para>Модуля питания</para>
+										</listItem>
+										<listItem>
+											<para>Преобразователя напряжения</para>
+										</listItem>
+										<listItem>
+											<para>Кабельной сети.</para>
+										</listItem>
+									</sequentialList>
+								</para>
+								<para>Источник электрического тока постоянного напряжения на основе литий-полимерных <acronym>
+										<acronymTerm>АКБ</acronymTerm>
+										<acronymDefinition>Аккумуляторная Батарея</acronymDefinition>
+									</acronym> размещен внутри корпуса и предназначен для питания:<sequentialList>
+										<listItem>
+											<para>Словой установки</para>
+										</listItem>
+										<listItem>
+											<para>Бортового оборудования:<randomList>
+													<listItem>
+														<para>системы автоматического управления <acronymTerm>БПЛА</acronymTerm>
+														</para>
+													</listItem>
+													<listItem>
+														<para>оптико-электронной системы</para>
+													</listItem>
+													<listItem>
+														<para>радиолинии передачи данных.</para>
+													</listItem>
+												</randomList>
+											</para>
+										</listItem>
+									</sequentialList>
+								</para>
+							</levelledPara>
+						</levelledParaAlts>
+						<levelledParaAlts>
+							<levelledPara>
+								<title>Кабельная сеть</title>
+								<para>Кабельная сеть размещена внутри корпуса.</para>
+							</levelledPara>
+						</levelledParaAlts>
+						<levelledParaAlts>
+							<levelledPara>
+								<title>Система автоматического управления</title>
+								<para>
+									<acronymTerm>БПЛА</acronymTerm> оснащен <acronym>
+										<acronymTerm>САУ</acronymTerm>
+										<acronymDefinition>Система Автоматического Управления</acronymDefinition>
+									</acronym>. <acronymTerm>САУ</acronymTerm> обеспечивает автоматическое управление полетом во всех режимах. Точность параметров автоматического управления полетом отображена в таблице (Таблица 2). Точность <acronymTerm>САУ</acronymTerm> с поддержкой <acronymTerm>НПУОИ</acronymTerm> обеспечивает автоматическую посадку на площадку радиусом менее 5 м.</para>
+								<para>Режимы работы <acronymTerm>САУ</acronymTerm>:<sequentialList>
+										<listItem>
+											<para>Полуавтоматический режим<randomList>
+													<listItem>
+														<para>управление <acronymTerm>БПЛА</acronymTerm> без заранее заданной программы (загруженного полетного задания) с возможностью изменения скорости, крена, тангажа, курса и высоты с <acronymTerm>НПУОИ</acronymTerm>
+														</para>
+													</listItem>
+													<listItem>
+														<para>переход из автоматического режима управления в полуавтоматический режим управления</para>
+													</listItem>
+													<listItem>
+														<para>переход из полуавтоматического режима управления в автоматический режим управления.</para>
+														<note>
+															<notePara>В полуавтоматическом режиме управления продолжает работать система стабилизации полета.</notePara>
+															<notePara>При обрыве связи <acronymTerm>БПЛА</acronymTerm> переходит в аварийный режим.</notePara>
+															<notePara>При критическом падении напряжения ниже установленного значения, <acronymTerm>БПЛА</acronymTerm> совершит вынужденную посадку в автоматическом режиме, если иное не предусмотрено в полетном задании.</notePara>
+														</note>
+													</listItem>
+												</randomList>
+											</para>
+										</listItem>
+										<listItem>
+											<para>Автоматический режим:<randomList>
+													<listItem>
+														<para>управление <acronymTerm>БПЛА</acronymTerm> по заранее заданной программе (загруженному полетному заданию) автоматического полета</para>
+													</listItem>
+													<listItem>
+														<para>внесение изменений в автоматический режим полета с помощью разовых команд с <acronymTerm>НПУОИ</acronymTerm> на <acronymTerm>БПЛА</acronymTerm> (изменение полетного задания и/или внесение изменений в работу бортового оборудования).</para>
+														<note>
+															<notePara>При переходе из полуавтоматического режима управления в автоматический режим управления, <acronymTerm>БПЛА</acronymTerm> начинает выполнение по заранее заданной программе (загруженному полетному заданию) с первой точки. Путь от места включения автоматического режима до первой точки заранее заданной программы (загруженного полетного задания)<acronymTerm>БПЛА</acronymTerm> преодолевает по кратчайшему маршруту. Скорость и высота полета задана по умолчанию.</notePara>
+														</note>
+													</listItem>
+												</randomList>
+											</para>
+										</listItem>
+										<listItem>
+											<para>Режим «Аварийный». Аварийный автоматический режим управления включается:<randomList>
+													<listItem>
+														<para>при потере радиосвязи с <acronymTerm>НПУОИ</acronymTerm>. <acronymTerm>БПЛА</acronymTerm> в автоматическом режиме возвращается в точку «ДОМ» и производит посадку. Скорость и высота полета заданы «по умолчанию»</para>
+													</listItem>
+													<listItem>
+														<para>при потере связи со спутником <acronymTerm>GPS/ГЛОНАСС</acronymTerm>. БПЛА производит посадку на месте срабатывания режима</para>
+													</listItem>
+													<listItem>
+														<para>при разряде <acronymTerm>АКБ</acronymTerm> (минимально необходимый заряд, чтобы долететь до точки.</para>
+													</listItem>
+												</randomList>
+											</para>
+										</listItem>
+									</sequentialList>
+								</para>
+							</levelledPara>
+						</levelledParaAlts>
+					</levelledPara>
+				</levelledParaAlts>
+			</levelledPara>
+			<levelledPara>
+				<title>Технические характеристики БПЛА</title>
+				<para>Технические характеристики <acronymTerm>БПЛА</acronymTerm> представленны в <internalRef internalRefTargetType="irtt02" internalRefId="tab-001"/>
+				</para>
+				<table frame="all" id="tab-001">
+					<title>Технические харакетристики <acronymTerm>БПЛА</acronymTerm>
+					</title>
+					<tgroup cols="2">
+						<colspec colname="col1" colwidth="1*"/>
+						<colspec colname="col2" colwidth="1*"/>
+						<thead>
+							<row>
+								<entry>
+									<para>Характеристика</para>
+								</entry>
+								<entry>
+									<para>Значения</para>
+								</entry>
+							</row>
+						</thead>
+						<tbody>
+							<row>
+								<entry>
+									<para>Габаритные размеры</para>
+								</entry>
+								<entry>
+									<para>2100ммx960ммx320мм</para>
+								</entry>
+							</row>
+							<row>
+								<entry>
+									<para>Схема планера</para>
+								</entry>
+								<entry>
+									<para>Конвертоплан</para>
+								</entry>
+							</row>
+							<row>
+								<entry>
+									<para>Тип двигателя</para>
+								</entry>
+								<entry>
+									<para>Электро</para>
+								</entry>
+							</row>
+							<row>
+								<entry>
+									<para>Размах крыла</para>
+								</entry>
+								<entry>
+									<para>2150 мм</para>
+								</entry>
+							</row>
+							<row>
+								<entry>
+									<para>Площадь крыла</para>
+								</entry>
+								<entry>
+									<para>80 дм<superScript>2</superScript>
+									</para>
+								</entry>
+							</row>
+							<row>
+								<entry>
+									<para>Длинна моторной балки</para>
+								</entry>
+								<entry>
+									<para>900 мм</para>
+								</entry>
+							</row>
+							<row>
+								<entry>
+									<para>Вес планера</para>
+								</entry>
+								<entry>
+									<para>4,2 кг</para>
+								</entry>
+							</row>
+							<row>
+								<entry>
+									<para>Максимальная взлетная масса</para>
+								</entry>
+								<entry>
+									<para>5,8 кг</para>
+								</entry>
+							</row>
+							<row>
+								<entry>
+									<para>Максимальная масса полезной нагрузки</para>
+								</entry>
+								<entry>
+									<para>1 кг</para>
+								</entry>
+							</row>
+							<row>
+								<entry>
+									<para>Масса АКБ</para>
+								</entry>
+								<entry>
+									<para>1, 93 кг</para>
+								</entry>
+							</row>
+							<row>
+								<entry>
+									<para>Шасси</para>
+								</entry>
+								<entry>
+									<para>4х опорное</para>
+								</entry>
+							</row>
+							<row>
+								<entry>
+									<para>Расстояние между опорами шасси</para>
+								</entry>
+								<entry>
+									<para>690 мм</para>
+								</entry>
+							</row>
+							<row>
+								<entry>
+									<para>Максимальная дальность полета </para>
+								</entry>
+								<entry>
+									<para>95 км</para>
+								</entry>
+							</row>
+							<row>
+								<entry>
+									<para>Максимальная высота полета</para>
+								</entry>
+								<entry>
+									<para>не более 1500 м (прораммное ограничение)</para>
+								</entry>
+							</row>
+							<row>
+								<entry>
+									<para>Максимальная скорость</para>
+								</entry>
+								<entry>
+									<para>30 м/с</para>
+								</entry>
+							</row>
+							<row>
+								<entry>
+									<para>Скорость сваливания</para>
+								</entry>
+								<entry>
+									<para>12 м/с</para>
+								</entry>
+							</row>
+							<row>
+								<entry>
+									<para>Максимальная скорость ветра </para>
+								</entry>
+								<entry>
+									<para>5 м/с</para>
+								</entry>
+							</row>
+							<row>
+								<entry>
+									<para>Максимальная продолжительность полета в режиме «самолет» при вертикальном взлете и посадке</para>
+								</entry>
+								<entry>
+									<para>не более 1,5 час.</para>
+								</entry>
+							</row>
+							<row>
+								<entry>
+									<para>Максимальное время висения в режиме «вертолета»</para>
+								</entry>
+								<entry>
+									<para>До 15 мин.</para>
+								</entry>
+							</row>
+							<row>
+								<entry>
+									<para>Диапазон температур окружающей среды</para>
+								</entry>
+								<entry>
+									<para>От минус 25 до +60 °С</para>
+								</entry>
+							</row>
+						</tbody>
+					</tgroup>
+				</table>
+			</levelledPara>
+			<levelledPara>
+				<title>Технические характеристики <acronymTerm>НПУОИ</acronymTerm>
+				</title>
+				<table frame="all" id="tab-002">
+					<title>Технические характеристики <acronymTerm>НПУОИ</acronymTerm> представленны в <internalRef internalRefTargetType="irtt02" internalRefId="tab-002"/>
+					</title>
+					<tgroup cols="2">
+						<colspec colname="col1" colwidth="1*"/>
+						<colspec colname="col2" colwidth="1*"/>
+						<thead>
+							<row>
+								<entry>
+									<para>Характеристика</para>
+								</entry>
+								<entry>
+									<para>Значение</para>
+								</entry>
+							</row>
+						</thead>
+						<tbody>
+							<row>
+								<entry>
+									<para>Габаритные размеры</para>
+								</entry>
+								<entry>
+									<para>615ммх430ммх305мм</para>
+								</entry>
+							</row>
+							<row>
+								<entry>
+									<para>Степень защиты кейса</para>
+								</entry>
+								<entry>
+									<para>IP68</para>
+								</entry>
+							</row>
+							<row>
+								<entry>
+									<para>Вес</para>
+								</entry>
+								<entry>
+									<para>16 кг</para>
+								</entry>
+							</row>
+							<row>
+								<entry>
+									<para>Установленная операционная система</para>
+								</entry>
+								<entry>
+									<para>Linux</para>
+								</entry>
+							</row>
+							<row>
+								<entry>
+									<para>Емкость аккумуляторной батареи</para>
+								</entry>
+								<entry>
+									<para>16000 mAh</para>
+								</entry>
+							</row>
+							<row>
+								<entry>
+									<para>Время автономной работы</para>
+								</entry>
+								<entry>
+									<para>8 ч</para>
+								</entry>
+							</row>
+							<row>
+								<entry>
+									<para>Процессор</para>
+								</entry>
+								<entry>
+									<para>Intel Core i3</para>
+								</entry>
+							</row>
+							<row>
+								<entry>
+									<para>Объем оперативной памяти</para>
+								</entry>
+								<entry>
+									<para>8 GB</para>
+								</entry>
+							</row>
+							<row>
+								<entry>
+									<para>Жесткий диск</para>
+								</entry>
+								<entry>
+									<para>mSATA SSD 128 GB</para>
+								</entry>
+							</row>
+							<row>
+								<entry>
+									<para>Интерфейс связи с антенным модулем</para>
+								</entry>
+								<entry>
+									<para>Ethernet, Wi-Fi</para>
+								</entry>
+							</row>
+						</tbody>
+					</tgroup>
+				</table>
+			</levelledPara>
+		</description>
+	</content>
+</dmodule>

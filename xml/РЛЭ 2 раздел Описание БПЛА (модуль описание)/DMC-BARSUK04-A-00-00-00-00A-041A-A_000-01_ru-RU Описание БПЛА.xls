@@ -1,0 +1,53 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<xsl:stylesheet version = "1.0" 
+xmlns:xsl = "http://www.w3.org/1999/XSL/Transform">   
+   <xsl:template match = "/">
+	<html>		
+        <body>    
+			<h1 align="center">
+				<xsl:value-of select="dmodule/identAndStatusSection/dmAddress/dmAddressItems/dmTitle/infoName"/>
+			</h1> 
+			<p align="right">
+				<xsl:value-of select="//responsiblePartnerCompany/enterpriseName"/>
+			</p>
+			<p align="right">
+				<xsl:value-of select="//applic/displayText/simplePara"/>
+			</p>
+			<h2>
+				<xsl:value-of select="//content/refs//infoName"/>
+			</h2>
+			<section>
+			<xsl:for-each select="dmodule/content/description/levelledPara">
+			<div>
+				<h3>
+					<xsl:value-of select="title"/>
+				</h3>
+				<p>
+					<xsl:value-of select="para"/>				
+				</p>
+				
+				<table> 
+					<caption><xsl:value-of select="table/title"/></caption>				
+						<xsl:for-each select = "table/tgroup/thead/row">
+						<tr>
+						<xsl:for-each select = "entry">				
+								<th><xsl:value-of select = "para"/></th> 						
+							</xsl:for-each>						
+						</tr>
+						</xsl:for-each>
+						<xsl:for-each select = "table/tgroup/tbody/row"> 						
+						<tr>
+							<xsl:for-each select = "entry">				
+								<td><xsl:value-of select = "para"/></td> 						
+							</xsl:for-each>					
+						</tr> 
+					</xsl:for-each>
+					
+				</table>
+				</div>
+			</xsl:for-each>
+			</section>
+		</body> 
+    </html>
+   </xsl:template>  
+</xsl:stylesheet>

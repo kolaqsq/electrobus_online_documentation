@@ -1,2 +1,366 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- Created with Libroplanta XML Editor (http://www.libroplanta.com/) --><dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1-A/xml_schema_flat/descript.xsd" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink"><identAndStatusSection><dmAddress><dmIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="1" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="043" infoCodeVariant="A" itemLocationCode="A" /><language languageIsoCode="ru" countryIsoCode="RU" /><issueInfo issueNumber="000" inWork="01" /></dmIdent><dmAddressItems><issueDate year="2019" month="04" day="01" /><dmTitle><techName>Беспилотный Летательный Аппарат</techName><infoName>Летная информация и ограничения</infoName></dmTitle></dmAddressItems></dmAddress><dmStatus><security securityClassification="01" /><responsiblePartnerCompany><enterpriseName>Московский Политех</enterpriseName></responsiblePartnerCompany><originator><enterpriseName>Московский Политех</enterpriseName></originator><applic><displayText><simplePara>Применимо для всех</simplePara></displayText></applic><brexDmRef><dmRef><dmRefIdent><dmCode modelIdentCode="MODELIC" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D" /></dmRefIdent></dmRef></brexDmRef><qualityAssurance><unverified /></qualityAssurance></dmStatus></identAndStatusSection><content><refs><dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="012" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent><dmRefAddressItems><dmTitle><techName>Беспилотный Летательный Аппарат</techName><infoName>Меры безопасности</infoName></dmTitle></dmRefAddressItems></dmRef></refs><description><levelledPara><title>Условия эксплуатации</title><caution><warningAndCautionPara>ПОЛЕТЫ ПРИ НАЛИЧИИ АТМОСФЕРНЫХ ОСАДКОВ И В УСЛОВИЯХ ОБЛЕДЕНЕНИЯ ЗАПРЕЩЕНЫ</warningAndCautionPara></caution><para><acronym><acronymTerm>БПЛА</acronymTerm><acronymDefinition>Беспилотный Летательный Аппарат</acronymDefinition></acronym> предназначен для эксплуатации в светлое время суток и в простых метеоусловиях. Минимальные требования к взлетно-посадочной площадке - твердая поверхность радиусом не менее 10 м.</para><para>Основные эксплуатационные ограничения представлены в <internalRef internalRefTargetType="irtt02" internalRefId="tab-001" /></para></levelledPara><table frame="all" id="tab-001"><title>Основыне эксплуатационные ограничения</title><tgroup cols="2"><colspec colname="col1" colwidth="1*" /><colspec colname="col2" colwidth="1*" /><thead><row><entry><para>Нименование характеристики</para></entry><entry><para>Значение</para></entry></row></thead><tbody><row><entry><para>Метеорологические условия эксплуатации</para></entry><entry><para>Простые метеоусловия</para></entry></row><row><entry><para>Диапазон температур эксплуатации</para></entry><entry><para>от минус 20°С до плюс 40°С</para></entry></row><row><entry><para>Относительная влажность</para></entry><entry><para>Не более 95%</para></entry></row><row><entry><para>Максимальные перегрузки:</para></entry><entry /></row><row><entry><para>- вертикальные</para></entry><entry><para>от минус 1 G до плюс 2,5 G</para></entry></row><row><entry><para>- при посадке</para></entry><entry><para>6 G</para></entry></row><row><entry><para>Минимальная безопасная высота полета</para></entry><entry><para>Не менее 30 м</para></entry></row><row><entry><para>Максимальная безопасная высота полета над уровнем земной поверхности</para></entry><entry><para>Не более 1500 м</para></entry></row><row><entry><para>Предельные воздушные порывы:</para></entry><entry /></row><row><entry><para>- горизонтальные</para></entry><entry><para>Не более 6 м/с</para></entry></row><row><entry><para>- вертикальные</para></entry><entry><para>Не более 2 м/с</para></entry></row><row><entry><para>Температура АКБ перед взлетом</para></entry><entry><para>Не менее минус 5°С</para></entry></row></tbody></tgroup></table><levelledPara><title>Летные технические характеристики</title><para>Основные летно-технические характеристики представлены в <internalRef internalRefTargetType="irtt02" internalRefId="tab-002" />.</para></levelledPara><table frame="all" id="tab-002"><title>Основные летно-технические характеристики</title><tgroup cols="2"><colspec colname="col1" colwidth="1*" /><colspec colname="col2" colwidth="1*" /><thead><row><entry><para>Наименования характеристики</para></entry><entry><para>Значение</para></entry></row></thead><tbody><row><entry><para>Скоростные характеристики:</para></entry><entry /></row><row><entry><para>- максимальная скорость полета</para></entry><entry><para>30 м/с</para></entry></row><row><entry><para>- крейсерская экономическая скорость крейсерская экономическая скорость</para></entry><entry><para>20 м/с</para></entry></row><row><entry><para>- скорость сваливания</para></entry><entry><para>12 м/с</para></entry></row><row><entry><para>- скорость набора высоты в режиме «самолет»</para></entry><entry><para>4 м/с</para></entry></row><row><entry><para>- скорость набора высоты в режиме «вертолет»</para></entry><entry><para>1.8 м/с</para></entry></row><row><entry><para>Тактические характеристики:</para></entry><entry /></row><row><entry><para>Максимальная продолжительность полета :</para></entry><entry><para>не менее 1,5 часа</para></entry></row><row><entry><para>- в режиме «самолет» при вертикальном взлете и посадке</para></entry><entry /></row><row><entry><para>- в режиме «вертолет»</para></entry><entry><para>не менее 15 мин</para></entry></row><row><entry><para>Максимальная высота полета</para></entry><entry><para>не более 1500 м</para></entry></row><row><entry><para>Максимальная дальность работы системы радиоуправления оператора</para></entry><entry><para>не более 1500 м</para></entry></row><row><entry><para>Максимальная дальность работы телеметрической линии связи</para></entry><entry><para>не более 30 км</para></entry></row><row><entry><para>Максимальная дальность работы широкополосной видеосвязи </para></entry><entry><para>не более 2000 м</para></entry></row><row><entry><para>Ограничение на скорость ветра в районе вертикального взлета/посадки</para></entry><entry><para>не более 5 м/с</para></entry></row></tbody></tgroup></table><levelledPara><title>Площадка для взлета/посадки конвертоплана</title><para>Условия площадки для взлета/посадки конвертоплана:<sequentialList><listItem><para>Площадка для эксплуатации конвертоплана должна представлять собой участок горизонтальной поверхности с характерным размером (диаметром, стороной) не менее 10 м с твердым естественным или искусственным покрытием. Допускается естественный рельефный наклон поверхности не более 2°</para></listItem><listItem><para>Наземный персонал при взлете посадке конвертоплана должен быть удален на расстояние не менее 10 м от предполагаемой точки взлета посадки. При неблагоприятных условиях это расстояние должно быть увеличено до 30…50 метров</para></listItem><listItem><para>Допускается окружение площадки естественными препятствиями (деревьями) высотой не более 15 м</para></listItem><listItem><para>Расположение <acronym><acronymTerm>НПУОИ</acronymTerm><acronymDefinition>Наземный Пункт Управления и Обработки Информации</acronymDefinition></acronym> должно выбираться таким образом, чтобы оператор <acronymTerm>НПУОИ</acronymTerm> имел возможность визуального контакта с установленном на стартовой позиции конвертопланом</para></listItem><listItem><para>Расположение внешнего пилота по возможности должно выбираться таким образом, чтобы предполагаемое направление взлета конвертоплана и направление взгляда оператора совпадали.</para></listItem></sequentialList></para></levelledPara><levelledPara><title>Ограничения по погодным условиям</title><para>Ограничения по погодным условиям:<sequentialList><listItem><para>Конвертоплан не оснащен системой <acronym><acronymTerm>БАНО</acronymTerm><acronymDefinition>Бортовые Навигационные Огни</acronymDefinition></acronym> – эксплуатация допускается только в светлое время суток. Видимость не менее 50 м, нижний край облачности не менее 70м</para></listItem><listItem><para>Не рекомендуется эксплуатация конвертоплана в условиях сильных атмосферных осадков (более 2мм/час)</para></listItem><listItem><para>Стартовая площадка должна находится на высотах не более 2000м над уровнем моря.</para></listItem></sequentialList></para></levelledPara></description></content></dmodule>
+<?xml-stylesheet type="text/xsl" href="DMC-BARSUK04-A-15-10-00-00A-043A-A_000-01_ru-RU летная информация и ограничения.xls" ?>
+<!-- Created with Libroplanta XML Editor (http://www.libroplanta.com/) -->
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1-A/xml_schema_flat/descript.xsd" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<identAndStatusSection>
+		<dmAddress>
+			<dmIdent>
+				<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="1" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="043" infoCodeVariant="A" itemLocationCode="A"/>
+				<language languageIsoCode="ru" countryIsoCode="RU"/>
+				<issueInfo issueNumber="000" inWork="01"/>
+			</dmIdent>
+			<dmAddressItems>
+				<issueDate year="2019" month="04" day="01"/>
+				<dmTitle>
+					<techName>Беспилотный Летательный Аппарат</techName>
+					<infoName>Летная информация и ограничения</infoName>
+				</dmTitle>
+			</dmAddressItems>
+		</dmAddress>
+		<dmStatus>
+			<security securityClassification="01"/>
+			<responsiblePartnerCompany>
+				<enterpriseName>Московский Политех</enterpriseName>
+			</responsiblePartnerCompany>
+			<originator>
+				<enterpriseName>Московский Политех</enterpriseName>
+			</originator>
+			<applic>
+				<displayText>
+					<simplePara>Применимо для всех</simplePara>
+				</displayText>
+			</applic>
+			<brexDmRef>
+				<dmRef>
+					<dmRefIdent>
+						<dmCode modelIdentCode="MODELIC" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+					</dmRefIdent>
+				</dmRef>
+			</brexDmRef>
+			<qualityAssurance>
+				<unverified/>
+			</qualityAssurance>
+		</dmStatus>
+	</identAndStatusSection>
+	<content>
+		<refs>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="012" infoCodeVariant="A" itemLocationCode="A"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Беспилотный Летательный Аппарат</techName>
+						<infoName>Меры безопасности</infoName>
+					</dmTitle>
+				</dmRefAddressItems>
+			</dmRef>
+		</refs>
+		<description>
+			<levelledPara>
+				<title>Условия эксплуатации</title>
+				<caution>
+					<warningAndCautionPara>ПОЛЕТЫ ПРИ НАЛИЧИИ АТМОСФЕРНЫХ ОСАДКОВ И В УСЛОВИЯХ ОБЛЕДЕНЕНИЯ ЗАПРЕЩЕНЫ</warningAndCautionPara>
+				</caution>
+				<para>
+					<acronym>
+						<acronymTerm>БПЛА</acronymTerm>
+						<acronymDefinition>Беспилотный Летательный Аппарат</acronymDefinition>
+					</acronym> предназначен для эксплуатации в светлое время суток и в простых метеоусловиях. Минимальные требования к взлетно-посадочной площадке - твердая поверхность радиусом не менее 10 м.</para>
+				<para>Основные эксплуатационные ограничения представлены в <internalRef internalRefTargetType="irtt02" internalRefId="tab-001"/>
+				</para>
+			</levelledPara>
+			<table frame="all" id="tab-001">
+				<title>Основные эксплуатационные ограничения</title>
+				<tgroup cols="2">
+					<colspec colname="col1" colwidth="1*"/>
+					<colspec colname="col2" colwidth="1*"/>
+					<thead>
+						<row>
+							<entry>
+								<para>Наименование характеристики</para>
+							</entry>
+							<entry>
+								<para>Значение</para>
+							</entry>
+						</row>
+					</thead>
+					<tbody>
+						<row>
+							<entry>
+								<para>Метеорологические условия эксплуатации</para>
+							</entry>
+							<entry>
+								<para>Простые метеоусловия</para>
+							</entry>
+						</row>
+						<row>
+							<entry>
+								<para>Диапазон температур эксплуатации</para>
+							</entry>
+							<entry>
+								<para>от минус 20°С до плюс 40°С</para>
+							</entry>
+						</row>
+						<row>
+							<entry>
+								<para>Относительная влажность</para>
+							</entry>
+							<entry>
+								<para>Не более 95%</para>
+							</entry>
+						</row>
+						<row>
+							<entry>
+								<para>Максимальные перегрузки:</para>
+							</entry>
+							<entry/>
+						</row>
+						<row>
+							<entry>
+								<para>- вертикальные</para>
+							</entry>
+							<entry>
+								<para>от минус 1 G до плюс 2,5 G</para>
+							</entry>
+						</row>
+						<row>
+							<entry>
+								<para>- при посадке</para>
+							</entry>
+							<entry>
+								<para>6 G</para>
+							</entry>
+						</row>
+						<row>
+							<entry>
+								<para>Минимальная безопасная высота полета</para>
+							</entry>
+							<entry>
+								<para>Не менее 30 м</para>
+							</entry>
+						</row>
+						<row>
+							<entry>
+								<para>Максимальная безопасная высота полета над уровнем земной поверхности</para>
+							</entry>
+							<entry>
+								<para>Не более 1500 м</para>
+							</entry>
+						</row>
+						<row>
+							<entry>
+								<para>Предельные воздушные порывы:</para>
+							</entry>
+							<entry/>
+						</row>
+						<row>
+							<entry>
+								<para>- горизонтальные</para>
+							</entry>
+							<entry>
+								<para>Не более 6 м/с</para>
+							</entry>
+						</row>
+						<row>
+							<entry>
+								<para>- вертикальные</para>
+							</entry>
+							<entry>
+								<para>Не более 2 м/с</para>
+							</entry>
+						</row>
+						<row>
+							<entry>
+								<para>Температура АКБ перед взлетом</para>
+							</entry>
+							<entry>
+								<para>Не менее минус 5°С</para>
+							</entry>
+						</row>
+					</tbody>
+				</tgroup>
+			</table>
+			<levelledPara>
+				<title>Летные технические характеристики</title>
+				<para>Основные летно-технические характеристики представлены в <internalRef internalRefTargetType="irtt02" internalRefId="tab-002"/>.</para>
+			</levelledPara>
+			<table frame="all" id="tab-002">
+				<title>Основные летно-технические характеристики</title>
+				<tgroup cols="2">
+					<colspec colname="col1" colwidth="1*"/>
+					<colspec colname="col2" colwidth="1*"/>
+					<thead>
+						<row>
+							<entry>
+								<para>Наименования характеристики</para>
+							</entry>
+							<entry>
+								<para>Значение</para>
+							</entry>
+						</row>
+					</thead>
+					<tbody>
+						<row>
+							<entry>
+								<para>Скоростные характеристики:</para>
+							</entry>
+							<entry/>
+						</row>
+						<row>
+							<entry>
+								<para>- максимальная скорость полета</para>
+							</entry>
+							<entry>
+								<para>30 м/с</para>
+							</entry>
+						</row>
+						<row>
+							<entry>
+								<para>- крейсерская экономическая скорость крейсерская экономическая скорость</para>
+							</entry>
+							<entry>
+								<para>20 м/с</para>
+							</entry>
+						</row>
+						<row>
+							<entry>
+								<para>- скорость сваливания</para>
+							</entry>
+							<entry>
+								<para>12 м/с</para>
+							</entry>
+						</row>
+						<row>
+							<entry>
+								<para>- скорость набора высоты в режиме «самолет»</para>
+							</entry>
+							<entry>
+								<para>4 м/с</para>
+							</entry>
+						</row>
+						<row>
+							<entry>
+								<para>- скорость набора высоты в режиме «вертолет»</para>
+							</entry>
+							<entry>
+								<para>1.8 м/с</para>
+							</entry>
+						</row>
+						<row>
+							<entry>
+								<para>Тактические характеристики:</para>
+							</entry>
+							<entry/>
+						</row>
+						<row>
+							<entry>
+								<para>Максимальная продолжительность полета :</para>
+							</entry>
+							<entry>
+								<para>не менее 1,5 часа</para>
+							</entry>
+						</row>
+						<row>
+							<entry>
+								<para>- в режиме «самолет» при вертикальном взлете и посадке</para>
+							</entry>
+							<entry/>
+						</row>
+						<row>
+							<entry>
+								<para>- в режиме «вертолет»</para>
+							</entry>
+							<entry>
+								<para>не менее 15 мин</para>
+							</entry>
+						</row>
+						<row>
+							<entry>
+								<para>Максимальная высота полета</para>
+							</entry>
+							<entry>
+								<para>не более 1500 м</para>
+							</entry>
+						</row>
+						<row>
+							<entry>
+								<para>Максимальная дальность работы системы радиоуправления оператора</para>
+							</entry>
+							<entry>
+								<para>не более 1500 м</para>
+							</entry>
+						</row>
+						<row>
+							<entry>
+								<para>Максимальная дальность работы телеметрической линии связи</para>
+							</entry>
+							<entry>
+								<para>не более 30 км</para>
+							</entry>
+						</row>
+						<row>
+							<entry>
+								<para>Максимальная дальность работы широкополосной видеосвязи </para>
+							</entry>
+							<entry>
+								<para>не более 2000 м</para>
+							</entry>
+						</row>
+						<row>
+							<entry>
+								<para>Ограничение на скорость ветра в районе вертикального взлета/посадки</para>
+							</entry>
+							<entry>
+								<para>не более 5 м/с</para>
+							</entry>
+						</row>
+					</tbody>
+				</tgroup>
+			</table>
+			<levelledPara>
+				<title>Площадка для взлета/посадки конвертоплана</title>
+				<para>Условия площадки для взлета/посадки конвертоплана:
+				<sequentialList>
+						<listItem>
+							<para>Площадка для эксплуатации конвертоплана должна представлять собой участок горизонтальной поверхности с характерным размером (диаметром, стороной) не менее 10 м с твердым естественным или искусственным покрытием. Допускается естественный рельефный наклон поверхности не более 2°</para>
+						</listItem>
+						<listItem>
+							<para>Наземный персонал при взлете посадке конвертоплана должен быть удален на расстояние не менее 10 м от предполагаемой точки взлета посадки. При неблагоприятных условиях это расстояние должно быть увеличено до 30…50 метров</para>
+						</listItem>
+						<listItem>
+							<para>Допускается окружение площадки естественными препятствиями (деревьями) высотой не более 15 м</para>
+						</listItem>
+						<listItem>
+							<para>Расположение <acronym>
+									<acronymTerm>НПУОИ</acronymTerm>
+									<acronymDefinition>Наземный Пункт Управления и Обработки Информации</acronymDefinition>
+								</acronym> должно выбираться таким образом, чтобы оператор <acronymTerm>НПУОИ</acronymTerm> имел возможность визуального контакта с установленном на стартовой позиции конвертопланом</para>
+						</listItem>
+						<listItem>
+							<para>Расположение внешнего пилота по возможности должно выбираться таким образом, чтобы предполагаемое направление взлета конвертоплана и направление взгляда оператора совпадали.</para>
+						</listItem>
+					</sequentialList>
+				</para>
+			</levelledPara>
+			<levelledPara>
+				<title>Ограничения по погодным условиям</title>
+				<para>Ограничения по погодным условиям:<sequentialList>
+						<listItem>
+							<para>Конвертоплан не оснащен системой <acronym>
+									<acronymTerm>БАНО</acronymTerm>
+									<acronymDefinition>Бортовые Навигационные Огни</acronymDefinition>
+								</acronym> – эксплуатация допускается только в светлое время суток. Видимость не менее 50 м, нижний край облачности не менее 70м</para>
+						</listItem>
+						<listItem>
+							<para>Не рекомендуется эксплуатация конвертоплана в условиях сильных атмосферных осадков (более 2мм/час)</para>
+						</listItem>
+						<listItem>
+							<para>Стартовая площадка должна находится на высотах не более 2000м над уровнем моря.</para>
+						</listItem>
+					</sequentialList>
+				</para>
+			</levelledPara>
+		</description>
+	</content>
+</dmodule>
