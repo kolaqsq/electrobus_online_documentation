@@ -1,0 +1,62 @@
+<header>
+  <div class="ul">
+    <div (click)="isClicked(this.url, 'main', '')" class="li pointer"> ЛИАЗ каталог</div>
+  </div>
+</header>
+<div class="main">
+  <div *ngIf="this.isActive == 'main'" class="ul ul-main">
+    <div class="li">
+      <h2 (click)="isClicked(this.request.units, 'next', '/units'); this.header = 'Список узлов'" class="pointer">Узлы</h2>
+      <div class="btn"></div>
+    </div>
+    <div class="li">
+      <h2 (click)="isClicked(this.request.consumables, 'next','/consumables'); this.header = 'Список расходных материалов'" class="pointer">Расходные материалы</h2>
+    </div>
+    <div class="li">
+      <h2 (click)="isClicked(this.request.parts, 'next', '/parts'); this.header = 'Список деталей'" class="pointer">Детали</h2>
+    </div>
+  </div>
+  <div *ngIf="isActive == 'con'" class="ul ul-con">
+    <h2>{{this.header}}</h2>
+    <div *ngFor="let check of this.request.results" class="li">
+      <span *ngIf="check.designation != undefiend" (click)="isClicked(check.url, 'detail',check.url.split('/')[3] + '/' + check.url.split('/')[4])" class="pointer">{{check.designation
+      + ': ' + check.name}} </span>
+      <span *ngIf="check.designation == undefiend" (click)="isClicked(check.url, 'detail',check.url.split('/')[3] + '/' + check.url.split('/')[4])" class="pointer">{{check.name}}</span>
+    </div>
+  </div>
+  <div *ngIf="isActive == 'detail'" class="ul ul-det">
+    <div class="ul ul-desc">
+      <h3>{{this.request.name}}</h3>
+      <h4  *ngIf="this.request.designation != undefiend">{{'id: '+ this.request.id + ' Обозначение: ' + this.request.designation}}</h4>
+      <div [innerHTML]="this.request.desc" class="desc"></div>
+      <div *ngIf="this.request.desc == ''">Описание отсутствует</div>
+    </div>
+    <div class="ul ul-more">
+      <div *ngIf="(this.request.consumables != null) && (this.request.consumables != '')" class="ul">
+        <h4 >Связанные расходные материалы:</h4>
+        <div *ngFor="let check of this.request.consumables" class="li">
+          <span (click)="isClicked(check.url, 'detail',check.url.split('/')[3] + '/' + check.url.split('/')[4])" class="pointer">{{check.url.split('/')[4] + ". " + check.name}} </span>
+        </div>
+      </div>
+      <div *ngIf="(this.request.parts != null) || (this.request.units_parts != null)" class="ul">
+        <h4>Связанные детали:</h4>
+        <div *ngFor="let check of this.request.parts" class="li">
+          <span (click)="isClicked(check.url, 'detail',check.url.split('/')[3] + '/' + check.url.split('/')[4])" class="pointer">{{check.url.split('/')[4] + ". " + check.name}} </span>
+        </div>
+        <div *ngFor="let check of this.request.units_parts" class="li">
+          <span (click)="isClicked(check.url, 'detail',check.url.split('/')[3] + '/' + check.url.split('/')[4])" class="pointer">{{check.url.split('/')[4] + ". " + check.name}} </span>
+        </div>
+      </div>
+      <div *ngIf="(this.request.units != null) || (this.request.units_cons != null)" class="ul">
+        <h4>Связанные yзлы:</h4>
+        <div *ngFor="let check of this.request.units" class="li">
+          <span (click)="isClicked(check.url, 'detail',check.url.split('/')[3] + '/' + check.url.split('/')[4])" class="pointer">{{check.url.split('/')[4] + ". " + check.name}} </span>
+        </div>
+        <div *ngFor="let check of this.request.units_cons" class="li">
+          <span (click)="isClicked(check.url, 'detail',check.url.split('/')[3] + '/' + check.url.split('/')[4])" class="pointer">{{check.url.split('/')[4] + ". " + check.name}} </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

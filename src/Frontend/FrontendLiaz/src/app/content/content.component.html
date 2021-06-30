@@ -1,0 +1,40 @@
+<div class="main">
+  <div class="ul">
+    <div class="li">
+      <div class="container">
+        <span><a (click)="ChangedFocus(0)">Глава 1</a></span>
+        <input type="checkbox" (click)="ReverseActive(0)" [checked]="isActive[0]">
+      </div>
+      <div [class.hiden]="isActive[0]" class="ul">
+        <div class="li">
+          <div class="container">
+            <span>Раздел 1</span>
+            <input type="checkbox" (click)="ReverseActive(1)" [checked]="isActive[1]">
+          </div>
+          <div [class.hiden]="isActive[1]" class="ul">
+            <div class="li">
+              <span>Подраздел 1</span>
+            </div>
+            <div class="li">
+              <span>Подраздел 2</span>
+            </div>
+          </div>
+        </div>
+        <div class="li">
+          <div class="container">
+            <span>Раздел 2</span>
+            <input type="checkbox" (click)="ReverseActive(2)" [checked]="isActive[2]">
+          </div>
+          <div [class.hiden]="isActive[2]" class="ul">
+            <div class="li">
+              <span>Подраздел 1</span>
+            </div>
+            <div class="li">
+              <span>Подраздел 2</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

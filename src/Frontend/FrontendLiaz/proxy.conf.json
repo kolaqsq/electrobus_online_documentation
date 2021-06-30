@@ -1,0 +1,10 @@
+{
+  "*/*": {
+    "target": "http://liaz-demo.std-950.ist.mospolytech.ru/",
+    "secure": false
+  },
+  "*/*": {
+    "target": "https://yandex.ru",
+    "secure": false
+  }
+}

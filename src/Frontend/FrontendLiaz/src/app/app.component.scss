@@ -1,0 +1,22 @@
+$color: #0669b2;
+
+.main{
+  flex-direction: row;
+  min-height: 80vh;
+  margin-bottom: 20px;
+}
+
+app-renderarea {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  min-height: 100%;
+}
+
+footer{
+  padding: 20px;
+  background: $color;
+  color: white;
+}
