@@ -19,9 +19,9 @@
   <div *ngIf="isActive == 'con'" class="ul ul-con">
     <h2>{{this.header}}</h2>
     <div *ngFor="let check of this.request.results" class="li">
-      <span *ngIf="check.designation != undefiend" (click)="isClicked(check.url, 'detail',check.url.split('/')[3] + '/' + check.url.split('/')[4])" class="pointer">{{check.url.split('/')[4] + ". " + check.name
-        + ': ' + check.designation}} </span>
-      <span *ngIf="check.designation == undefiend" (click)="isClicked(check.url, 'detail',check.url.split('/')[3] + '/' + check.url.split('/')[4])" class="pointer">{{check.url.split('/')[4] + ". " + check.name}}</span>
+      <span *ngIf="check.designation != undefiend" (click)="isClicked(check.url, 'detail',check.url.split('/')[3] + '/' + check.url.split('/')[4])" class="pointer">{{check.designation
+      + ': ' + check.name}} </span>
+      <span *ngIf="check.designation == undefiend" (click)="isClicked(check.url, 'detail',check.url.split('/')[3] + '/' + check.url.split('/')[4])" class="pointer">{{check.name}}</span>
     </div>
   </div>
   <div *ngIf="isActive == 'detail'" class="ul ul-det">
@@ -32,7 +32,7 @@
       <div *ngIf="this.request.desc == ''">Описание отсутствует</div>
     </div>
     <div class="ul ul-more">
-      <div *ngIf="this.request.consumables != null" class="ul">
+      <div *ngIf="(this.request.consumables != null) && (this.request.consumables != '')" class="ul">
         <h4 >Связанные расходные материалы:</h4>
         <div *ngFor="let check of this.request.consumables" class="li">
           <span (click)="isClicked(check.url, 'detail',check.url.split('/')[3] + '/' + check.url.split('/')[4])" class="pointer">{{check.url.split('/')[4] + ". " + check.name}} </span>
