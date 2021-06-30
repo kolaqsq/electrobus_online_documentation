@@ -1,0 +1,119 @@
+header {
+  padding: 20px;
+  background: #0669b2;
+  color: white;
+  width: 100%;
+}
+header a {
+  color: white;
+  font-size: 28px;
+}
+header .ul {
+  width: 100%;
+  justify-content: flex-start;
+}
+header .ul .li {
+  margin-right: 20px;
+}
+header .ul .li-search {
+  margin-left: 30%;
+}
+header form label {
+  cursor: pointer;
+}
+header form span {
+  margin-right: 10px;
+}
+header form input[type=text] {
+  width: 200px;
+}
+
+h2, h3, h4 {
+  margin: 15px 0;
+}
+
+.main {
+  display: flex;
+  min-width: 1200px;
+  height: 100%;
+  margin: 50px 50px 0 50px;
+}
+
+.ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.ul .li {
+  display: flex;
+  flex-direction: column;
+}
+
+.ul-main {
+  align-items: center;
+  text-align: center;
+}
+.ul-main > * {
+  transition: 0.3s;
+  color: #585858;
+  padding: 60px 20px;
+}
+.ul-main > *:hover {
+  color: #0a0a0a;
+  transform: scale(1.8);
+}
+
+.ul-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.ul-con .li {
+  margin: 15px;
+}
+
+.desc {
+  display: block;
+}
+
+.ul-det {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.ul-det .ul {
+  flex-direction: column;
+}
+.ul-det .li {
+  margin: 15px;
+}
+
+.ul-more {
+  margin-top: 250px;
+}
+
+.ul-desc {
+  align-items: flex-start;
+}
+.ul-desc > * {
+  margin-top: 15px;
+}
+
+@media (max-width: 600px) {
+  .ul-main {
+    flex-direction: column;
+  }
+  .ul-main > *:hover {
+    transform: scale(1.2);
+  }
+}
+@media (max-width: 1200px) {
+  .main {
+    min-width: 90%;
+  }
+}
+
+/*# sourceMappingURL=renderarea.component.css.map */

@@ -1,0 +1,21 @@
+.main {
+  width: 100%;
+  height: 700px;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.ul, .li {
+  flex-direction: column;
+}
+
+.hiden {
+  display: none;
+}
+
+span {
+  margin-top: 5px;
+}
+
+/*# sourceMappingURL=content.component.css.map */
