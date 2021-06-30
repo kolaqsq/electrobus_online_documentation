@@ -21,18 +21,6 @@ export class RenderareaComponent implements OnInit {
   header = ''
   search = ''
 
-  folderObjs=[{
-    name:'Folder1',
-    size:'12mb',
-    lol: 'undef'
-  },{
-    name:'Folder2',
-    size:'10mb'
-  },{
-    name:'Folder3',
-    size:'2mb'
-  }]
-
   ngOnInit(): void {
     this.GetRequest(this.url)
     this.recentPage(window.location.href)
@@ -56,6 +44,7 @@ export class RenderareaComponent implements OnInit {
     if (added_path != undefined){
       this.HttpService.get(added_path).subscribe(value => {
         this.request = value
+        console.log(value)
       }, err => {
         console.error(err)
       })

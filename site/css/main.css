@@ -76,6 +76,7 @@ span {
 .page1 header {
   margin: 15px;
   justify-content: space-between;
+  width: 100%;
 }
 .page1 header .logo span {
   font-family: "Roboto", sans-serif;
@@ -118,8 +119,7 @@ span {
   margin-top: 150px;
 }
 .page3 .main-content > span {
-  margin-top: 50px;
-  margin-bottom: 100px;
+  margin: 50px 20px 100px;
   text-align: center;
   max-width: 1000px;
   box-shadow: 0 0 15px #33b027;
@@ -264,7 +264,7 @@ span {
 }
 @media (max-width: 500px) {
   .page2 .main-content img {
-    width: 300px;
+    width: 90%;
   }
 }
 
