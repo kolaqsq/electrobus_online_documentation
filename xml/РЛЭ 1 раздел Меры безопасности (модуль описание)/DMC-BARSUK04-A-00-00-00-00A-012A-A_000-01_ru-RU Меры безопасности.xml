@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="DMC-BARSUK04-A-00-00-00-00A-012A-A_000-01_ru-RU.xls" ?>
+<!-- Created with Libroplanta XML Editor (http://www.libroplanta.com/) -->
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1-A/xml_schema_flat/descript.xsd" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <rdf:Description>
+    <dc:title>Меры безопасности</dc:title>
+    <dc:creator>vLI.yLT</dc:creator>
+    <dc:subject>Меры безопасности</dc:subject>
+    <dc:publisher>vLI.yLT</dc:publisher>
+    <dc:contributor>vLI.yLT</dc:contributor>
+    <dc:date>2019-04-01</dc:date>
+    <dc:type>text</dc:type>
+    <dc:format>text/xml</dc:format>
+    <dc:identifier>BARSUK04-A-00-00-00-00A-012A-A_000-01_ru-RU</dc:identifier>
+    <dc:language>ru-RU</dc:language>
+    <dc:rights>01</dc:rights>
+  </rdf:Description>
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="012" infoCodeVariant="A" itemLocationCode="A" />
+        <language languageIsoCode="ru" countryIsoCode="RU" />
+        <issueInfo issueNumber="000" inWork="01" />
+      </dmIdent>
+      <dmAddressItems>
+        <issueDate year="2019" month="04" day="01" />
+        <dmTitle>
+          <techName>Беспилотный Летательный Аппарат</techName>
+          <infoName>Меры безопасности</infoName>
+        </dmTitle>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus>
+      <security securityClassification="01" />
+      <responsiblePartnerCompany>
+        <enterpriseName>Московский Политех</enterpriseName>
+      </responsiblePartnerCompany>
+      <originator>
+        <enterpriseName>Московский Политех</enterpriseName>
+      </originator>
+      <applic id="appl001">
+        <displayText>
+          <simplePara>Применимо для всех</simplePara>
+        </displayText>
+      </applic>
+      <brexDmRef>
+        <dmRef>
+          <dmRefIdent>
+            <dmCode modelIdentCode="MODELIC" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D" />
+          </dmRefIdent>
+        </dmRef>
+      </brexDmRef>
+      <qualityAssurance applicRefId="appl001">
+        <unverified />
+      </qualityAssurance>
+    </dmStatus>
+  </identAndStatusSection>
+  <content>
+    <refs>
+      <dmRef>
+        <dmRefIdent>
+          <dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="1" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="043" infoCodeVariant="A" itemLocationCode="A" />
+        </dmRefIdent>
+        <dmRefAddressItems>
+          <dmTitle>
+            <techName>Беспилотный Летательный Аппарат</techName>
+            <infoName>Летная информация и ограничения</infoName>
+          </dmTitle>
+        </dmRefAddressItems>
+      </dmRef>
+    </refs>
+    <description>
+      <levelledPara>
+        <title>Описание</title>
+        <caution>
+          <warningAndCautionPara>КРОМЕ НИЖЕПЕРЕЧИСЛЕННЫХ МЕР БЕЗОПАСНОСТИ, ПРИ ВЫПОЛНЕНИИ РАБОТЫ С КОМПЛЕКСОМ С ДИСТАНЦИОННО-ПИЛОТИРУЕМЫМ ЛЕТАТЕЛЬНЫМ АППАРАТОМ НЕОБХОДИМО СОБЛЮДАТЬ ТРЕБОВАНИЯ ПО БЕЗОПАСНОСТИ, ИЗЛОЖЕННЫЕ В ЭКСПЛУАТАЦИОННО-ТЕХНИЧЕСКОЙ ДОКУМЕНТАЦИИ НА ОТДЕЛЬНЫЕ СИСТЕМЫ И УСТРОЙСТВА.</warningAndCautionPara>
+        </caution>
+      </levelledPara>
+	  <levelledPara>
+      <warning>
+        <warningAndCautionPara>КОМАНДА "СТОП", ПОДАННАЯ ЛЮБЫМ УЧАСТНИКОМ ПРОВЕДЕНИЯ РАБОТ, ЗАМЕТИВШИМ ОПАСНОСТЬ, ДОЛЖНА БЫТЬ НЕМЕДЛЕННО ВЫПОЛНЕНА ВСЕМИ УЧАСТНИКАМИ. ВОЗОБНОВЛЕНИЕ РАБОТ ДОПУСКАЕТСЯ ПО УКАЗАНИЮ РУКОВОДИТЕЛЯ РАБОТ ТОЛЬКО ПОСЛЕ УСТРАНЕНИЯ ОПАСНОСТИ.</warningAndCautionPara>
+      </warning>
+	  </levelledPara>
+      <levelledPara>
+        <title>Зоны особого внимания планера</title>
+        <warning>
+          <warningAndCautionPara>БУДЬТЕ ОСТОРОЖНЫ ПРИ РАБОТЕ С ВРАЩАЮЩИМИСЯ МЕХАНИЗМАМИ. ВОЗМОЖНО ТРАВМИРОВАНИЕ И/ИЛИ ГИБЕЛЬ ПЕРСОНАЛА. ЗАПРЕЩАЕТСЯ НАХОДИТЬСЯ БЛИЖЕ 10 М ОТ БПЛА ПРИ РАБОТЕ НЕСУЩЕЙ СИСТЕМЫ.</warningAndCautionPara>
+        </warning>
+        <para>Запрещается поднимать <acronym id="acr001" acronymType="at01"><acronymTerm>БПЛА</acronymTerm><acronymDefinition>Беспилотный Летательный Аппарат</acronymDefinition></acronym> за:<randomList><listItem><para>моторную балку</para></listItem><listItem><para>мотораму</para></listItem><listItem><para>электродвигатель</para></listItem><listItem><para>винт</para></listItem><listItem><para>полезную нагрузку</para></listItem><listItem><para>антенны</para></listItem><listItem><para>модули навигации</para></listItem><listItem><para>съемные элементы корпуса планера</para></listItem><listItem><para>касаться антенн и модулей навигации на верхней и нижней частях планера, а также полезной нагрузки</para></listItem><listItem><para>касаться и подходить ближе 10 метров к  <acronymTerm internalRefId="acr001">БПЛА </acronymTerm>при включенном режиме «<acronymTerm>ARM</acronymTerm>».</para></listItem></randomList></para>
+        <para>Запрещается использовать <acronymTerm internalRefId="acr001">БПЛА </acronymTerm> с:<randomList><listItem><para>поврежденными несущими винтами</para></listItem><listItem><para>поврежденным толкающим винтом</para></listItem><listItem><para>несущими винтами с глубокими задирами/царапинами</para></listItem><listItem><para>несущими винтами с неровной, сколотой кромкой.</para></listItem></randomList></para>
+        <para>Все работы по подготовке к полетам и работы после полетов проводить при выключенном режиме «<acronymTerm>ARM</acronymTerm>» и включенном <acronymTerm>«Предохранителе»</acronymTerm>.</para>
+        <para>После выполнения полета или работы несущей системы, некоторые зоны <acronymTerm internalRefId="acr001">БПЛА </acronymTerm> могут быть горячими.</para>
+      </levelledPara>
+      <levelledParaAlts>
+        <levelledPara>
+          <title>Электрооборудование</title>
+          <caution>
+            <warningAndCautionPara>ПОПАДАНИЕ ВЛАГИ НА ЭЛЕКТРООБОРУДОВАНИЕ И ЭЛЕКТРИЧЕСКИЕ СОЕДИНИТЕЛИ МОЖЕТ ПРИВЕСТИ К КОРОТКОМУ ЗАМЫКАНИЮ И ПОВРЕЖДЕНИЮ БПЛА.</warningAndCautionPara>
+          </caution>
+          <para>Все подключения кабелей и жгутов следует производить при отключенной <acronym acronymType="at01" id="acro001"><acronymTerm>АКБ</acronymTerm><acronymDefinition id="acro01" changeType="add">Аккумуляторная Батарея</acronymDefinition></acronym>.</para>
+          <para>После подключения <acronymTerm>БПЛА</acronymTerm> к источнику питания запрещается вскрывать защиту токопроводящих частей электрооборудования.</para>
+          <para>Не допускать попадания влаги на незащищенные токопроводящие части электрооборудования.</para>
+          <para>Дергать или тянуть за провода, а также использовать «скрутки» и иные способы соединения проводов запрещено. Не допускать перекосов разъемов и перегибов соединительных проводов.</para>
+          <para>Соблюдать полярность соединений. Все разъемы сделаны односторонними и при правильной стыковке легко соединяются. Запрещено использовать чрезмерную силу при стыковке разъемов, соединение и разъединение производить плавно.</para>
+        </levelledPara>
+      </levelledParaAlts>
+      <levelledPara>
+        <title>Меры безопасности при выполнении полетов БПЛА</title>
+        <warning>
+          <warningAndCautionPara>ПОЛЕТЫ НА ВЫСОТЕ МЕНЕЕ 15 М ЗАПРЕЩЕНЫ, ЕСЛИ ИНОЕ НЕ ОГОВОРЕНО В ПОЛЕТНОМ ЗАДАНИИ.</warningAndCautionPara>
+        </warning>
+        <para>Перед выполнением полета убедиться в отсутствии посторонних воздушных объектов. В случае их появления прекратить выполнение задания и выполнить вынужденную посадку, если иное не предусмотрено в полетном задании.</para>
+        <para>При наличии потенциальных источников радиопомех, выбрать местоположение <acronym acronymType="at01" id="acro002"><acronymTerm>НПУОИ</acronymTerm><acronymDefinition id="acro02">Наземный Пункт Управления и Обработки Информации</acronymDefinition></acronym> и построить маршрут полета <acronymTerm>БПЛА</acronymTerm> таким образом, чтобы расстояние от <acronymTerm>БПЛА</acronymTerm> до <acronymTerm>НПУОИ</acronymTerm> было меньше, чем до источников радиопомех.</para>
+        <para>Запрещены полеты <acronymTerm>БПЛА</acronymTerm>:<randomList><listItem><para>в условиях, не соответствующих эксплуатационным ограничениям, см. (<dmRef><dmRefIdent><dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="1" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="043" infoCodeVariant="A" itemLocationCode="A" /></dmRefIdent></dmRef>.)</para></listItem><listItem><para>без разрешения и согласования времени, высот, маршрута полета и района работ в установленном законом порядке, если иное не предусмотрено в полетном задании при опасности создания угрозы безопасности воздушного движения, если иное не предусмотрено в полетном задании</para></listItem><listItem><para>ближе 50 м от высоковольтных <acronym acronymType="at01" id="acro003"><acronymTerm>ЛЭП</acronymTerm><acronymDefinition id="acro03  ">Линия Электропередач</acronymDefinition></acronym>, электроподстанций, радиотрансляционных и радиорелейных мачт (вышек) и других радиоэлектронных средств при угрозе опасных метеоявлений (гроза, усиление ветра, и др.) в мощных кучево-дождевых облаках</para></listItem><listItem><para>при выявлении в процессе предполетного осмотра <acronymTerm>БПЛА</acronymTerm> поломок и неисправностей, а также неисправностей систем Комплекса, которые не могут быть устранены и могут повлиять на безопасность полетов.</para></listItem></randomList></para>
+      </levelledPara>
+    </description>
+  </content>
+</dmodule>

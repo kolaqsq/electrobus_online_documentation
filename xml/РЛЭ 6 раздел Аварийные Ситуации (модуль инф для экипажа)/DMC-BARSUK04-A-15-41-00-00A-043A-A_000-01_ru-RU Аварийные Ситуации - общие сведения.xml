@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type = "text/xsl" href = "DMC-BARSUK04-A-15-41-00-00A-043A-A_000-01_ru-RU.xls"?>
+<!-- Created with Libroplanta XML Editor (http://www.libroplanta.com/) -->
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1-A/xml_schema_flat/crew.xsd" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<identAndStatusSection>
+		<dmAddress>
+			<dmIdent>
+				<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="4" subSubSystemCode="1" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="043" infoCodeVariant="A" itemLocationCode="A"/>
+				<language languageIsoCode="ru" countryIsoCode="RU"/>
+				<issueInfo issueNumber="000" inWork="01"/>
+			</dmIdent>
+			<dmAddressItems>
+				<issueDate year="2019" month="04" day="01"/>
+				<dmTitle>
+					<techName>Аварийные ситуации</techName>
+					<infoName>Общие сведения</infoName>
+				</dmTitle>
+			</dmAddressItems>
+		</dmAddress>
+		<dmStatus>
+			<security securityClassification="01"/>
+			<responsiblePartnerCompany>
+				<enterpriseName>Московский Политех</enterpriseName>
+			</responsiblePartnerCompany>
+			<originator>
+				<enterpriseName>Московский Политех</enterpriseName>
+			</originator>
+			<applic>
+				<displayText>
+					<simplePara>Применимо для всех</simplePara>
+				</displayText>
+			</applic>
+			<brexDmRef>
+				<dmRef>
+					<dmRefIdent>
+						<dmCode modelIdentCode="MODELIC" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+					</dmRefIdent>
+				</dmRef>
+			</brexDmRef>
+			<qualityAssurance>
+				<unverified/>
+			</qualityAssurance>
+		</dmStatus>
+	</identAndStatusSection>
+	<content>
+		<refs>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="012" infoCodeVariant="A" itemLocationCode="A"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Беспилотный Летательный Аппарат</techName>
+						<infoName>Меры безопасности</infoName>
+					</dmTitle>
+				</dmRefAddressItems>
+			</dmRef>
+		</refs>
+		<crew>
+			<crewRefCard>
+				<crewDrill>
+					<title>Общие сведения</title>
+					<warning>
+						<warningAndCautionPara>В СЛУЧАЕ ВОЗНИКНОВЕНИЯ АВАРИЙНОЙ СИТУАЦИИ, ОСНОВНОЙ ЗАДАЧЕЙ ОПЕРАТОРА ЯВЛЯЕТСЯ ОБЕСПЕЧЕНИЕ БЕЗОПАСНОСТИ ПОСТОРОННИХ ЛИЦ</warningAndCautionPara>
+					</warning>
+					<para>В случае возникновения аварийной ситуации, задачей оператора является обеспечение посадки/падения БПЛА в максимально возможном удалении людей и наземных объектов.</para>
+					<para>Рекомендации по действиям в аварийных ситуациях подлежат обязательному выполнению.</para>
+					<para>При обнаружении аварийной ситуации:<randomList>
+							<listItem>
+								<para>спокойно проверьте наличие ошибок в работе оборудования</para>
+							</listItem>
+							<listItem>
+								<para>хладнокровно оцените обстановку</para>
+							</listItem>
+							<listItem>
+								<para>примите решение</para>
+							</listItem>
+							<listItem>
+								<para>доложите руководителю полетов.</para>
+							</listItem>
+						</randomList>
+					</para>
+					<para>В дальнейшем действуйте в зависимости от создавшейся обстановки с учетом указаний руководителя полетов.</para>
+					<para>В случае возгорания изделия производите его тушение углекислотным огнетушителем.</para>
+				</crewDrill>
+				<crewDrill>
+					<title>Аварийное/нештатное прекращение миссии</title>
+					<para>У оператора <acronymTerm>НПУОИ</acronymTerm> и у оператора на пульте есть свои возможности в случае нештатной ситуации прекратить автоматический полет тем или иным.</para>
+					<para>При необходимости прервать автоматический полет оператор <acronymTerm>НПУОИ</acronymTerm> может совершить следующие действия:<randomList>
+							<listItem>
+								<para>Задействовать команду <acronymTerm>«pause»</acronymTerm>. При поступлении такой команды автоматическая программа отменяется, конвертоплан находящийся в режиме <acronymTerm>«коптер»</acronymTerm> остановит набор/снижение высоты, задействовав режим <acronymTerm>«hold»</acronymTerm>. При этом будут работать стабилизация текущей высоты и координаты в пространстве. Конвертоплан находящийся в режиме <acronymTerm>«самолет»</acronymTerm> при поступлении команды <acronymTerm>«pause»</acronymTerm> задействует режим барражирования зафиксировав текущую высоту, начнет полет по кругу с заранее заданным радиусом (50м по умолчанию) вокруг точки в которой он находился в момент поступления команды</para>
+							</listItem>
+							<listItem>
+								<para>Задействовать команду <acronym>
+										<acronymTerm>RTL</acronymTerm>
+										<acronymDefinition>«Return to Land»</acronymDefinition>
+									</acronym>  при поступлении такой команды автоматическая программа полета отменяется и задействуется режим возврата в точку старта (точку <acronymTerm>«home»</acronymTerm>) в том режиме, в котором находился конвертоплан в момент поступления этой команды. В случае режима <acronymTerm>«коптер»</acronymTerm> конвертоплан приходит в точку старта и совершает автоматическую посадку, в случае режима <acronymTerm>«самолет»</acronymTerm> конвертоплпн следует в точку старта в самолетном режиме, по достижению ее переходит в режим <acronymTerm>«коптер»</acronymTerm> и совершает посадку в автоматическом режиме</para>
+							</listItem>
+							<listItem>
+								<para>Задействовать команду <acronymTerm>«land»</acronymTerm>. При поступлении такой команды конвертоплан совершает автоматическую посадку в точке поступления команды. Если конвертоплан находится в режиме <acronymTerm>«самолет»</acronymTerm> следует сначала переход в режим <acronymTerm>«коптер»</acronymTerm>, затем автоматическая посадка</para>
+							</listItem>
+							<listItem>
+								<para>Кроме того оператор <acronymTerm>НПУОИ</acronymTerm> при необходимости и при наличии устойчивой телеметрической связи может произвольно переключать порядок прохода точек записанной миссии.</para>
+							</listItem>
+						</randomList>
+					</para>
+					<para>При необходимости прервать автоматический полет оператор на пульте радиоуправления может совершить следующие действия:<randomList>
+							<listItem>
+								<para>Задействовать с пульта режим <acronymTerm>«position»</acronymTerm> При поступлении такой команды автоматическая программа отменяется, конвертоплан находящийся в режиме <acronymTerm>«коптер»</acronymTerm> остановит набор/снижение высоты, задействовав режим <acronymTerm>«position»</acronymTerm>. При этом будут работать стабилизация текущей высоты и координаты в пространстве. Стик газа должен при этом находится в среднем положении. Оператору в этом режиме будет доступно ручное управление из режима стабилизации позиции. Конвертоплан находящийся в режиме <acronymTerm>«самолет»</acronymTerm> при поступлении команды <acronymTerm>«position»</acronymTerm> сперва задействует режим перехода в режим <acronymTerm>«коптер»</acronymTerm>. Далее аналогично. Далее оператор может в режиме ручного управления привести конвертоплан к месту старта для посадки или посадить вертикально в любой другой точке по собственному усмотрению</para>
+							</listItem>
+							<listItem>
+								<para>В некоторых случаях необходимо задействовать режим <acronymTerm>«plane»</acronymTerm> с пульта радиоуправления. Обеспечить возврат в точку старта в режиме самолет и перевести конвертоплан в режим «коптер» командой с пульта для совершения посадки.</para>
+							</listItem>
+						</randomList>
+					</para>
+				</crewDrill>
+			</crewRefCard>
+		</crew>
+	</content>
+</dmodule>

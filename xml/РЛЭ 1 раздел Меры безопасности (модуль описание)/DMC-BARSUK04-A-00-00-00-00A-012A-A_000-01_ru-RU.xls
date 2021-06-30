@@ -1,0 +1,39 @@
+﻿<?xml version = "1.0" encoding = "UTF-8"?>
+<xsl:stylesheet version = "1.0" 
+xmlns:xsl = "http://www.w3.org/1999/XSL/Transform">   
+   <xsl:template match = "/">
+	<html>		
+        <body>    
+			<h1 align="center">
+				<xsl:value-of select="dmodule/identAndStatusSection/dmAddress/dmAddressItems/dmTitle/infoName"/>
+			</h1> 
+			<p align="right">
+				<xsl:value-of select="//responsiblePartnerCompany/enterpriseName"/>
+			</p>
+			<p align="right">
+				<xsl:value-of select="//applic/displayText/simplePara"/>
+			</p>
+			<h2>
+				<xsl:value-of select="//content/refs//infoName"/>
+			</h2>
+			<section>
+		<xsl:for-each select="//content/description/levelledPara">
+		<div>
+			<h3>
+				<xsl:value-of select="title"/>
+			</h3>
+			<p><i>
+				<xsl:value-of select="warning"/>
+				<xsl:value-of select="caution"/>
+				</i>
+			</p>
+			<p>
+				<xsl:value-of select="para"/>				
+			</p>
+			</div>
+			</xsl:for-each>
+				</section>
+		</body> 
+    </html>
+   </xsl:template>  
+</xsl:stylesheet>

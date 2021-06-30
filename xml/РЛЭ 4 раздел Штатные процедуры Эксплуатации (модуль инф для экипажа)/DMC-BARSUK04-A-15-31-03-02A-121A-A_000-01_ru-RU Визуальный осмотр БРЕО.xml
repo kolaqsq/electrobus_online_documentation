@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="DMC-BARSUK04-A-15-31-00-00A-121A-A_000-01_ru-RU.xls" ?>
+<!-- Created with Libroplanta XML Editor (http://www.libroplanta.com/) -->
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1-A/xml_schema_flat/crew.xsd" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<identAndStatusSection>
+		<dmAddress>
+			<dmIdent>
+				<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="03" disassyCode="02" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A"/>
+				<language languageIsoCode="ru" countryIsoCode="RU"/>
+				<issueInfo issueNumber="000" inWork="01"/>
+			</dmIdent>
+			<dmAddressItems>
+				<issueDate year="2019" month="04" day="01"/>
+				<dmTitle>
+					<techName>Штатные процедуры Эксплуатации</techName>
+					<infoName>Визуальный осмотр БРЭО</infoName>
+				</dmTitle>
+			</dmAddressItems>
+		</dmAddress>
+		<dmStatus>
+			<security securityClassification="01"/>
+			<responsiblePartnerCompany>
+				<enterpriseName>Московский Политех</enterpriseName>
+			</responsiblePartnerCompany>
+			<originator>
+				<enterpriseName>Московский Политех</enterpriseName>
+			</originator>
+			<applic>
+				<displayText>
+					<simplePara>Применимо для всех</simplePara>
+				</displayText>
+			</applic>
+			<brexDmRef>
+				<dmRef>
+					<dmRefIdent>
+						<dmCode modelIdentCode="MODELIC" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+					</dmRefIdent>
+				</dmRef>
+			</brexDmRef>
+			<qualityAssurance>
+				<unverified/>
+			</qualityAssurance>
+		</dmStatus>
+	</identAndStatusSection>
+	<content>
+		<refs>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="012" infoCodeVariant="A" itemLocationCode="A"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Беспилотный Летательный Аппарат</techName>
+						<infoName>Меры безопасности</infoName>
+					</dmTitle>
+				</dmRefAddressItems>
+			</dmRef>
+		</refs>
+		<crew>
+			<descrCrew>
+				<levelledPara>
+					<title>Осмотр БРЕО</title>
+					<para>Провести визуальный осмотр всех соединителей и разъемов <acronym>
+							<acronymTerm>БРЕО</acronymTerm>
+							<acronymDefinition>Бортовое Радиоэлектронное Оборудование</acronymDefinition>
+						</acronym>:<randomList>
+							<listItem>
+								<para>убедиться в надежном соединении силовых разъемов всех пяти регуляторов хода двигателей, установленных в задней части отсека фюзеляжа</para>
+							</listItem>
+							<listItem>
+								<para>визуально убедиться в целостности сигнальной проводки датчика воздушной скорости</para>
+							</listItem>
+							<listItem>
+								<para>визуально убедиться в целостности сигнальной проводки телеметрического модема</para>
+							</listItem>
+							<listItem>
+								<para>визуально убедиться в целостности сигнальной и силовой проводки видеопередатчика</para>
+							</listItem>
+							<listItem>
+								<para>визуально убедиться в целостности главного разъема питания автопилота</para>
+							</listItem>
+							<listItem>
+								<para>визуально убедиться в целостности сигнальной проводки внешнего комбинированного датчика (магнитометр + GPS приемник)</para>
+							</listItem>
+							<listItem>
+								<para>визуально убедиться в целостности сигнальной проводки приемника ручного радиоуправления.</para>
+							</listItem>
+						</randomList>
+					</para>
+					<para>Произвести визуальный осмотр элементов <acronymTerm>БРЕО</acronymTerm> на предмет надежности физического крепления элементов внутри отсека:<randomList>
+							<listItem>
+								<para>убедиться в надежности крепления автопилота и целостности всех четырех демпфирующих элементов его крепления</para>
+							</listItem>
+							<listItem>
+								<para>убедиться в отсутствии физического контакта блока автопилота с другими блоками и элементами <acronymTerm>БРЕО</acronymTerm> включая силовую проводку</para>
+							</listItem>
+							<listItem>
+								<para>убедиться в надежности физического крепления главного источника бортового питания</para>
+							</listItem>
+							<listItem>
+								<para>убедиться в надежности физического крепления всех пяти регуляторов хода двигателей</para>
+							</listItem>
+							<listItem>
+								<para>убедиться в надежности физического крепления модема телеметрической радиолинии и видеопередатчика и других элементов <acronymTerm>БРЕО.</acronymTerm>
+								</para>
+							</listItem>
+						</randomList>
+					</para>
+				</levelledPara>
+			</descrCrew>
+		</crew>
+	</content>
+</dmodule>

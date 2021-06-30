@@ -1,0 +1,566 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="DMC-BARSUK04-A-15-31-00-00A-121A-A_000-01_ru-RU.xls" ?>
+<!-- Created with Libroplanta XML Editor (http://www.libroplanta.com/) -->
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1-A/xml_schema_flat/crew.xsd" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<identAndStatusSection>
+		<dmAddress>
+			<dmIdent>
+				<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="05" disassyCode="00" disassyCodeVariant="A" infoCode="121" infoCodeVariant="A" itemLocationCode="A"/>
+				<language languageIsoCode="ru" countryIsoCode="RU"/>
+				<issueInfo issueNumber="000" inWork="01"/>
+			</dmIdent>
+			<dmAddressItems>
+				<issueDate year="2019" month="04" day="01"/>
+				<dmTitle>
+					<techName>Штатные процедуры эксплуатации</techName>
+					<infoName>Функциональные наземные проверки</infoName>
+				</dmTitle>
+			</dmAddressItems>
+		</dmAddress>
+		<dmStatus>
+			<security securityClassification="01"/>
+			<responsiblePartnerCompany>
+				<enterpriseName>Московский Политех</enterpriseName>
+			</responsiblePartnerCompany>
+			<originator>
+				<enterpriseName>Московский Политех</enterpriseName>
+			</originator>
+			<applic>
+				<displayText>
+					<simplePara>Применимость для всех</simplePara>
+				</displayText>
+			</applic>
+			<brexDmRef>
+				<dmRef>
+					<dmRefIdent>
+						<dmCode modelIdentCode="MODELIC" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+					</dmRefIdent>
+				</dmRef>
+			</brexDmRef>
+			<qualityAssurance>
+				<unverified/>
+			</qualityAssurance>
+		</dmStatus>
+	</identAndStatusSection>
+	<content>
+		<refs>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="012" infoCodeVariant="A" itemLocationCode="A"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Беспилотный Летательный Аппарат</techName>
+						<infoName>Меры безопасности</infoName>
+					</dmTitle>
+				</dmRefAddressItems>
+			</dmRef>
+		</refs>
+		<crew>
+			<descrCrew>
+				<levelledPara>
+					<title>Функциональные наземные проверки</title>
+					<para>Перед полетами необходимо провести ряд наземных проверок. Эти проверки связаны с необходимостью включения подъемных двигателей и маршевого двигателя, поэтому категорически важно соблюдать технику безопасности! </para>
+					<para>Перед выполнением этой серии проверок необходимо убедится что с пульта радиоуправления внешнего пилота переключаются режимы <acronym>
+							<acronymTerm>VTOL</acronymTerm>
+							<acronymDefinition> Vertical Take-Off and Landing</acronymDefinition>
+						</acronym>
+						<acronymTerm>«Multirotor»</acronymTerm> и <acronymTerm>«Plane»</acronymTerm> и режимы работы <acronym>
+							<acronymTerm>СУ</acronymTerm>
+							<acronymDefinition>Силовая Установка</acronymDefinition>
+						</acronym>
+						<acronymTerm>«Stabilize»</acronymTerm> и <acronymTerm>«Position»</acronymTerm>. Тесты проводить при закрытой крышке главного отсека фюзеляжа.</para>
+					<levelledParaAlts>
+						<levelledPara>
+							<title>Проверка работы системы вертикального перемещения конвертоплана</title>
+							<para>Проверка работы системы вертикального перемещения конвертоплана:<sequentialList>
+									<listItem>
+										<para>Перевести с <acronym>
+												<acronymTerm>НПУОИ</acronymTerm>
+												<acronymDefinition>Наземный Пункт Управления и Обработки Информации</acronymDefinition>
+											</acronym> или пульта радиоуправления режим <acronymTerm>VTOL</acronymTerm>  в положение <acronymTerm>«Multirotor»</acronymTerm>
+										</para>
+									</listItem>
+									<listItem>
+										<para>Перевести с <acronymTerm>НПУОИ</acronymTerm> или пульта радиоуправления режим работы <acronymTerm>СУ</acronymTerm> в положение <acronymTerm>«Stabilize»</acronymTerm>
+										</para>
+									</listItem>
+									<listItem>
+										<para>Убедится в безопасности проверки с вращением роторов подъемных моторов для окружающих</para>
+									</listItem>
+									<listItem>
+										<para>Нажатием в течение 2х секунд на кнопку <acronym>
+												<acronymTerm>«Safety Switch»</acronymTerm>
+												<acronymDefinition>Предохранительный выключатель</acronymDefinition>
+											</acronym> перевести в положение <acronymTerm>«Ready to ARM»</acronymTerm> (кнопка перейдет из режима однократного моргания в режим двукратного моргания)</para>
+									</listItem>
+									<listItem>
+										<para>Перевести <acronymTerm>VTOL</acronymTerm> в режим <acronymTerm>«ARM»</acronymTerm> перемещением левого стика пульта радиоуправления в крайнее нижнее правое положение на 2 сек. Автопилот издаст низкий протяжный звуковой сигнал, а винты подъемных двигателей начнут вращаться в режиме малого газа</para>
+									</listItem>
+									<listItem>
+										<para>Удостоверится в правильности направления вращения воздушных винтов подъемных двигателей: Правый передний и левый задний по направлению полета – против часовой стрелки при виде сверху, левый передний и правый задний – по часовой стрелке при виде сверху</para>
+									</listItem>
+									<listItem>
+										<para>Перевести <acronymTerm>VTOL</acronymTerm> в режим <acronymTerm>«Disarm»</acronymTerm> перемещением левого стика пульта радиоуправления в крайнее нижнее левое положение на 2 сек. Винты подъемных двигателей прекратят вращение</para>
+									</listItem>
+									<listItem>
+										<para>Нажатием кнопки <acronymTerm>«Safety Switch»</acronymTerm> на 2 сек вывести борт из режима <acronymTerm>«Ready to ARM»</acronymTerm>.</para>
+									</listItem>
+								</sequentialList>
+							</para>
+						</levelledPara>
+					</levelledParaAlts>
+					<levelledParaAlts>
+						<levelledPara>
+							<title>Проверка работы системы горизонтально перемещения конвертоплана</title>
+							<para>Проверка работы системы горизонтально перемещения конвертоплана:<sequentialList>
+									<listItem>
+										<para>Перевести с <acronymTerm>НПУОИ</acronymTerm> или пульта радиоуправления режим <acronymTerm>VTOL</acronymTerm>  в положение <acronymTerm>«Plane»</acronymTerm>
+										</para>
+									</listItem>
+									<listItem>
+										<para>Перевести с <acronymTerm>НПУОИ</acronymTerm> или пульта радиоуправления режим работы <acronymTerm>СУ</acronymTerm> в положение <acronymTerm>«Stabilize»</acronymTerm>
+										</para>
+									</listItem>
+									<listItem>
+										<para>Убедится в безопасности проверки с вращением ротора маршевого двигателя для окружающих</para>
+									</listItem>
+									<listItem>
+										<para>Нажатием в течение 2х секунд на кнопку <acronymTerm>«Safety Switch»</acronymTerm> перевести в положение <acronymTerm>«Ready to ARM»</acronymTerm> (кнопка перейдет из режима однократного моргания в режим двукратного моргания)</para>
+									</listItem>
+									<listItem>
+										<para>Перевести <acronymTerm>VTOL</acronymTerm> в режим <acronymTerm>«ARM»</acronymTerm> перемещением левого стика пульта радиоуправления в крайнее нижнее правое положение на 2 сек. Автопилот издаст низкий протяжный звуковой сигнал, сервоприводы элевонов займут нейтральное положение</para>
+									</listItem>
+									<listItem>
+										<para>Небольшим увеличением газа с пульта радиоуправления привести во вращение маршевый двигатель и удостоверится в правильности направления его вращения (по часовой стрелке при взгляде по направлению полета)</para>
+									</listItem>
+									<listItem>
+										<para>Убрать газ маршевого двигателя до нуля</para>
+									</listItem>
+									<listItem>
+										<para>Удостоверится в правильности работы ручного управления элевонами с пульта радиоуправления оператора: при отклонении правого стика вправо – правый элевон отклоняется вверх, левый вниз; при отклонении стика влево – правй элевон отклоняется вниз, левый вверх; при отклонении правого стика на себя – оба элевона отклоняются вверх; при отклонении стика от себя – вниз</para>
+									</listItem>
+									<listItem>
+										<para>Удостоверится в правильности работы системы стабилизации: при опускании правого крыла (при создании крена вправо) – правый элевон отклоняется вниз, левый вверх. При создании положительного угла тангажа (нос вверх) оба элевона отклоняются вниз</para>
+									</listItem>
+									<listItem>
+										<para>Перевести <acronymTerm>VTOL</acronymTerm> в режим <acronymTerm>«Disarm»</acronymTerm> перемещением левого стика пульта радиоуправления в крайнее нижнее левое положение на 2 сек</para>
+									</listItem>
+									<listItem>
+										<para>Нажатием кнопки <acronymTerm>«Safety Switch»</acronymTerm> на 2 сек вывести борт из режима <acronymTerm>«Ready to ARM»</acronymTerm>.</para>
+									</listItem>
+								</sequentialList>
+							</para>
+						</levelledPara>
+					</levelledParaAlts>
+					<levelledParaAlts>
+						<levelledPara>
+							<title>Проверка правильности работы датчиков БРЭО</title>
+							<para>Проверка правильности работы датчиков <acronym>
+									<acronymTerm>БРЕО</acronymTerm>
+									<acronymDefinition>Бортовое Радиоэлектронное Оборудование</acronymDefinition>
+								</acronym>:<sequentialList>
+									<listItem>
+										<para>Проверить показания воздушной скорости зачехленного приемника воздушного давления; при отличии показаний воздушной скорости от нуля провести калибровку сенсора с <acronymTerm>НПУОИ</acronymTerm>
+										</para>
+									</listItem>
+									<listItem>
+										<para>Проверить угловое положение <acronymTerm>VTOL</acronymTerm> на земле и сопоставить с данными отображаемыми на <acronymTerm>НПУОИ</acronymTerm>
+										</para>
+									</listItem>
+									<listItem>
+										<para>Проверить истинный магнитный курс <acronymTerm>VTOL</acronymTerm> и сопоставить с данными отображаемыми на <acronymTerm>НПУОИ</acronymTerm>
+										</para>
+									</listItem>
+									<listItem>
+										<para>Проверить работоспособность приемника <acronym>
+												<acronymTerm>GPS</acronymTerm>
+												<acronymDefinition>Global Positioning System</acronymDefinition>
+											</acronym>, сопоставить полученную координату на <acronymTerm>НПУОИ</acronymTerm> с местностью, убедится в беспрепятственном приеме сигнала от не менее чем 15ти спутников и наличие строки на экране <acronymTerm>НПУОИ</acronymTerm>
+											<acronymTerm>«GPS 3d Lock»</acronymTerm>
+										</para>
+									</listItem>
+									<listItem>
+										<para>Убедится в правильности отображаемого на экране <acronymTerm>НПУОИ</acronymTerm> значения напряжения силовой батареи, сравнить с данными полученными независимым наземным мультиметром. Разница показаний не должна превышать 0,2В</para>
+									</listItem>
+									<listItem>
+										<para>Убедится, что показания расходного тока бортовой батареи на экране <acronymTerm>НПУОИ</acronymTerm> лежат в диапазоне 0,1 до 0,3 А (при отключенной полезной нагрузке).</para>
+									</listItem>
+								</sequentialList>
+							</para>
+							<levelledParaAlts>
+								<levelledPara>
+									<title>Проверка канала связи передачи-обмена данными</title>
+									<para>Проверьте исправность канала на частоте 866 МГц радиолинии приема-передачи данных.<sequentialList>
+											<listItem>
+												<para>Отправьте с <acronymTerm>НПУОИ</acronymTerm> на <acronymTerm>БПЛА</acronymTerm> контрольный пакет информации</para>
+											</listItem>
+											<listItem>
+												<para>Получите ответ с <acronym>
+														<acronymTerm>БПЛА</acronymTerm>
+														<acronymDefinition>Беспилотный Летательный Аппарат</acronymDefinition>
+													</acronym>
+												</para>
+											</listItem>
+											<listItem>
+												<para>Сравните данные контрольных пакетов информации</para>
+											</listItem>
+											<listItem>
+												<para>По результатам проверки:<randomList>
+														<listItem>
+															<para>если данные контрольных пакетов информации совпадают, продолжите выполнение процедур функциональной диагностики</para>
+														</listItem>
+														<listItem>
+															<para>если данные контрольных пакетов информации не совпадают:<randomList>
+																	<listItem>
+																		<para>проверьте надежность электрических соединений между <acronymTerm>НПУОИ</acronymTerm> и антенным блоком</para>
+																	</listItem>
+																	<listItem>
+																		<para>проведите перезапуск (выключите и включите) <acronymTerm>БПЛА</acronymTerm>
+																		</para>
+																	</listItem>
+																	<listItem>
+																		<para>проведите перезапуск (выключите и включите) программного обеспечения <acronymTerm>НПУОИ</acronymTerm>
+																		</para>
+																	</listItem>
+																	<listItem>
+																		<para>повторите процедуры 1-3</para>
+																	</listItem>
+																	<listItem>
+																		<para>если данные контрольных пакетов информации повторно не совпадают, отмените выполнение полетного задания и приступите к поиску и устранению неисправности.</para>
+																	</listItem>
+																</randomList>
+															</para>
+														</listItem>
+													</randomList>
+												</para>
+											</listItem>
+										</sequentialList>
+									</para>
+								</levelledPara>
+							</levelledParaAlts>
+							<levelledPara>
+								<title>Проверка канала связи фото- и видеонаблюдения</title>
+								<para>Проверьте исправность канала на частоте 5.8 ГГц радиолинии систем фото- и видеонаблюдения<sequentialList>
+										<listItem>
+											<para>Получите ответ с <acronymTerm>БПЛА</acronymTerm> в виде фото- и видеоданных на <acronymTerm>НПУОИ</acronymTerm>
+											</para>
+										</listItem>
+										<listItem>
+											<para>По результатам проверки:<sequentialList>
+													<listItem>
+														<para>Если фото- и видеоданные передаются корректно, продолжите выполнение процедур функциональной диагностики</para>
+													</listItem>
+													<listItem>
+														<para>Если фото- и видеоданные передаются некорректно и/или отсутствуют фото- и/или видеоданные:<randomList>
+																<listItem>
+																	<para>проведите перезапуск (выключите и включите) <acronymTerm>БПЛА</acronymTerm>
+																	</para>
+																</listItem>
+																<listItem>
+																	<para>проведите перезапуск (выключите и включите) программного обеспечения <acronymTerm>НПУОИ</acronymTerm>
+																	</para>
+																</listItem>
+																<listItem>
+																	<para>проверьте надежность электрических соединений между <acronymTerm>БПЛА</acronymTerm> и целевой нагрузкой</para>
+																</listItem>
+																<listItem>
+																	<para>проверьте надежность электрических соединений между <acronymTerm>НПУОИ</acronymTerm> и антенным блоком</para>
+																</listItem>
+																<listItem>
+																	<para>повторите процедуры 1-4</para>
+																</listItem>
+																<listItem>
+																	<para>если фото- и видеоданные передаются некорректно и/или отсутствуют, фото и/или видео повторно не передаются, отмените выполнение полетного задания и приступите к поиску и устранению неисправности.</para>
+																</listItem>
+															</randomList>
+														</para>
+													</listItem>
+												</sequentialList>
+											</para>
+										</listItem>
+									</sequentialList>
+								</para>
+							</levelledPara>
+						</levelledPara>
+					</levelledParaAlts>
+				</levelledPara>
+				<levelledPara>
+					<title>Функциональная проверка САУ</title>
+					<levelledParaAlts>
+						<levelledPara>
+							<title>Магнитный компас</title>
+							<para>Проверьте магнитный компас <acronymTerm>БПЛА</acronymTerm> с показаниями магнитного компаса <acronymTerm>НПУОИ</acronymTerm> в двух положениях.<sequentialList>
+									<listItem>
+										<para>Установите <acronymTerm>БПЛА</acronymTerm> на <acronym>
+												<acronymTerm>ВППл</acronymTerm>
+												<acronymDefinition>Взлетно-Посадочная Площадка</acronymDefinition>
+											</acronym> по направлению строго на север по компасу;</para>
+									</listItem>
+									<listItem>
+										<para>Проверьте соответствие направления «Север» по показаниям магнитного компаса <acronymTerm>БПЛА</acronymTerm> с истинным направлением <acronymTerm>«Север»</acronymTerm>
+											<acronymTerm>НПУОИ</acronymTerm>
+										</para>
+									</listItem>
+									<listItem>
+										<para>Поверните <acronymTerm>БПЛА</acronymTerm> на 90/180 градусов относительно оси и сверьте изменения показаний направления <acronymTerm>«Север»</acronymTerm>
+										</para>
+									</listItem>
+									<listItem>
+										<para>По результатам проверки:<randomList>
+												<listItem>
+													<para>при соотвесвии см шаг .....</para>
+												</listItem>
+												<listItem>
+													<para>при несоответствии положений:<randomList>
+															<listItem>
+																<para>проведите перезапуск (выключить и включить)  <acronymTerm>БПЛА</acronymTerm>
+																</para>
+															</listItem>
+															<listItem>
+																<para>проверьте, по возможности, надежность электрических соединений Магнитного компаса, <acronym>
+																		<acronymTerm>САУ</acronymTerm>
+																		<acronymDefinition>Система Автоматического Управления</acronymDefinition>
+																	</acronym> и <acronym>
+																		<acronymTerm>АКБ</acronymTerm>
+																		<acronymDefinition>Аккумуляторная Батарея</acronymDefinition>
+																	</acronym>
+																</para>
+															</listItem>
+															<listItem>
+																<para>повторите процедуры 1-3</para>
+															</listItem>
+															<listItem>
+																<para>если после двух перезагрузок магнитного компаса положение маркера <acronymTerm>«Север»</acronymTerm> не соответствует истинному направлению <acronymTerm>«Север»</acronymTerm>, отмените выполнение полетного задания и приступите калибровке магнитного компаса.</para>
+															</listItem>
+														</randomList>
+													</para>
+												</listItem>
+											</randomList>
+										</para>
+									</listItem>
+								</sequentialList>
+							</para>
+						</levelledPara>
+					</levelledParaAlts>
+					<levelledParaAlts id="stp1.4.2">
+						<levelledPara>
+							<title>Пьезоэлектрический гироскоп</title>
+							<para>Проверьте пьезоэлектрический гироскоп <acronymTerm>БПЛА</acronymTerm> с показаниями на <acronymTerm>НПУОИ</acronymTerm> при вращении <acronymTerm>БПЛА</acronymTerm> по трем осям<sequentialList>
+									<listItem>
+										<para>Поднимите <acronymTerm>БПЛА</acronymTerm> на высоту примерно 1,5 м над уровнем земли</para>
+									</listItem>
+									<listItem>
+										<para>Аккуратно покачайте <acronymTerm>БПЛА</acronymTerm>:<randomList>
+												<listItem>
+													<para>в продольном направлении</para>
+												</listItem>
+												<listItem>
+													<para>в поперечном направлении</para>
+												</listItem>
+												<listItem>
+													<para>в вертикальном направлении</para>
+												</listItem>
+											</randomList>
+										</para>
+									</listItem>
+									<listItem>
+										<para>Убедитесь в соответствии данных полученных на <acronymTerm>НПУОИ</acronymTerm> от <acronymTerm>БПЛА</acronymTerm>
+										</para>
+									</listItem>
+									<listItem>
+										<para>Опустите <acronymTerm>БПЛА</acronymTerm> на <acronymTerm>ВППл</acronymTerm>
+										</para>
+									</listItem>
+									<listItem>
+										<para>По результатам проверки сигналов с пьезоэлектрического гироскопа <acronymTerm>БПЛА</acronymTerm>:<randomList>
+												<listItem>
+													<para>если данные отображаются корректно, продолжите выполнение процедур функциональной диагностики</para>
+												</listItem>
+												<listItem>
+													<para>если данные не соответствуют:<randomList>
+															<listItem>
+																<para>проведите перезапуск (выключите и включите) <acronymTerm>БПЛА</acronymTerm>
+																</para>
+															</listItem>
+															<listItem>
+																<para>проверьте, по возможности, надежность электрических соединений пьезоэлектрического гироскопа и <acronymTerm>АКБ</acronymTerm>
+																</para>
+															</listItem>
+															<listItem>
+																<para>повторите процедуру 1-4</para>
+															</listItem>
+															<listItem>
+																<para>если данные не соответствуют повторно, отмените выполнение полетного задания и приступите к поиску и устранению неисправности.</para>
+															</listItem>
+														</randomList>
+													</para>
+												</listItem>
+											</randomList>
+										</para>
+									</listItem>
+								</sequentialList>
+							</para>
+						</levelledPara>
+					</levelledParaAlts>
+					<levelledParaAlts>
+						<levelledPara>
+							<title>Датчик ускорения</title>
+							<para>Проверьте датчик ускорения <acronymTerm>БПЛА</acronymTerm> с показаниями на <acronymTerm>НПУОИ</acronymTerm>
+								<sequentialList>
+									<listItem>
+										<para>Поднимите <acronymTerm>БПЛА</acronymTerm> на высоту примерно 1,5 м над уровнем земли</para>
+									</listItem>
+									<listItem>
+										<para>Аккуратно, но энергично покачайте <acronymTerm>БПЛА</acronymTerm>:<randomList>
+												<listItem>
+													<para>в продольном направлении</para>
+												</listItem>
+												<listItem>
+													<para>в поперечном направлении</para>
+												</listItem>
+												<listItem>
+													<para>в вертикальном направлении</para>
+												</listItem>
+											</randomList>
+										</para>
+									</listItem>
+									<listItem>
+										<para>Убедитесь в соответствии данных полученных на <acronymTerm>НПУОИ</acronymTerm> от <acronymTerm>БПЛА</acronymTerm>
+										</para>
+									</listItem>
+									<listItem>
+										<para>Опустите <acronymTerm>БПЛА</acronymTerm> на <acronymTerm>ВППл</acronymTerm>
+										</para>
+									</listItem>
+									<listItem>
+										<para>По результатам проверки сигналов с датчика ускорения <acronymTerm>БПЛА</acronymTerm>:<randomList>
+												<listItem>
+													<para>если данные отображаются корректно, продолжите выполнение процедур функциональной диагностики;</para>
+												</listItem>
+												<listItem>
+													<para>5если данные не соответствуют:<randomList>
+															<listItem>
+																<para>проведите перезапуск (выключите и включите) <acronymTerm>БПЛА</acronymTerm>
+																</para>
+															</listItem>
+															<listItem>
+																<para>проверьте, по возможности, надежность электрических соединений датчика ускорения, <acronymTerm>САУ</acronymTerm> и <acronymTerm>АКБ</acronymTerm>;</para>
+															</listItem>
+															<listItem>
+																<para>повторите процедуру 1-4</para>
+															</listItem>
+															<listItem>
+																<para>если данные не соответствуют повторно, отмените выполнение полетного задания и приступите к поиску и устранению неисправности.</para>
+															</listItem>
+														</randomList>
+													</para>
+												</listItem>
+											</randomList>
+										</para>
+									</listItem>
+								</sequentialList>
+							</para>
+						</levelledPara>
+					</levelledParaAlts>
+					<levelledParaAlts>
+						<levelledPara>
+							<title>Датчик высоты барометрической </title>
+							<para>Проверить точность отображения высоты с датчика высоты барометрической. Поднимите <acronymTerm>БПЛА</acronymTerm> на высоту примерно 1,5 м над уровнем земли.<sequentialList>
+									<listItem>
+										<para>Убедитесь в соответствии переданных с <acronymTerm>БПЛА</acronymTerm> на <acronymTerm>НПУОИ</acronymTerm> данных высоты с датчиков высоты барометрической</para>
+									</listItem>
+									<listItem>
+										<para>Убедитесь в соответствии переданных с <acronymTerm>БПЛА</acronymTerm> на <acronymTerm>НПУОИ</acronymTerm> данных высоты с ультразвукового радиовысотомера</para>
+									</listItem>
+									<listItem>
+										<para>Опустите <acronymTerm>БПЛА</acronymTerm> на <acronymTerm>ВППл</acronymTerm>
+										</para>
+									</listItem>
+									<listItem>
+										<para>По результатам проверки точности сигналов указания высоты <acronymTerm>БПЛА</acronymTerm>:<randomList>
+												<listItem>
+													<para>если данные отображаются корректно, продолжите выполнение процедур функциональной диагностики</para>
+												</listItem>
+												<listItem>
+													<para>если данные не соответствуют:<randomList>
+															<listItem>
+																<para>проведите перезапуск (выключите и включите) <acronymTerm>БПЛА</acronymTerm>
+																</para>
+															</listItem>
+															<listItem>
+																<para>проверьте, по возможности, надежность электрических соединений датчиков, <acronymTerm>САУ</acronymTerm> и <acronymTerm>АКБ</acronymTerm>
+																</para>
+															</listItem>
+															<listItem>
+																<para>повторите процедуры 1-4</para>
+															</listItem>
+															<listItem>
+																<para>если данные не соответствуют повторно, отмените выполнение полетного задания и приступите к поиску и устранению неисправности.</para>
+															</listItem>
+														</randomList>
+													</para>
+												</listItem>
+											</randomList>
+										</para>
+									</listItem>
+								</sequentialList>
+							</para>
+						</levelledPara>
+					</levelledParaAlts>
+					<levelledParaAlts>
+						<levelledPara>
+							<title>Датчик систем позиционирования и GPS/ГЛОНАСС и системы оптической навигации</title>
+							<para>Проверьте точность позиционирования <acronymTerm>БПЛА</acronymTerm>.<sequentialList>
+									<listItem>
+										<para>Установите <acronymTerm>БПЛА</acronymTerm> на точки <acronymTerm>ВППл</acronymTerm>
+										</para>
+									</listItem>
+									<listItem>
+										<para>Поднесите <acronymTerm>НПУОИ</acronymTerm> максимально близко к <acronymTerm>БПЛА</acronymTerm>
+										</para>
+									</listItem>
+									<listItem>
+										<para>Убедитесь в соответствии отображаемых координат по <acronymTerm>GPS/ГЛОНАСС</acronymTerm> на <acronymTerm>БПЛА</acronymTerm> и <acronymTerm>НПУОИ</acronymTerm> (встроенный <acronymTerm>GPS/ГЛОНАСС</acronymTerm>)</para>
+									</listItem>
+									<listItem>
+										<para>Переместите <acronymTerm>НПУОИ</acronymTerm> от <acronymTerm>БПЛА</acronymTerm> и удостоверьтесь в изменении отображаемых координат по <acronymTerm>GPS/ГЛОНАСС</acronymTerm> на <acronymTerm>БПЛА</acronymTerm> и <acronymTerm>НПУОИ</acronymTerm>
+										</para>
+									</listItem>
+									<listItem>
+										<para>По результатам проверки точности позиционирования <acronymTerm>БПЛА</acronymTerm>
+											<randomList>
+												<listItem>
+													<para>если данные отображаются корректно, продолжите выполнение процедур функциональной диагностики</para>
+												</listItem>
+												<listItem>
+													<para>если данные не соответствуют:<randomList>
+															<listItem>
+																<para>проведите перезапуск (выключить и включить) <acronymTerm>БПЛА</acronymTerm>
+																</para>
+															</listItem>
+															<listItem>
+																<para>проверьте, по возможности, надежность электрических соединений датчиков, <acronymTerm>GPS/ГЛОНАСС</acronymTerm>, <acronymTerm>САУ</acronymTerm> и <acronymTerm>АКБ</acronymTerm>
+																</para>
+															</listItem>
+															<listItem>
+																<para>повторите процедуру 1-3</para>
+															</listItem>
+															<listItem>
+																<para>если данные не соответствуют повторно, отмените выполнение полетного задания и приступите к поиску и устранению неисправности.</para>
+															</listItem>
+														</randomList>
+													</para>
+												</listItem>
+											</randomList>
+										</para>
+									</listItem>
+								</sequentialList>
+							</para>
+						</levelledPara>
+					</levelledParaAlts>
+				</levelledPara>
+			</descrCrew>
+		</crew>
+	</content>
+</dmodule>

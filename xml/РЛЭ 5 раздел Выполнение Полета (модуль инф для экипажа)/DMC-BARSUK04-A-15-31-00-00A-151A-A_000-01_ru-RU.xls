@@ -1,0 +1,160 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<xsl:stylesheet version = "1.0" 
+xmlns:xsl = "http://www.w3.org/1999/XSL/Transform">
+
+<xsl:template match = "/">
+
+	<html>		
+        <body>    
+			<h1 align="center">
+				<xsl:variable name="title" select="//identAndStatusSection//infoName"/>
+				<xsl:choose>
+					<xsl:when  test="string-length(string($title)) > 0">
+						<xsl:value-of select="$title"/>						
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:value-of select="//identAndStatusSection//techName"/>
+					</xsl:otherwise>
+				</xsl:choose>
+			</h1> 
+			<p align="right">
+				<xsl:value-of select="//responsiblePartnerCompany/enterpriseName"/>
+			</p>
+			<p align="right">
+				<xsl:value-of select="//applic/displayText/simplePara"/>
+			</p>
+			<h2>
+				<xsl:value-of select="dmodule/content/refs/dmRef/dmRefAddressItems/dmTitle/infoName"/>
+			</h2>
+			<section>
+			<xsl:for-each select="dmodule/content/refs/dmRef">
+			<xsl:value-of select="dmRefAddressItems/dmTitle/techName"/> - <xsl:value-of select="dmRefAddressItems/dmTitle/infoName"/>
+			<Br></Br>
+			</xsl:for-each>
+			
+			<xsl:for-each select="//levelledPara">
+			<div>
+				<h3>
+					<xsl:value-of select="title"/>
+				</h3>
+				
+				<xsl:variable name="warning" select="warning|caution"></xsl:variable>
+				<xsl:if test="string-length(string($warning)) > 0">
+				<p>
+					<i>
+					<xsl:value-of select="$warning"/>					
+					</i>
+				</p>
+				</xsl:if>
+				
+				<p>
+					<xsl:apply-templates select="para"/>			
+					<xsl:apply-templates select="table"/>
+									
+				</p>
+			</div>
+			</xsl:for-each>
+			<xsl:for-each select="//table">
+				<xsl:apply-templates select="table"/>
+			</xsl:for-each>
+			</section>
+		</body> 
+    </html>
+   </xsl:template>
+   
+    <xsl:template match="table">
+		<table> 
+			<caption><xsl:value-of select="title"/></caption>				
+			<xsl:for-each select = "tgroup/thead/row">
+				<tr>
+					<xsl:for-each select = "entry">				
+						<th><xsl:value-of select = "para"/></th> 						
+					</xsl:for-each>						
+				</tr>
+			</xsl:for-each>
+			<xsl:for-each select = "tgroup/tbody/row"> 						
+				<tr>
+					<xsl:for-each select = "entry">				
+						<td><xsl:value-of select = "para"/></td> 						
+					</xsl:for-each>					
+				</tr> 
+			</xsl:for-each>
+					
+		</table>
+    </xsl:template>  
+    
+    <xsl:template match="para">
+		<xsl:variable name="plong" select="."/>
+		<xsl:variable name="acrTerm" select="./acronym/acronymTerm"/>
+		<xsl:variable name="acrDef" select="./acronym/acronymDefinition"/>
+		<xsl:variable name="pBefAcr" select="substring-before(string($plong), string($acrTerm))"/><xsl:variable name="pAftAcr" select="substring-after(string($plong), string($acrDef))"/><xsl:variable name="pBefAftAcr" select="concat(string($pBefAcr), string($pAftAcr))"/>		
+		
+		<xsl:choose>
+			<xsl:when test="string-length(string($plong)) > string-length(string($pBefAftAcr))">
+				<xsl:value-of select="$pBefAcr"/>
+				<xsl:apply-templates select="./acronym"/>
+				
+				<xsl:variable name="acrSeq" select="./sequentialList|./randomList"/>
+				<xsl:variable name="pBefSeq" select="substring-before(string($pAftAcr), string($acrSeq))"/>
+				<xsl:variable name="pAftSeq" select="substring-after(string($pAftAcr), string($acrSeq))"/>
+					
+					<xsl:choose>
+						<xsl:when  test="string-length(string($acrSeq)) > 0">
+							<xsl:value-of select="$pBefSeq"/>
+							<ul>
+								<xsl:for-each select="./sequentialList/listItem|./randomList/listItem">
+								<li>
+										<xsl:apply-templates select="para"/>
+								</li>
+								</xsl:for-each>
+							</ul>						
+								
+							<xsl:value-of select="$pAftSeq"/>
+						</xsl:when>
+						<xsl:otherwise>
+							<xsl:value-of select="$pAftAcr"/>
+						</xsl:otherwise>
+					</xsl:choose>
+					
+				<br></br>
+			</xsl:when>
+            <xsl:otherwise>
+				<xsl:variable name="acrSeq" select="./sequentialList|./randomList"/>
+				<xsl:variable name="pBefSeq" select="substring-before(string($plong), string($acrSeq))"/>
+				<xsl:variable name="pAftSeq" select="substring-after(string($plong), string($acrSeq))"/>
+									
+					<xsl:choose>
+						<xsl:when  test="string-length(string($acrSeq)) > 0">
+							<xsl:value-of select="$pBefSeq"/>
+							<ul>
+								<xsl:for-each select="./sequentialList/listItem|./randomList/listItem">
+								<li>
+										<xsl:apply-templates select="para"/>
+								</li>
+								</xsl:for-each>
+							</ul>						
+								
+							<xsl:value-of select="$pAftSeq"/>
+						</xsl:when>
+						<xsl:otherwise>
+							<xsl:value-of select="$plong"/>
+						</xsl:otherwise>
+					</xsl:choose>
+			</xsl:otherwise>
+		</xsl:choose>		
+		
+    </xsl:template>
+	
+	<xsl:template match="acronym">
+	<acronym>
+		<xsl:attribute name="title"><xsl:value-of select="./acronymDefinition"/>
+		</xsl:attribute> 
+		<xsl:apply-templates select="./acronymTerm"/>    
+	</acronym>	
+  </xsl:template>
+  
+  <xsl:template match="acronymTerm">
+  <b><xsl:value-of select = "." /></b>	     
+	
+  </xsl:template>
+</xsl:stylesheet>

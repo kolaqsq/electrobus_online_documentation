@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="DMC-BARSUK04-A-15-31-00-00A-151A-A_000-01_ru-RU.xls" ?>
+<!-- Created with Libroplanta XML Editor (http://www.libroplanta.com/) -->
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1-A/xml_schema_flat/crew.xsd" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<identAndStatusSection>
+		<dmAddress>
+			<dmIdent>
+				<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="4" assyCode="01" disassyCode="00" disassyCodeVariant="A" infoCode="131" infoCodeVariant="A" itemLocationCode="A"/>
+				<language languageIsoCode="ru" countryIsoCode="RU"/>
+				<issueInfo issueNumber="000" inWork="01"/>
+			</dmIdent>
+			<dmAddressItems>
+				<issueDate year="2019" month="04" day="01"/>
+				<dmTitle>
+					<techName>Выполнение полета - Управление БПЛА в режиме «Полет по маршруту»</techName>
+				</dmTitle>
+			</dmAddressItems>
+		</dmAddress>
+		<dmStatus>
+			<security securityClassification="01"/>
+			<responsiblePartnerCompany>
+				<enterpriseName>Московский Политех</enterpriseName>
+			</responsiblePartnerCompany>
+			<originator>
+				<enterpriseName>Московский Политех</enterpriseName>
+			</originator>
+			<applic>
+				<displayText>
+					<simplePara>Применимо для всех</simplePara>
+				</displayText>
+			</applic>
+			<brexDmRef>
+				<dmRef>
+					<dmRefIdent>
+						<dmCode modelIdentCode="MODELIC" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+					</dmRefIdent>
+				</dmRef>
+			</brexDmRef>
+			<qualityAssurance>
+				<unverified/>
+			</qualityAssurance>
+		</dmStatus>
+	</identAndStatusSection>
+	<content>
+		<refs>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="4" assyCode="01" disassyCode="00" disassyCodeVariant="A" infoCode="131" infoCodeVariant="A" itemLocationCode="A"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Выполнение полета</techName>
+						<infoName>Управление БПЛА в режиме «Полет по маршруту»</infoName>
+					</dmTitle>
+				</dmRefAddressItems>
+			</dmRef>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="3" assyCode="04" disassyCode="00" disassyCodeVariant="A" infoCode="131" infoCodeVariant="A" itemLocationCode="A"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Выполнение полета</techName>
+						<infoName>Непосредственно пеосле посадки</infoName>
+					</dmTitle>
+				</dmRefAddressItems>
+			</dmRef>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="BARSUK04" systemDiffCode="A" systemCode="15" subSystemCode="3" subSubSystemCode="1" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="151" infoCodeVariant="A" itemLocationCode="A"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Выполнение полета</techName>
+						<infoName>Послеэксплуатационные процедуры</infoName>
+					</dmTitle>
+				</dmRefAddressItems>
+			</dmRef>
+		</refs>
+		<crew>
+			<descrCrew>
+				<levelledPara>
+					<title>Управление БПЛА в режиме «Полет по маршруту»</title>
+					<caution>
+						<warningAndCautionPara>ПРИ НЕДОСТАТОЧНОМ ДЛЯ ВЫПОЛНЕНИЯ/ОКОНЧАНИЯ «ПОЛЕТА ПО МАРШРУТУ» ЗАРЯДЕ АКБ, БПЛА ПЕРЕЙДЕТ В РЕЖИМ «ПОСАДКА»..</warningAndCautionPara>
+					</caution>
+					<para>Режим «Полет по маршруту» полностью выполняется в автоматическом режиме.</para>
+					<para>Операор <acronymTerm>НПУОИ</acronymTerm>:<randomList>
+							<listItem>
+								<para>прохождение точек</para>
+							</listItem>
+							<listItem>
+								<para>координаты положения <acronymTerm>БПЛА</acronymTerm>
+								</para>
+							</listItem>
+							<listItem>
+								<para>отклонение от маршрута</para>
+							</listItem>
+							<listItem>
+								<para>скорость полета</para>
+							</listItem>
+							<listItem>
+								<para>высоту полета</para>
+							</listItem>
+							<listItem>
+								<para>тангаж/крен выполнения полета</para>
+							</listItem>
+							<listItem>
+								<para>степень разряда <acronymTerm>АКБ</acronymTerm>
+								</para>
+							</listItem>
+							<listItem>
+								<para>фото- и видеоизображение, поступающее с <acronymTerm>БПЛА.</acronymTerm>
+								</para>
+							</listItem>
+						</randomList>
+					</para>
+					<para>Также оператор <acronymTerm>НПУОИ</acronymTerm> управляет системой фото- и видеонаблюдения в ручном режиме:<randomList>
+							<listItem>
+								<para>изменение типа картинки (инфракрасный / оптический диапазон).</para>
+							</listItem>
+						</randomList>
+					</para>
+					<para>В случае возникновения нештатных ситуаций оператор <acronymTerm>НПУОИ</acronymTerm> оповещает помощника оператора. Помощник оператора должен быть готов взять управление <acronymTerm>БПЛА</acronymTerm> на себя, перейдя в полуавтоматический режим управления <acronymTerm>БПЛА</acronymTerm>
+						<acronymTerm>«Стабилизация»</acronymTerm>.</para>
+					<para>При выполнении режима <acronymTerm>«Полет по маршруту»</acronymTerm> в память <acronymTerm>БПЛА</acronymTerm> записывается запрограммированный сценарий (полетное задание), который включает в себя точки:<sequentialList>
+							<listItem>
+								<para>взлет (начало программы):<randomList>
+										<listItem>
+											<para>отдельная точка с высотой отличной от высоты точки взлета</para>
+										</listItem>
+										<listItem>
+											<para>отдельная команда набора высоты в точке взлета</para>
+										</listItem>
+									</randomList>
+								</para>
+							</listItem>
+							<listItem>
+								<para>полетные точки (программа):<randomList>
+										<listItem>
+											<para>точки маршрута с указанием координат и высот их прохождения <acronymTerm>БПЛА</acronymTerm>
+											</para>
+										</listItem>
+										<listItem>
+											<para>конечная точка маршрута (полетного задания) с переходом в подрежим <acronymTerm>«Ожидание»</acronymTerm> режима <acronymTerm>«Командный»</acronymTerm>, с ожиданием дальнейшего ввода следующих команд в воздухе</para>
+										</listItem>
+									</randomList>
+								</para>
+							</listItem>
+							<listItem>
+								<para>посадка (окончание программы):<randomList>
+										<listItem>
+											<para>отдельная команда снижения и посадки в конечной точке маршрута <acronymTerm>БПЛА</acronymTerm>
+											</para>
+										</listItem>
+										<listItem>
+											<para>отдельная команда возвращения в точку <acronymTerm>«ДОМ»</acronymTerm> и посадки <acronymTerm>БПЛА.</acronymTerm>
+											</para>
+										</listItem>
+									</randomList>
+								</para>
+							</listItem>
+						</sequentialList>
+					</para>
+					<para>Также при выполнении режима «Полет по маршруту» возможно:<randomList>
+							<listItem>
+								<para>прерывание режима <acronymTerm>«Полет по маршруту»</acronymTerm> для выполнения иных автоматических и полуавтоматических режимов с дальнейшим включением с места прерывания режима <acronymTerm>«Полет по маршруту»</acronymTerm>
+								</para>
+							</listItem>
+							<listItem>
+								<para>прерывание режима <acronymTerm>«Полет по маршруту»</acronymTerm> для выполнения иных автоматических и полуавтоматических режимов с дальнейшим включением с первой точки полетного задания режима <acronymTerm>«Полет по маршруту»</acronymTerm>
+								</para>
+							</listItem>
+							<listItem>
+								<para>прерывание режима <acronymTerm>«Полет по маршруту»</acronymTerm> для посадки <acronymTerm>БПЛА</acronymTerm> в любой точке полетного задания.</para>
+							</listItem>
+						</randomList>
+					</para>
+					<para>Загрузка программы полета (полетного задания):<randomList>
+							<listItem>
+								<para>записывается с <acronym>
+										<acronymTerm>ВНЗУ</acronymTerm>
+										<acronymDefinition>Внешнее Носимео Запоминающе Устройство</acronymDefinition>
+									</acronym> через <acronymTerm>НПУОИ</acronymTerm> в память <acronymTerm>БПЛА</acronymTerm>
+								</para>
+							</listItem>
+							<listItem>
+								<para>набирается разовыми командами в разделе редактирования полетного задания на <acronymTerm>НПУОИ</acronymTerm> с записью на <acronymTerm>БПЛА</acronymTerm>.</para>
+							</listItem>
+						</randomList>
+					</para>
+				</levelledPara>
+				<levelledPara>
+					<title>Планирование миссии</title>
+					<para>Основное назначение комплекса осуществление полетов в полностью автоматическом режиме по заранее спланированному маршруту (миссии). В тоже время допускается при необходимости реализация полностью ручного режима или полуавтоматического.</para>
+					<para>Основной режим полета конвертоплана - <acronymTerm>«самолет»</acronymTerm> с вертикальным взлетом и посадкой в режиме <acronymTerm>«коптер»</acronymTerm>, следует учитывать это при планировании миссии.</para>
+					<para>При планировании миссии руководителем полетов должны учитываться ограничения, связанные с безопасностью полетов на данной территории, тип и масса установленной полезной нагрузки, тактические и скоростные характеристики комплекса в целом и прочие риски.</para>
+					<para>При планировании миссии предусматривающей удаление от пульта радиоуправления оператора на дистанцию превышающую максимальную дальность его работы должны быть отключены соответствующие параметры режима <acronymTerm>FAILSAFE</acronymTerm>. Миссия в этом случае выполняется под контролем оператора на <acronymTerm>НПУОИ</acronymTerm>.</para>
+					<para>При планировании миссии предусматривающей удаление от <acronymTerm>НПУОИ</acronymTerm> на дистанцию, превышающую максимальную дальность работы телеметрической радиолинии, должны быть отключены соответствующие параметры режима <acronymTerm>FAILSAFE</acronymTerm>. Миссия в этом случае выполняется в полностью автономном режиме, возможность вмешаться в управление доступна с <acronymTerm>НПУОИ</acronymTerm> только при наличии двусторонней телеметрической связи.</para>
+					<para>В зависимости от требований и задач вылета возможна работа комплекса в полностью ручном или полуавтоматическом режиме, без планирования миссии полета.</para>
+					<para>При планировании миссии:<randomList>
+							<listItem>
+								<para>Расположить точку <acronymTerm>«ДОМ»</acronymTerm> в центре взлетной площадки</para>
+							</listItem>
+							<listItem>
+								<para>Рекомендуется планировать вертикальный взлет и переход в режим «самолет» в направлении против ветра, точка <acronymTerm>«VTOL TakeOff and transition»</acronymTerm>
+								</para>
+							</listItem>
+							<listItem>
+								<para>Переход в режим <acronymTerm>«коптер»</acronymTerm> также планировать осуществлять против ветра, точка <acronymTerm>«transition and landing»</acronymTerm>
+								</para>
+							</listItem>
+							<listItem>
+								<para>При отсутствии иных требований точку посадки рекомендуется располагать в непосредственной близости от точки взлета</para>
+							</listItem>
+							<listItem>
+								<para>Высоту вертикального взлета выбирать исходя из высоты окружающих препятствий, но не менее 30 м от поверхности земли (при переходе в горизонтальный полет возможна, при некоторых условиях, потеря до 10 метров высоты)</para>
+							</listItem>
+							<listItem>
+								<para>Рекомендуется располагать ключевые маршрутные точки на расстоянии не менее 50 метров друг от друга с учетом располагаемой динамики движения <acronymTerm>БПЛА</acronymTerm> в режиме <acronymTerm>«самолет»</acronymTerm> и на высоте не ниже 50 метров над уровнем поверхности</para>
+							</listItem>
+							<listItem>
+								<para>План полета должен быть хорошо известен и понятен оператору на пульте радиоуправления</para>
+							</listItem>
+							<listItem>
+								<para>После завершения планирования миссии на <acronymTerm>НПУОИ</acronymTerm>, необходимо загрузить миссию на борт конвертоплана нажатием кнопки <acronymTerm>«upload»</acronymTerm>
+								</para>
+							</listItem>
+							<listItem>
+								<para>Проконтролировать правильность загрузки миссии загрузив миссию с борта конвертоплана на <acronymTerm>НПУОИ</acronymTerm> нажатием кнопки <acronymTerm>«Download»</acronymTerm>
+								</para>
+							</listItem>
+							<listItem>
+								<para>При отсутствии сообщений об ошибках и предупреждениях конвертоплан готов к выполнению автоматической миссии.</para>
+							</listItem>
+						</randomList>
+					</para>
+				</levelledPara>
+				<levelledPara>
+					<title>Выполнение автоматичского полета</title>
+					<warning>
+						<warningAndCautionPara>НЕСМОТРЯ НА ТО, ЧТО КОМПЛЕКС, В ЦЕЛОМ, ПРИ СОБЛЮДЕНИИ ПРАВИЛЬНОСТИ ЭКСПЛУАТАЦИИ, ДЕМОНСТРИРУЕТ ВЫСОКУЮ НАДЕЖНОСТЬ В АВТОМАТИЧЕСКОМ ПОЛЕТЕ, ОПЕРАТОРЫ НСУ И НА ПУЛЬТЕ РАДИОУПРАВЛЕНИЯ ДОЛЖНЫ БЫТЬ ГОТОВЫ К ЛЮБЫМ НЕШТАТНЫМ/АВАРИЙНЫМ СИТУАЦИЯМ.</warningAndCautionPara>
+					</warning>
+					<para>Полет контролируется визуально оператором на пульте и по телеметрической информации оператором <acronymTerm>НПУОИ</acronymTerm>. Между операторами поддерживается радиосвязь. На этапе взлета и посадки оба оператора имеют возможность принять решение, доложить о нем и вмешается в автоматический полет при необходимости. За пределами визуальной прямой видимости, решение о ручном вмешательстве в автоматическую программу полета принимает оператор <acronymTerm>НПУОИ</acronymTerm>.</para>
+					<para>Для запуска автоматической программы полета:<randomList>
+							<listItem>
+								<para>Убедится в отсутствии посторонних вблизи точки старта и настартовой позиции</para>
+							</listItem>
+							<listItem>
+								<para>Синхронизировать свои действия с операторами <acronymTerm>НПУОИ</acronymTerm> и пульта радиоуправления</para>
+							</listItem>
+							<listItem>
+								<para>Перевести с <acronymTerm>НПУОИ</acronymTerm> или пульта радиоуправления режим <acronymTerm>VTOL</acronymTerm> в положение <acronymTerm>«multirotor»</acronymTerm>
+								</para>
+							</listItem>
+							<listItem>
+								<para>Перевести с <acronymTerm>НПУОИ</acronymTerm> или пульта радиоуправления режим работы <acronym>
+										<acronymTerm>СУ</acronymTerm>
+										<acronymDefinition>Силовая Установка</acronymDefinition>
+									</acronym> в положение <acronymTerm>«Stabilize»</acronymTerm>
+								</para>
+							</listItem>
+							<listItem>
+								<para>Нажатием в течение 2х секунд на кнопку  <acronym>
+										<acronymTerm>Safety Switch</acronymTerm>
+										<acronymDefinition>Предохранительный Выключатель</acronymDefinition>
+									</acronym> перевести в положение «ready to arm» (кнопка перейдет из режима однократного моргания в режим двукратного моргания)</para>
+							</listItem>
+							<listItem>
+								<para>Перевести левый стик управления газом в среднее положение</para>
+							</listItem>
+							<listItem>
+								<para>Конвертоплан готов к взлету</para>
+							</listItem>
+							<listItem>
+								<para>С <acronymTerm>НПУОИ</acronymTerm> задействовать старт автоматической миссии.</para>
+							</listItem>
+						</randomList>
+					</para>
+				</levelledPara>
+			</descrCrew>
+		</crew>
+	</content>
+</dmodule>
